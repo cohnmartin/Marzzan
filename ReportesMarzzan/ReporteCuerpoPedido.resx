@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox13.Value" xml:space="preserve">
+    <value>=Fields.objDireccion.Provincia</value>
+  </data>
+  <data name="unitPriceCaptionTextBox.Value" xml:space="preserve">
+    <value>V. Unitario</value>
+  </data>
+  <data name="lblFlete.Value" xml:space="preserve">
+    <value>Flete (primer caja):</value>
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCosto.Value" xml:space="preserve">
+    <value>=Parameters.CostoFlete</value>
+  </data>
+  <data name="Text1.Value" xml:space="preserve">
+    <value>Manuel Garcia 2563 - Mendoza - Argentina
+Telefono: 0261-455-33
+Fax: 0261-455-33</value>
+  </data>
+  <data name="textBox10.Value" xml:space="preserve">
+    <value>=Fields.objClienteSolicitante.Telefono</value>
+  </data>
+  <data name="textBox26.Value" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="barcode2.Value" xml:space="preserve">
+    <value>=Fields.Nro+'-'+Fields.objCliente.CodigoExterno</value>
+  </data>
+  <data name="lblTransporte.Value" xml:space="preserve">
+    <value>Transporte:</value>
+  </data>
+  <data name="txtCodigoExterno.Value" xml:space="preserve">
+    <value>=Fields.objCliente.CodigoExterno</value>
+  </data>
+  <data name="textBox32.Value" xml:space="preserve">
+    <value>=Fields.FechaPedido</value>
+  </data>
+  <data name="Field6.Value" xml:space="preserve">
+    <value>=Now()</value>
+  </data>
+  <data name="resource.Text3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRetira.Value" xml:space="preserve">
+    <value>=Fields.Retira</value>
+  </data>
+  <data name="textBox29.Value" xml:space="preserve">
+    <value>=Fields.MontoTotal</value>
+  </data>
+  <data name="textBox7.Value" xml:space="preserve">
+    <value>Detalle Comprador</value>
+  </data>
+  <data name="textBox14.Value" xml:space="preserve">
+    <value>Forma Pago</value>
+  </data>
+  <data name="textBox3.Value" xml:space="preserve">
+    <value>Transporte:</value>
+  </data>
+  <data name="orderQtyCaptionTextBox.Value" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="lblPaginado.Value" xml:space="preserve">
+    <value>= 'Página: ' + PageNumber + ' De ' + PageCount</value>
+  </data>
+  <data name="textBox5.Value" xml:space="preserve">
+    <value>=Fields.objCliente.Nombre</value>
+  </data>
+  <data name="lblLeyendaTransporte.Value" xml:space="preserve">
+    <value>El valor final del flete será determinado al momento de la facturación final.</value>
+  </data>
+  <data name="textBox1.Value" xml:space="preserve">
+    <value>Consultor</value>
+  </data>
+  <data name="lineTotalCaptionTextBox.Value" xml:space="preserve">
+    <value>Valor Total</value>
+  </data>
+  <data name="textBox6.Value" xml:space="preserve">
+    <value>=Fields.objDireccion.Calle</value>
+  </data>
+  <data name="textBox2.Value" xml:space="preserve">
+    <value>Lugar Entrega:</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Id1.Value" xml:space="preserve">
+    <value>=Fields.Nro</value>
+  </data>
+  <data name="textBox16.Value" xml:space="preserve">
+    <value>=Parameters.Transportista</value>
+  </data>
+  <data name="Text8.Value" xml:space="preserve">
+    <value>Fecha:</value>
+  </data>
+  <data name="textBox12.Value" xml:space="preserve">
+    <value>=Fields.objDireccion.Localidad</value>
+  </data>
+  <data name="Text12.Value" xml:space="preserve">
+    <value>Nro. Pedido:</value>
+  </data>
+  <data name="textBox8.Value" xml:space="preserve">
+    <value>Lider:</value>
+  </data>
+  <data name="textBox11.Value" xml:space="preserve">
+    <value>Teléfono:</value>
+  </data>
+  <data name="nameCaptionTextBox.Value" xml:space="preserve">
+    <value>Nombre Producto</value>
+  </data>
+  <data name="lblDireccionEmpresa.Value" xml:space="preserve">
+    <value>Salta 921 
+Godoy Cruz - Mendoza - Argentina
+Telefono: 0261-4619712/13</value>
+  </data>
+  <data name="textBox25.Value" xml:space="preserve">
+    <value>Valor Total</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Value" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="textBox9.Value" xml:space="preserve">
+    <value>=Fields.objClienteSolicitante.Nombre</value>
+  </data>
+  <data name="textBox23.Value" xml:space="preserve">
+    <value>Fecha Pedido</value>
+  </data>
+  <data name="textBox4.Value" xml:space="preserve">
+    <value>=Fields.objFormaDePago.Descripcion</value>
+  </data>
+  <data name="textBox18.Value" xml:space="preserve">
+    <value>=Fields.objClienteSolicitante.Clasif1</value>
+  </data>
+  <data name="lblCod.Value" xml:space="preserve">
+    <value>Código Cliente:</value>
+  </data>
+  <data name="textBox15.Value" xml:space="preserve">
+    <value>Flete:</value>
+  </data>
+  <data name="textBox30.Value" xml:space="preserve">
+    <value>=Parameters.TotalProductos</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComentario.Value" xml:space="preserve">
+    <value>Comentario:</value>
+  </data>
+  <data name="textBox17.Value" xml:space="preserve">
+    <value>Grupo:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es-AR</value>
+  </metadata>
+</root>
