@@ -14,6 +14,7 @@ namespace ReportesMarzzan
     /// </summary>
     public partial class ReporteDetalleRemitos : Telerik.Reporting.Report
     {
+
         public ReporteDetalleRemitos()
         {
             /// <summary>
