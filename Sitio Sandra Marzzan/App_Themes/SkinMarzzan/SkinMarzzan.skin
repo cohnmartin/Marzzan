@@ -1,0 +1,62 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:Button skinid="btnAgregar" runat="server" 
+    Font-Names="Tahoma"  BorderStyle="none"  CssClass="btnAgregarStyle"
+    Font-Size="12px" ForeColor="white" Height="26px" Font-Bold="True" width="120px" 
+    onmouseout="this.className = 'btnAgregarStyle';"
+    onmouseover="this.className = 'btnAgregarOverStyle';"
+    onmousedown="this.className = 'btnAgregarDownStyle';"
+    onmouseup="this.className = 'btnAgregarOverStyle';" />
+    
+    <asp:Button skinid="btnBasic_Marron" runat="server" 
+    Font-Names="Tahoma"  BorderStyle="none"  CssClass="btnNormalStyle_Marron"
+    Font-Size="11px" ForeColor="white" Height="28px" Font-Bold="True" width="118px" 
+    onmouseout="this.className = 'btnNormalStyle_Marron';"
+    onmouseover="this.className = 'btnOverStyle_Marron';"
+    onmousedown="this.className = 'btnDownStyle_Marron';"
+    onmouseup="this.className = 'btnOverStyle_Marron';" />
+
+<asp:Button skinid="btnBasic" runat="server" 
+    Font-Names="Tahoma"  BorderStyle="none"  CssClass="btnNormalStyle"
+    Font-Size="11px" ForeColor="white" Height="30px" Font-Bold="True" width="100px" 
+    onmouseout="this.className = 'btnNormalStyle';"
+    onmouseover="this.className = 'btnOverStyle';"
+    onmousedown="this.className = 'btnDownStyle';"
+    onmouseup="this.className = 'btnOverStyle';" />
+    
+<asp:Button skinid="btnGray" runat="server" 
+    Font-Names="Tahoma"  BorderStyle="none"  CssClass="btnGrayStyle"
+    Font-Size="12px"  Height="26px" Font-Bold="True" width="100px" 
+    onmouseout="this.className = 'btnGrayStyle';"
+    onmouseover="this.className = 'btnGrayOverStyle';"
+    onmousedown="this.className = 'btnGrayDownStyle';"
+    onmouseup="this.className = 'btnGrayOverStyle';" />
+    
+    
+<asp:Button skinid="btnVolver" runat="server" 
+    Font-Names="Tahoma"  BorderStyle="none"  CssClass="btnVolverStyle"
+    Font-Size="12px"  Height="30px" Font-Bold="True" width="120px" 
+    onmouseout="this.className = 'btnVolverStyle';"
+    onmouseover="this.className = 'btnVolverOverStyle';"
+    onmousedown="this.className = 'btnVolverDownStyle';"
+    onmouseup="this.className = 'btnVolverOverStyle';" />
+    
+<asp:Label skinid="lblBlue"  runat="server" Style=" color: #0066CC; font-family: Sans-Serif; font-size: 12px;text-transform:capitalize"></asp:Label>
+<asp:Label skinid="lblBlack"  runat="server" Style=" color: black; font-family: Sans-Serif; font-size: 11px;text-transform:capitalize"></asp:Label>
+<asp:Label skinid="lblBlackBold"  runat="server" Style=" color: black; font-family: Sans-Serif; font-size: 11px;text-transform:capitalize;font-weight:bold"></asp:Label>
+<asp:Label skinid="lblWhite"  runat="server" Style="color: White; font-family: Sans-Serif; font-size: 11px;text-transform:capitalize"></asp:Label>
+<asp:Label skinid="lblWhiteLarge"  runat="server" Style="color: White; font-family: Sans-Serif; font-size: 13px;text-transform:capitalize"></asp:Label>
