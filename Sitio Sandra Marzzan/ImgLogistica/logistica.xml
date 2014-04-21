@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Provincias>
+  <Provincia Name="Córdoba" Id="Córdoba">
+    <Transporte Name="Villa S.A." Id="Tra_12416">
+      <Sucursal Name="Córdoba Capital" Id="Suc_7084">
+        <Item>
+          <Titulo>Teléfono</Titulo>
+          <Descripcion>Atención al Cliente: (261) 4677513
+Fax:(261) 4677513</Descripcion>
+        </Item>
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+      <Sucursal Name="Rio Cuarto" Id="Suc_5071">
+        <Item>
+          <Titulo>Teléfono</Titulo>
+          <Descripcion>Atención al Cliente: (261) 4677513\r\nFax:(261) 4677513</Descripcion>
+        </Item>
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+    </Transporte>
+    <Transporte Name="Andesmar S.A." Id="Tra_12014">
+      <Sucursal Name="Córdoba Capital" Id="Suc_3802">
+        <Item>
+          <Titulo>Teléfono</Titulo>
+          <Descripcion>Atención al Cliente: (261) 4677513\r\nFax:(261) 4677513</Descripcion>
+        </Item>
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+    </Transporte>
+    <DatosProvincia>
+      <Item>
+        <Titulo>Total Femeninos</Titulo>
+        <Descripcion>1520</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Total Clientes</Titulo>
+        <Descripcion>1566</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Clientes Iniciales</Titulo>
+        <Descripcion>966</Descripcion>
+      </Item>
+    </DatosProvincia>
+  </Provincia>
+  <Provincia Name="Mendoza" Id="Mendoza">
+    <Transporte Name="Rapibox" Id="Tra_11760">
+      <Sucursal Name="Guaymallén" Id="Suc_2245">
+        <Item>
+          <Titulo>Teléfono</Titulo>
+          <Descripcion>Atención al Cliente: (261) 4677513\r\nFax:(261) 4677513</Descripcion>
+        </Item>
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+    </Transporte>
+    <Transporte Name="Andreanni" Id="Tra_11448">
+      <Sucursal Name="Lujan" Id="Suc_6054">
+        <Item>
+          <Titulo>Teléfono</Titulo>
+          <Descripcion>Atención al Cliente: (261) 4677513\r\nFax:(261) 4677513</Descripcion>
+        </Item>
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+    </Transporte>
+    <DatosProvincia>
+      <Item>
+        <Titulo>Total Femeninos</Titulo>
+        <Descripcion>1520</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Total Clientes</Titulo>
+        <Descripcion>1566</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Clientes Iniciales</Titulo>
+        <Descripcion>966</Descripcion>
+      </Item>
+    </DatosProvincia>
+  </Provincia>
+  <Provincia Name="Santiago Del Estero" Id="SantiagoDelEstero">
+    <Transporte Name="Andreanni" Id="Tra_12210">
+      <Sucursal Name="Lujan" Id="Suc_4908">
+        <Item>
+          <Titulo>Horario Atención</Titulo>
+          <Descripcion>Todos los días de 08:00 a 20:00 Horario Corrido</Descripcion>
+        </Item>
+      </Sucursal>
+    </Transporte>
+    <DatosProvincia>
+      <Item>
+        <Titulo>Total Femeninos</Titulo>
+        <Descripcion>1520</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Total Clientes</Titulo>
+        <Descripcion>1566</Descripcion>
+      </Item>
+      <Item>
+        <Titulo>Clientes Iniciales</Titulo>
+        <Descripcion>966</Descripcion>
+      </Item>
+    </DatosProvincia>
+  </Provincia>
+</Provincias>

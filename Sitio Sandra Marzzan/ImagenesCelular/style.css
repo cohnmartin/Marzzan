@@ -1,0 +1,26 @@
+* {margin:0; padding:0}
+#gallery
+{
+	background-position: #558DC6;
+	position: relative;
+	width: 745px;
+	margin: 5px auto;
+	padding: 5px;
+	border: 6px solid #fff;
+	background: #558DC6;
+}
+#images {border:2px solid #9ac1c9; height:225px; background:#eef5f6; margin-bottom:20px}
+#image { position:relative; width:730px; height:477px; padding:5px; border:2px solid #666; background:#FFF url(../ImagenesCelular/loading.gif) center center no-repeat}
+#image img {position:absolute; top:5px; left:5px;margin-left:30px}
+#thumbwrapper {margin-top:10px; padding:5px 0; width:740px; height:126px; border:2px solid #666; background:#FFF}
+#thumbarea {position:relative; overflow:hidden; height:126px; width:735px; }
+#thumbs {position:relative; list-style:none; margin-left:5px; height:126px; width:10000px; border-right:5px solid #FFF}
+#thumbs li {float:left; margin-right:5px; cursor:pointer}
+
+.divnav{position:absolute;top:570px;height:55px;width:100%;z-index:900000;outline:none}
+
+.imgnav {position:absolute;width:16.9%; z-index:100; outline:none; cursor:pointer;border:1px solid #FFF;height:48px}
+
+#previmg {left:0; background:url(../ImagenesCelular/right.gif) right center no-repeat; border-left:5px solid #FFF}
+
+#nextimg {right:0; background:url(../ImagenesCelular/left.gif) left center no-repeat; border-right:5px solid #FFF}
