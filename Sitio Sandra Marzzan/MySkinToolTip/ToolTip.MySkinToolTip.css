@@ -1,0 +1,247 @@
+/* r.a.d.tooltip WEB2.0 skin */
+
+/* r.a.d.tooltip resize element */
+div.radtooltip_MySkinToolTip.ResizeElement
+{
+	border: solid 1px #d3fd2c;
+	background: #f8fce0;
+}
+
+div.radtooltip_MySkinToolTip.LoadingSign
+{	
+	background: url(ToolTip/Loading.gif)  no-repeat center;
+	width: 100%; height: 100%;
+}
+
+div.radtooltip_MySkinToolTip
+{
+	position: absolute;
+	cursor: default;
+}
+
+div.radtooltip_MySkinToolTip div.ToolTipCallout
+{
+	display:none;
+}
+
+div.radtooltip_MySkinToolTip.visiblecallout
+{
+	/**/
+}
+
+div.radtooltip_MySkinToolTip.visiblecallout div.ToolTipCallout
+{
+	display: block;
+}
+
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper
+{
+	padding: 0; margin: 0;
+	border-collapse: collapse;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td
+{		
+	padding: 0; margin: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/* -------------------------- CORNER SETTINGS BEGIN ---------------------------------- */
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopLeft,
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopRight,
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomLeft,
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomRight
+{
+	width: 5px; height: 5px; 
+	line-height: 0px; font-size: 1px;
+	background-image: url(ToolTip/TooltipCorners.gif) ;
+	background-repeat: no-repeat;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopLeft
+{
+	background-position: 0 0;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopRight
+{
+	background-position: right 0;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomLeft
+{
+	background-position: 0 bottom;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomRight
+{
+	background-position: right bottom;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopCenter,
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomCenter
+{
+	height: 5px; 
+	line-height: 0px; font-size: 1px;
+	background: url(ToolTip/ToolTipTopParts.gif) ;
+	background-repeat: repeat-x;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopCenter
+{
+	background-position: 0 0;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomCenter
+{
+	background-position: 0 bottom;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipLeftMiddle,
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipRightMiddle
+{
+	background-image: url(ToolTip/TooltipSideParts.gif) ;
+	background-repeat: repeat-y;
+	font-size: 1px;
+	width: 3px;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipLeftMiddle
+{
+	background-position: 0 0;
+}
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipRightMiddle
+{
+	background-position: right 0;
+}
+/* -------------------------- CORNER SETTINGS END ---------------------------------- */
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipContent
+{
+	font: normal 12px Arial, Verdana, Sans-serif;
+	height: 100%;
+	background: #fff;
+	padding: 8px;
+	color: #575757;
+}
+
+div.radtooltip_MySkinToolTip div.ToolTipTitlebar
+{	
+	color: black;
+	font: normal 14px Arial, Verdana, Sans-serif;
+	float:left;
+	line-height: 16px;
+	padding: 4px;
+}
+
+/* close button */
+div.radtooltip_MySkinToolTip a.CloseButton,
+div.radtooltip_MySkinToolTip a.CloseButton:hover
+{
+	display: block; float: right;
+	width: 16px; height: 16px;
+	font-size: 1px; line-height: 1px;
+	margin-top: 4px;
+	margin-right: 1px;
+	background: url(ToolTip/close.gif)  no-repeat;
+	text-indent: -9999px;
+	outline: none;
+}
+
+/* --------------------------------------------- TOOLTIP CALLOUT SETTINGS BEGIN --------------------------------------------- */
+div.radtooltip_MySkinToolTip div.ToolTipCallout
+{
+	position: absolute; top: 0; left: 0;
+	height: 11px; width: 11px;
+	line-height: 1px; font-size: 1px;
+	background-image: url(ToolTip/Callouts.gif) ;
+	background-repeat: no-repeat;
+}
+
+/* position="Center" */
+div.radtooltip_MySkinToolTip .Center
+{
+	background: none !important;
+}
+
+/* position="BottomRight" */
+.radtooltip_MySkinToolTip .TopLeft
+{
+	margin-top: -8px; margin-left: 5px;
+	background-position: 0 -22px;
+}
+
+/* position="BottomCenter" */
+.radtooltip_MySkinToolTip .TopCenter
+{
+	left: 50% !important;
+	margin-top: -8px; margin-left: -5px;
+	background-position: 0 0 !important;
+}
+
+/* position="BottomLeft" */
+.radtooltip_MySkinToolTip .TopRight
+{
+	left: 100% !important;
+	margin-top: -8px; margin-left: -20px;
+	background-position: 0 -11px !important;
+}
+
+
+/* position="TopCenter" */
+.radtooltip_MySkinToolTip .BottomCenter
+{
+	top: 100% !important; left: 50% !important;
+	margin-left: -5px !important; margin-top: -3px !important; _margin-top: -2px !important;
+	width: 100% !important;
+	background-position: 0 -55px !important;
+}
+
+/* position="TopLeft" */
+.radtooltip_MySkinToolTip .BottomRight
+{
+	top: 100% !important; left: 100% !important;
+	margin-left: -20px !important; margin-top: -3px !important; _margin-top: -2px !important;
+	background-position: 0 -66px !important;
+}
+
+/* position="TopRight" */
+.radtooltip_MySkinToolTip .BottomLeft
+{
+	top: 100% !important;
+	margin-left: 10px !important; margin-top: -3px !important; _margin-top: -2px !important;
+	background-position: 0 -77px !important;
+}
+
+/* position="MiddleRight" */
+.radtooltip_MySkinToolTip .MiddleLeft
+{
+	top: 50% !important;
+	margin-left: -8px; margin-top: -5px;
+	background-position: 0 -44px !important;
+}
+
+/* position="MiddleLeft" */
+.radtooltip_MySkinToolTip .MiddleRight
+{
+	left: 100% !important; top: 50% !important;
+	margin-left: -3px; margin-top: -5px;
+	background-position: 0 -33px;
+}
+/* --------------------------------------------- TOOLTIP CALLOUT SETTINGS END --------------------------------------------- */
+
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopLeft,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopCenter,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipTopRight,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipLeftMiddle,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipContent,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipRightMiddle,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomLeft,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomCenter,   
+div.radtooltip_MySkinToolTip table.ToolTipWrapper td.ToolTipBottomRight   
+{
+    padding: 0;
+    border: 0;
+}

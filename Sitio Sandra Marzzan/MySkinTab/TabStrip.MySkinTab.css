@@ -1,0 +1,166 @@
+.RadTabStrip_MySkinTab .rtsLI,
+.RadTabStrip_MySkinTab .rtsLink
+{
+	color: #000;
+}
+
+.RadTabStripLeft_MySkinTab .rtsLI,
+.RadTabStripRight_MySkinTab .rtsLI
+{
+	width: 100%;
+}
+
+.RadTabStripLeft_MySkinTab .rtsLevel .rtsUL,
+.RadTabStripRight_MySkinTab .rtsLevel .rtsUL
+{
+	width: 150px; /* default width */
+}
+
+.RadTabStrip_MySkinTab .rtsLevel
+{
+	background-color: #fff;
+}
+
+.RadTabStrip_MySkinTab .rtsLevel1
+{
+	background-color: Transparent;
+}
+
+.RadTabStrip_MySkinTab .rtsLink
+{
+	text-decoration: none;
+}
+
+.RadTabStripTop_MySkinTab .rtsOut,
+.RadTabStripBottom_MySkinTab .rtsOut
+{
+	text-align:center;
+}
+
+.RadTabStrip_MySkinTab .rtsIn
+{
+	font: 11px/17px "segoe ui",arial,sans-serif;
+	padding: 0 5px;
+}
+
+/* disabled tabs */
+.RadTabStrip_MySkinTab .rtsDisabled,
+.RadTabStripLeft_MySkinTab .rtsDisabled,
+.RadTabStripRight_MySkinTab .rtsDisabled,
+.RadTabStripBottom_MySkinTab .rtsDisabled,
+.RadTabStrip_MySkinTab_disabled .rtsDisabled
+{
+	color: #ccc;
+	cursor: default;
+}
+
+.RadTabStripLeft_MySkinTab .rtsLI .rtsIn,
+.RadTabStripRight_MySkinTab .rtsLI .rtsIn
+{
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.RadTabStripLeft_MySkinTab .rtsUL,
+.RadTabStripRight_MySkinTab .rtsUL
+{
+	width: 100%;
+}
+
+.RadTabStrip_MySkinTab .rtsImg
+{
+	border:0;
+	vertical-align:top;
+	width: 16px;
+	margin: 2px 0;
+}
+
+/* Scrolling */
+.RadTabStrip_MySkinTab .rtsNextArrow,
+.RadTabStrip_MySkinTab .rtsPrevArrow,
+.RadTabStrip_MySkinTab .rtsPrevArrowDisabled,
+.RadTabStrip_MySkinTab .rtsNextArrowDisabled
+{
+	height:17px;
+	width:17px;
+}
+
+.RadTabStripTop_MySkinTab .rtsNextArrow,
+.RadTabStripTop_MySkinTab .rtsPrevArrow,
+.RadTabStripTop_MySkinTab .rtsPrevArrowDisabled,
+.RadTabStripTop_MySkinTab .rtsNextArrowDisabled,
+.RadTabStripBottom_MySkinTab .rtsNextArrow,
+.RadTabStripBottom_MySkinTab .rtsPrevArrow,
+.RadTabStripBottom_MySkinTab .rtsPrevArrowDisabled,
+.RadTabStripBottom_MySkinTab .rtsNextArrowDisabled
+{
+	margin-top: -16px;
+}
+
+.RadTabStrip_MySkinTab .rtsNextArrow { background:transparent url('TabStrip/ScrollRight.gif') no-repeat scroll 0; }
+.RadTabStrip_MySkinTab .rtsPrevArrow { background:transparent url('TabStrip/ScrollLeft.gif') no-repeat scroll 0; }
+.RadTabStrip_MySkinTab .rtsNextArrowDisabled { background:transparent url('TabStrip/ScrollRightDisabled.gif') no-repeat scroll 0; }
+.RadTabStrip_MySkinTab .rtsPrevArrowDisabled { background:transparent url('TabStrip/ScrollLeftDisabled.gif') no-repeat scroll 0; }
+
+/* Orientation: Top */
+
+.RadTabStripTop_MySkinTab .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripTop_MySkinTab .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripTop_MySkinTab .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripTop_MySkinTab .rtsLevel1 .rtsSelected { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 0 0; }
+.RadTabStripTop_MySkinTab .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 100% 0; }
+
+.RadTabStripTop_MySkinTab .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripTop_MySkinTab .rtsLevel1 .rtsUL { padding: 0 3px; margin-top: 4px; }
+.RadTabStripTop_MySkinTab .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Bottom */
+
+.RadTabStripBottom_MySkinTab .rtsLink .rtsIn { line-height: 23px;  }
+
+.RadTabStripBottom_MySkinTab .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripBottom_MySkinTab .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripBottom_MySkinTab .rtsLevel1 .rtsSelected { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 0 -60px; }
+.RadTabStripBottom_MySkinTab .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 100% -60px; }
+
+.RadTabStripBottom_MySkinTab .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripBottom_MySkinTab .rtsLevel1 .rtsUL { padding: 0 3px; margin-bottom: 4px; }
+.RadTabStripBottom_MySkinTab .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Left */
+
+.RadTabStripLeft_MySkinTab .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripLeft_MySkinTab .rtsLevel { float: left; }
+
+.RadTabStripLeft_MySkinTab .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripLeft_MySkinTab .rtsLevel1 .rtsSelected { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 0 -30px; }
+.RadTabStripLeft_MySkinTab .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 100% -30px; }
+
+.RadTabStripLeft_MySkinTab .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripLeft_MySkinTab .rtsLevel1 .rtsUL { padding: 4px 0; margin-left: 4px; }
+.RadTabStripLeft_MySkinTab .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Right */
+
+.RadTabStripRight_MySkinTab .rtsLink .rtsIn { line-height: 30px;  }
+
+.RadTabStripRight_MySkinTab .rtsLevel { float: right; }
+
+.RadTabStripRight_MySkinTab .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripRight_MySkinTab .rtsLevel1 .rtsSelected { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 0 -90px; }
+.RadTabStripRight_MySkinTab .rtsLevel1 .rtsSelected .rtsOut { background: transparent url('TabStrip/TabStripStates.gif') no-repeat 100% -90px; }
+
+.RadTabStripRight_MySkinTab .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripRight_MySkinTab .rtsLevel1 .rtsUL { padding: 4px 0; margin-right: 4px; }
+.RadTabStripRight_MySkinTab .rtsLevel2 .rtsIn { padding: 0 10px; }

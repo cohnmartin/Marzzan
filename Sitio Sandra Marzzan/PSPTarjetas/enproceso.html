@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV='expires' CONTENT='0'>
+<META HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+ <link href="styles/StyleMarzzan.css" rel="stylesheet" type="text/css" />
+<SCRIPT>
+	function respuestaTardia() {
+		if (document.estado.terminoTodo.value=='false') {
+			document.write (" \
+<HTML> \
+<HEAD> \
+<title> \
+demorado</title> \
+</HEAD> \
+<BODY> \
+Procesando \
+<p>PROCESANDO LOS DATOS DE SU TARJETA</p> \
+La operación no terminó de procesarse aún. Intente en unos minutos... \
+<br> \
+<A HREF='/sps-ar/Resultado'>Ver resultado</A> \
+</BODY> \
+</HTML> \
+				");
+		} else {			
+		respuestaActual();		
+		}
+	}
+</SCRIPT>	
+<title>SANDRA MARZZAN - En Proceso</title>
+</HEAD>
+<BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="respuestaTardia();">
+<FORM name="estado">
+<input type="hidden" name="terminoTodo" value="false">
+</FORM>
+<div class="HeaderContainer_Marzzan">
+        <div class="Content_Marzzan">
+          &nbsp;
+        </div>
+    </div>
+<br><br>
+
+<div align="center">
+<table bgcolor="eff0f1" border="1" cellpadding="0" cellspacing="10" bordercolor="000099" rules="groups" width="652" style="border-collapse: collapse">
+<tr><td align="center"><font color="000099" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>PROCESANDO LOS DATOS DE SU TARJETA</strong></font></p></td></tr>
+<tr><td align="center"><font color="000099" size="2" face="Verdana, Arial, Helvetica, sans-serif">Aguarde un momento por favor...<br>
+</font></td></tr>
+</table>
+</BODY>
+</HTML>

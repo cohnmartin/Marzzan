@@ -1,0 +1,159 @@
+<html>
+<head>
+    <meta http-equiv="Content-Language" content="es-ar">
+    <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+    <meta name="ProgId" content="FrontPage.Editor.Document">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link href="styles/StyleMarzzan.css" rel="stylesheet" type="text/css" />
+    <title>SANDRA MARZZAN - Datos de la Tarjeta de Cr&eacute;dito</title>
+    <style>
+        .texto
+        {
+            font-family: verdana,arial,helvetica;
+            font-size: 11px;
+        }
+        .textochico
+        {
+            font-family: verdana,arial,helvetica;
+            font-size: 9px;
+        }
+    </style>
+    <script language="JavaScript1.1" src="/sps_ar/submit_3.js"></script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <div class="HeaderContainer_Marzzan">
+        <div class="Content_Marzzan">
+          &nbsp;
+        </div>
+    </div>
+    <div align="center">
+        <p>
+            <b><H3>Por favor, ingrese los siguientes datos de su tarjeta VISA y
+                haga su pago:</H3></b></p>
+        <form method="POST" action="<!--UrlAPostear-->" id="DatosTarjetaForm" name="DatosTarjetaForm"
+        onsubmit="return beforesubmit();">
+        <table bgcolor="eff0f1" border="1" cellpadding="0" cellspacing="10" bordercolor="000099"
+            rules="groups" width="652" style="border-collapse: collapse">
+            <input type="hidden" name="MTARJETA" value="4">
+            <input type="hidden" name="NOMBRE" value="default">
+            <input type="hidden" name="APELLIDO" value="default">
+            <input type="hidden" name="TELEFONO" value="000">
+            <colgroup>
+                <col align="right">
+                <col align="left">
+            </colgroup>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">Titular de la Tarjeta: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input name="NOMBREENTARJETA" size="30"></font> <font class="textochico">
+                            <nobr>(como aparece en la tarjeta)</nobr>
+                        </font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">N&uacute;mero de Tarjeta:&nbsp; </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input maxlength="19" name="NROTARJETA" size="16" autocomplete="off"></font>
+                    <nobr><font class="textochico">(sin espacios, ni guiones)</FONT></nobr>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">Fecha de Vencimiento: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input maxlength="4" name="VENCTARJETA" size="4" autocomplete="off"></font>
+                    <input type="hidden" name="VENCIMIENTO" size="4"><nobr><font class="textochico">(en formato <b>MMAA</b>)</FONT></nobr>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">C&oacute;digo de Seguridad: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input type="password" maxlength="4" name="CODSEGURIDAD" size="4" autocomplete="off">
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">E-Mail: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input maxlength="50" name="EMAILCLIENTE" size="50"></font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">Tipo de Documento: </font></b>
+                </td>
+                <td width="466">
+                    <select name="TIPODOC">
+                        <option value="1" selected>DNI</option>
+                        <option value="2">CI</option>
+                        <option value="3">LE</option>
+                        <option value="4">LC</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">N&uacute;mero de Documento: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input maxlength="20" name="NRODOC" size="20"></font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">Calle: </font></b>
+                </td>
+                <td width="466">
+                    <font class="textochico">
+                        <input maxlength="20" name="CALLE" size="20">
+                        (domicilio de entrega de resumen de tarjeta)</font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">N&uacute;mero de Puerta: </font></b>
+                </td>
+                <td width="466">
+                    <font class="textochico">
+                        <input maxlength="20" name="NROPUERTA" size="20">
+                        (domicilio de entrega de resumen de tarjeta)</font>
+                </td>
+            </tr>
+            <tr>
+                <td width="180">
+                    <b><font class="texto">Fecha de Nacimiento: </font></b>
+                </td>
+                <td width="466">
+                    <font class="texto">
+                        <input maxlength="20" name="FECHANACIMIENTO" size="20"><font class="textochico">(En
+                            formato <b>DDMMAAAA</b>)</font>
+                </td>
+            </tr>
+        </table>
+        <table border="0" height="61" align="center">
+            <td height="57" align="center">
+                <br>
+                <input class="btnBasic_Marzzan" type="SUBMIT" value="Aceptar" name="ok">
+                <input class="btnBasic_Marzzan" type="RESET" value="Cancelar">
+                <br>
+                <a target="_blank" href="https://sps.decidir.com/sps_ar/sps_compra.html">
+                    <img src="/img/botonsps.gif" border="0">
+        </table>
+        </form>
+</body>
+</html>
