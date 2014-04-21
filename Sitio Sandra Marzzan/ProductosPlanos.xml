@@ -1,0 +1,1659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Fragancias>
+  <Fragancia>
+    <CodigoF>001</CodigoF>
+    <NombreF CodigoBusqueda="010100@010101@010102@010103" Presentaciones="120 ml@500 ml@1000 ml@5 ml">Acqua</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>002</CodigoF>
+    <NombreF CodigoBusqueda="010104@010105@010106@010107" Presentaciones="5 ml@120 ml@500 ml@1000 ml">Azahares</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>003</CodigoF>
+    <NombreF CodigoBusqueda="010108@010109@010110" Presentaciones="120 ml@500 ml@5 ml">Brisas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>005</CodigoF>
+    <NombreF CodigoBusqueda="010111@010112@010113@010114" Presentaciones="5 ml@120 ml@500 ml@1000 ml">Citrico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>006</CodigoF>
+    <NombreF CodigoBusqueda="010115@010116@010117" Presentaciones="120 ml@500 ml@5 ml">Manzana</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>007</CodigoF>
+    <NombreF CodigoBusqueda="010118@010119@010120" Presentaciones="5 ml@120 ml@500 ml">Marina</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>008</CodigoF>
+    <NombreF CodigoBusqueda="010121@010122@010123" Presentaciones="120 ml@500 ml@5 ml">Native</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>009</CodigoF>
+    <NombreF CodigoBusqueda="010124@010125@010126" Presentaciones="5 ml@120 ml@500 ml">Soliflor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>011</CodigoF>
+    <NombreF CodigoBusqueda="010127@010128@010129@010130" Presentaciones="120 ml@500 ml@1000 ml@5 ml">Uva</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>012</CodigoF>
+    <NombreF CodigoBusqueda="010131@010132@010133" Presentaciones="5 ml@120 ml@500 ml">Suavechito</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>013</CodigoF>
+    <NombreF CodigoBusqueda="010134@010135@010136" Presentaciones="120 ml@500 ml@5 ml">Rosa Dulce</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>108</CodigoF>
+    <NombreF CodigoBusqueda="010137@010138@010139" Presentaciones="120 ml@500 ml@5 ml">Praia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>130</CodigoF>
+    <NombreF CodigoBusqueda="010140@010141@010142" Presentaciones="120 ml@500 ml@5 ml">Flor de Agua</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>131</CodigoF>
+    <NombreF CodigoBusqueda="010143@010144@010145" Presentaciones="5 ml@500 ml@120 ml">Burbujas de Jab</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>014</CodigoF>
+    <NombreF CodigoBusqueda="010246@010247@010248" Presentaciones="5 ml@120 ml@500 ml">Coco _ Vani</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>015</CodigoF>
+    <NombreF CodigoBusqueda="010249@010250@010251" Presentaciones="120 ml@500 ml@5 ml">Durazno _ Mango</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>016</CodigoF>
+    <NombreF CodigoBusqueda="010252@010253@010254" Presentaciones="5 ml@120 ml@500 ml">Lavanda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>017</CodigoF>
+    <NombreF CodigoBusqueda="010255@010256@010257" Presentaciones="120 ml@500 ml@5 ml">Limon Manzanill</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>018</CodigoF>
+    <NombreF CodigoBusqueda="010258@010259@010260" Presentaciones="5 ml@120 ml@500 ml">Sensaciones</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>107</CodigoF>
+    <NombreF CodigoBusqueda="010261@010262@010263" Presentaciones="120 ml@500 ml@5 ml">Placeres de Cho</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>021</CodigoF>
+    <NombreF CodigoBusqueda="010364@010365@010366" Presentaciones="120 ml@500 ml@5 ml">Blue</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>022</CodigoF>
+    <NombreF CodigoBusqueda="010367@010368" Presentaciones="120 ml@500 ml">Caricias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>023</CodigoF>
+    <NombreF CodigoBusqueda="010369@010370@010371" Presentaciones="120 ml@500 ml@5 ml">C.K. One</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="010372@010373" Presentaciones="120 ml@500 ml">Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>025</CodigoF>
+    <NombreF CodigoBusqueda="010374@010375@010376" Presentaciones="120 ml@500 ml@5 ml">Kenzo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="010377@010378" Presentaciones="120 ml@500 ml">Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>027</CodigoF>
+    <NombreF CodigoBusqueda="010379@010380@010381" Presentaciones="120 ml@500 ml@5 ml">Noa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>028</CodigoF>
+    <NombreF CodigoBusqueda="010382@010383" Presentaciones="120 ml@500 ml">Tartinet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>152</CodigoF>
+    <NombreF CodigoBusqueda="010384@010385@010386" Presentaciones="500 ml@120 ml@5 ml">Gucci</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>153</CodigoF>
+    <NombreF CodigoBusqueda="010387" Presentaciones="500 ml">CK One Shock</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>180</CodigoF>
+    <NombreF CodigoBusqueda="010388@010389@010390" Presentaciones="120 ml@500 ml@5 ml">Light Blue</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>181</CodigoF>
+    <NombreF CodigoBusqueda="010391@010392@010393" Presentaciones="500 ml@120 ml@5 ml">Banana Republic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>309</CodigoF>
+    <NombreF CodigoBusqueda="010394@010395" Presentaciones="5 ml@500 ml">Dot</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>020</CodigoF>
+    <NombreF CodigoBusqueda="010496" Presentaciones="120 ml">Aires de Patio</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>110</CodigoF>
+    <NombreF CodigoBusqueda="010597@010598@010599" Presentaciones="120 ml@500 ml@5 ml">Aguas Grandes</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>114</CodigoF>
+    <NombreF CodigoBusqueda="0105100@0105101@0105102" Presentaciones="5 ml@120 ml@500 ml">Bosque Sur</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>115</CodigoF>
+    <NombreF CodigoBusqueda="0105103@0105104@0105105" Presentaciones="120 ml@500 ml@5 ml">Cumbres Heladas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>116</CodigoF>
+    <NombreF CodigoBusqueda="0105106@0105107@0105108" Presentaciones="5 ml@120 ml@500 ml">Piedemonte Soña</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>117</CodigoF>
+    <NombreF CodigoBusqueda="0105109@0105110" Presentaciones="500 ml@5 ml">Puna Norteña</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>150</CodigoF>
+    <NombreF CodigoBusqueda="0105111@0105112@0105113" Presentaciones="5 ml@120 ml@500 ml">Susurros del Vi</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>203</CodigoF>
+    <NombreF CodigoBusqueda="0105114@0105115@0105116" Presentaciones="120 ml@500 ml@5 ml">Rio en Flor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>022</CodigoF>
+    <NombreF CodigoBusqueda="0106117@0106118" Presentaciones="120 ml@120 ml">Caricias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0106119@0106120" Presentaciones="120 ml@120 ml">Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0106121" Presentaciones="120 ml">Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0107122" Presentaciones="Unidad">Muestra Difusor Aromático 2 Fragancias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0107123" Presentaciones="Unidad">Muestras Difusor Aromático 4 Fragancias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>190</CodigoF>
+    <NombreF CodigoBusqueda="0107124" Presentaciones="90 ml">Glasé de Naranj</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>191</CodigoF>
+    <NombreF CodigoBusqueda="0107125" Presentaciones="90 ml">Maderas de Orie</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>192</CodigoF>
+    <NombreF CodigoBusqueda="0107126" Presentaciones="90 ml">Frutos Rojos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>193</CodigoF>
+    <NombreF CodigoBusqueda="0107127" Presentaciones="90 ml">Flores Cítricas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>194</CodigoF>
+    <NombreF CodigoBusqueda="0107128" Presentaciones="90 ml">Repuesto G Nara</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>195</CodigoF>
+    <NombreF CodigoBusqueda="0107129" Presentaciones="90 ml">Repuesto M Orie</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>196</CodigoF>
+    <NombreF CodigoBusqueda="0107130" Presentaciones="90 ml">Repuesto F Rojo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>197</CodigoF>
+    <NombreF CodigoBusqueda="0107131" Presentaciones="90 ml">Repuesto F Citr</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>198</CodigoF>
+    <NombreF CodigoBusqueda="0107132" Presentaciones="90 ml">Sueñitos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>200</CodigoF>
+    <NombreF CodigoBusqueda="0107133" Presentaciones="90 ml">Lluvia de Flor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>209</CodigoF>
+    <NombreF CodigoBusqueda="0107134" Presentaciones="90 ml">Repuesto Sueñit</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>215</CodigoF>
+    <NombreF CodigoBusqueda="0107135" Presentaciones="90 ml">Repuesto LluFlo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>308</CodigoF>
+    <NombreF CodigoBusqueda="0107136@0107137" Presentaciones="90 ml@5 ml">Jardines de Pra</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>310</CodigoF>
+    <NombreF CodigoBusqueda="0107138" Presentaciones="90 ml">Repuesto JPraga</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>191</CodigoF>
+    <NombreF CodigoBusqueda="0116139" Presentaciones="270 ml">Maderas de Orie</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>193</CodigoF>
+    <NombreF CodigoBusqueda="0116140" Presentaciones="270 ml">Flores Cítricas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>198</CodigoF>
+    <NombreF CodigoBusqueda="0116141" Presentaciones="270 ml">Sueñitos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>199</CodigoF>
+    <NombreF CodigoBusqueda="0116142" Presentaciones="270 ml">Vainillas Espec</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>200</CodigoF>
+    <NombreF CodigoBusqueda="0116143" Presentaciones="270 ml">Lluvia de Flor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>201</CodigoF>
+    <NombreF CodigoBusqueda="0116144" Presentaciones="270 ml">Frutal Fresco</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>A01</CodigoF>
+    <NombreF CodigoBusqueda="0116145" Presentaciones="Unidad">Analogico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>D01</CodigoF>
+    <NombreF CodigoBusqueda="0116146" Presentaciones="Unidad">Digital</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>300</CodigoF>
+    <NombreF CodigoBusqueda="0184147" Presentaciones="Unidad">Vainilla</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>301</CodigoF>
+    <NombreF CodigoBusqueda="0184148" Presentaciones="Unidad">Pomelo_Melón</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>302</CodigoF>
+    <NombreF CodigoBusqueda="0184149" Presentaciones="Unidad">Jazmín</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>307</CodigoF>
+    <NombreF CodigoBusqueda="0184150" Presentaciones="Unidad">Lavanda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185151" Presentaciones="Unidad">Hornillo Geo Salmón</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185152" Presentaciones="Unidad">Hornillo Geo Verde</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185153" Presentaciones="Unidad">Set de Vela x 3 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185154" Presentaciones="Unidad">Hornillo Prisma</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185155" Presentaciones="Unidad">Hornillo Vasija</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0185156" Presentaciones="Unidad">Hornillo Vitreaux</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>303</CodigoF>
+    <NombreF CodigoBusqueda="0185157" Presentaciones="8 ml">Limón</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>304</CodigoF>
+    <NombreF CodigoBusqueda="0185158" Presentaciones="8 ml">Lavanda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>305</CodigoF>
+    <NombreF CodigoBusqueda="0185159" Presentaciones="8 ml">Pino y Flores</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>306</CodigoF>
+    <NombreF CodigoBusqueda="0185160" Presentaciones="8 ml">Flores B y Aloe</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>236</CodigoF>
+    <NombreF CodigoBusqueda="0188161@0188162" Presentaciones="120 ml@5 ml">Classic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>237</CodigoF>
+    <NombreF CodigoBusqueda="0188163@0188164" Presentaciones="5 ml@120 ml">Harmony</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>238</CodigoF>
+    <NombreF CodigoBusqueda="0188165@0188166" Presentaciones="120 ml@5 ml">Dynamic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>313</CodigoF>
+    <NombreF CodigoBusqueda="0188167@0188168" Presentaciones="5 ml@120 ml">Mystic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>314</CodigoF>
+    <NombreF CodigoBusqueda="0188169@0188170" Presentaciones="120 ml@5 ml">Soft</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>315</CodigoF>
+    <NombreF CodigoBusqueda="0188171@0188172" Presentaciones="5 ml@120 ml">Style</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>023</CodigoF>
+    <NombreF CodigoBusqueda="0261173" Presentaciones="50 ml">09F_One</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>030</CodigoF>
+    <NombreF CodigoBusqueda="0261174@0261175" Presentaciones="5 ml@50 ml">01F_212</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>031</CodigoF>
+    <NombreF CodigoBusqueda="0261176@0261177" Presentaciones="5 ml@50 ml">02F_5ºTH</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>032</CodigoF>
+    <NombreF CodigoBusqueda="0261178@0261179" Presentaciones="5 ml@50 ml">03F_Acqua</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>033</CodigoF>
+    <NombreF CodigoBusqueda="0261180@0261181" Presentaciones="5 ml@50 ml">04F_Amari</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>034</CodigoF>
+    <NombreF CodigoBusqueda="0261182@0261183" Presentaciones="5 ml@50 ml">05F_Amor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>035</CodigoF>
+    <NombreF CodigoBusqueda="0261184@0261185" Presentaciones="5 ml@50 ml">06F_Angel</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>036</CodigoF>
+    <NombreF CodigoBusqueda="0261186@0261187" Presentaciones="5 ml@50 ml">07F_Cabot</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>038</CodigoF>
+    <NombreF CodigoBusqueda="0261188@0261189" Presentaciones="5 ml@50 ml">10F_CaroH</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>039</CodigoF>
+    <NombreF CodigoBusqueda="0261190@0261191" Presentaciones="5 ml@50 ml">11F_Chan</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>040</CodigoF>
+    <NombreF CodigoBusqueda="0261192@0261193" Presentaciones="5 ml@50 ml">12F_Dolce</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>041</CodigoF>
+    <NombreF CodigoBusqueda="0261194@0261195" Presentaciones="5 ml@50 ml">13F_Eden</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>042</CodigoF>
+    <NombreF CodigoBusqueda="0261196@0261197" Presentaciones="5 ml@50 ml">14F_Escap</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>043</CodigoF>
+    <NombreF CodigoBusqueda="0261198@0261199" Presentaciones="5 ml@50 ml">15F_Eter</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>044</CodigoF>
+    <NombreF CodigoBusqueda="0261200@0261201" Presentaciones="5 ml@50 ml">16F_Flow</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>045</CodigoF>
+    <NombreF CodigoBusqueda="0261202@0261203" Presentaciones="5 ml@50 ml">17F_Green</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>046</CodigoF>
+    <NombreF CodigoBusqueda="0261204@0261205" Presentaciones="5 ml@50 ml">18F_Hall</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>049</CodigoF>
+    <NombreF CodigoBusqueda="0261206@0261207" Presentaciones="5 ml@50 ml">20F_Jador</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>051</CodigoF>
+    <NombreF CodigoBusqueda="0261208@0261209" Presentaciones="5 ml@50 ml">21F_Disey</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>053</CodigoF>
+    <NombreF CodigoBusqueda="0261210@0261211" Presentaciones="5 ml@50 ml">23F_Mirac</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>054</CodigoF>
+    <NombreF CodigoBusqueda="0261212@0261213" Presentaciones="5 ml@50 ml">38F_Euph</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>055</CodigoF>
+    <NombreF CodigoBusqueda="0261214@0261215" Presentaciones="5 ml@50 ml">25F_Orga</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>057</CodigoF>
+    <NombreF CodigoBusqueda="0261216@0261217" Presentaciones="5 ml@50 ml">27F_Ral</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>058</CodigoF>
+    <NombreF CodigoBusqueda="0261218@0261219" Presentaciones="5 ml@50 ml">28F_Red</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>059</CodigoF>
+    <NombreF CodigoBusqueda="0261220@0261221" Presentaciones="5 ml@50 ml">29F_Rush</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>062</CodigoF>
+    <NombreF CodigoBusqueda="0261222@0261223" Presentaciones="5 ml@50 ml">32F_Tomm</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>064</CodigoF>
+    <NombreF CodigoBusqueda="0261224@0261225" Presentaciones="5 ml@50 ml">34F_Very</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>065</CodigoF>
+    <NombreF CodigoBusqueda="0261226@0261227" Presentaciones="5 ml@50 ml">35F_Pure</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>066</CodigoF>
+    <NombreF CodigoBusqueda="0261228@0261229" Presentaciones="5 ml@50 ml">36F_Ultra</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>067</CodigoF>
+    <NombreF CodigoBusqueda="0261230@0261231" Presentaciones="5 ml@50 ml">37F_Sexy</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>068</CodigoF>
+    <NombreF CodigoBusqueda="0261232@0261233" Presentaciones="5 ml@50 ml">40F_Nina</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>069</CodigoF>
+    <NombreF CodigoBusqueda="0261234@0261235" Presentaciones="50 ml@5 ml">42F_Chic Woman</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>154</CodigoF>
+    <NombreF CodigoBusqueda="0261236@0261237" Presentaciones="5 ml@50 ml">52F_DK Pure</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>160</CodigoF>
+    <NombreF CodigoBusqueda="0261238@0261239" Presentaciones="5 ml@50 ml">43F_Ch Woman</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>161</CodigoF>
+    <NombreF CodigoBusqueda="0261240@0261241" Presentaciones="5 ml@50 ml">49F_Delici</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>162</CodigoF>
+    <NombreF CodigoBusqueda="0261242@0261243" Presentaciones="50 ml@5 ml">50F_Demon</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>163</CodigoF>
+    <NombreF CodigoBusqueda="0261244@0261245" Presentaciones="50 ml@5 ml">22F_Lady Millon</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>164</CodigoF>
+    <NombreF CodigoBusqueda="0261246@0261247" Presentaciones="50 ml@5 ml">41F_Parisien</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>210</CodigoF>
+    <NombreF CodigoBusqueda="0261248@0261249" Presentaciones="5 ml@50 ml">53F_Hypnos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>211</CodigoF>
+    <NombreF CodigoBusqueda="0261250@0261251" Presentaciones="50 ml@5 ml">54F_Gioia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>214</CodigoF>
+    <NombreF CodigoBusqueda="0261252@0261253" Presentaciones="50 ml@5 ml">55F_Chance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>217</CodigoF>
+    <NombreF CodigoBusqueda="0261254@0261255" Presentaciones="50 ml@5 ml">58F_Marry Me</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>218</CodigoF>
+    <NombreF CodigoBusqueda="0261256@0261257" Presentaciones="50 ml@5 ml">60F_CH L'Eau</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>219</CodigoF>
+    <NombreF CodigoBusqueda="0261258@0261259" Presentaciones="5 ml@50 ml">61F_Guess</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>025</CodigoF>
+    <NombreF CodigoBusqueda="0262260@0262261" Presentaciones="5 ml@50 ml">12M_Ken</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>070</CodigoF>
+    <NombreF CodigoBusqueda="0262262@0262263" Presentaciones="5 ml@50 ml">01M_212</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>071</CodigoF>
+    <NombreF CodigoBusqueda="0262264@0262265" Presentaciones="5 ml@50 ml">02M_Acqua</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>074</CodigoF>
+    <NombreF CodigoBusqueda="0262266@0262267" Presentaciones="5 ml@50 ml">07M_Fahr</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>075</CodigoF>
+    <NombreF CodigoBusqueda="0262268@0262269" Presentaciones="5 ml@50 ml">08M_Gent</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>076</CodigoF>
+    <NombreF CodigoBusqueda="0262270@0262271" Presentaciones="5 ml@50 ml">09M_Hman</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>077</CodigoF>
+    <NombreF CodigoBusqueda="0262272@0262273" Presentaciones="5 ml@50 ml">10M_HBoss</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>081</CodigoF>
+    <NombreF CodigoBusqueda="0262274@0262275" Presentaciones="5 ml@50 ml">13M_Disey</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>082</CodigoF>
+    <NombreF CodigoBusqueda="0262276@0262277" Presentaciones="5 ml@50 ml">14M_Lacos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>083</CodigoF>
+    <NombreF CodigoBusqueda="0262278@0262279" Presentaciones="5 ml@50 ml">15M_Man</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>084</CodigoF>
+    <NombreF CodigoBusqueda="0262280@0262281" Presentaciones="5 ml@50 ml">16M_PBlue</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>085</CodigoF>
+    <NombreF CodigoBusqueda="0262282@0262283" Presentaciones="5 ml@50 ml">17M_Polo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>087</CodigoF>
+    <NombreF CodigoBusqueda="0262284@0262285" Presentaciones="5 ml@50 ml">18M_XS</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>090</CodigoF>
+    <NombreF CodigoBusqueda="0262286@0262287" Presentaciones="5 ml@50 ml">19M_Ultra</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>092</CodigoF>
+    <NombreF CodigoBusqueda="0262288@0262289" Presentaciones="5 ml@50 ml">21M_Black</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>093</CodigoF>
+    <NombreF CodigoBusqueda="0262290@0262291" Presentaciones="5 ml@50 ml">22M_PBlack</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>170</CodigoF>
+    <NombreF CodigoBusqueda="0262292@0262293" Presentaciones="50 ml@5 ml">27M_Very</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>171</CodigoF>
+    <NombreF CodigoBusqueda="0262294@0262295" Presentaciones="50 ml@5 ml">31M_Millon</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>172</CodigoF>
+    <NombreF CodigoBusqueda="0262296@0262297" Presentaciones="5 ml@50 ml">32M_Ch</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>173</CodigoF>
+    <NombreF CodigoBusqueda="0262298@0262299" Presentaciones="50 ml@5 ml">33M_Amor</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>174</CodigoF>
+    <NombreF CodigoBusqueda="0262300@0262301" Presentaciones="5 ml@50 ml">24M_Play</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>220</CodigoF>
+    <NombreF CodigoBusqueda="0262302@0262303" Presentaciones="50 ml@5 ml">35M_Bleu</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>221</CodigoF>
+    <NombreF CodigoBusqueda="0262304@0262305" Presentaciones="5 ml@50 ml">36M_212 Vip</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>222</CodigoF>
+    <NombreF CodigoBusqueda="0262306@0262307" Presentaciones="5 ml@50 ml">38M_LSport</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>223</CodigoF>
+    <NombreF CodigoBusqueda="0262308@0262309" Presentaciones="50 ml@5 ml">40M_Guess</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>M23</CodigoF>
+    <NombreF CodigoBusqueda="0262310" Presentaciones="50 ml">05M_One</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>023</CodigoF>
+    <NombreF CodigoBusqueda="0263311" Presentaciones="5 ml">09F_One</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="0300312" Presentaciones="Unidad">Diferencia Kit Alta Cosmetica x 5 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318313" Presentaciones="500 ml">Crema M y C Humectante</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318314" Presentaciones="500 ml">Crema M y C Nutritiva</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318315" Presentaciones="500 ml">Crema M y C Hidratante</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318316" Presentaciones="50 ml">Crema de Limpieza Facial</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318317" Presentaciones="50 ml">Crema Humectante</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318318" Presentaciones="50 ml">Crema Nutritiva</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318319" Presentaciones="140 ml">Crema para Manos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318320" Presentaciones="140 ml">Emulsion Corporal HN</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318321" Presentaciones="140 ml">Emulsion de Limpieza</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0318322" Presentaciones="140 ml">Loción Herbácea Tónica</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0319323" Presentaciones="50 ml">Crema de Día FPS 15</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0319324" Presentaciones="50 ml">Crema de Noche</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0319325" Presentaciones="30 ml">Gel Correctivo Lineas de Expresion</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0319326" Presentaciones="30 ml">Gel Crema Contorno de Ojos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0319327" Presentaciones="120 ml">Loción Corporal Efecto Seda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0320328" Presentaciones="150 ml">Bronceador con Estuche  FPS 07</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0320329" Presentaciones="150 ml">Emulsión Post Solar</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0320330" Presentaciones="150 ml">Pantalla sin Estuche FPS 30</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>155</CodigoF>
+    <NombreF CodigoBusqueda="0321331" Presentaciones="500 ml">Oceánico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>156</CodigoF>
+    <NombreF CodigoBusqueda="0321332" Presentaciones="500 ml">Pomelo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0416333" Presentaciones="Unidad">kit Deditos Sticker y Ambientador</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>213</CodigoF>
+    <NombreF CodigoBusqueda="0416334" Presentaciones="270 ml">Repuesto Ambientador Nubecitas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="0430335" Presentaciones="5 ml">Plumin Caricias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>022</CodigoF>
+    <NombreF CodigoBusqueda="0430336" Presentaciones="350 ml">Aromatizador Caricias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>022</CodigoF>
+    <NombreF CodigoBusqueda="0430337" Presentaciones="60 ml">Agua de Colonia Caricias</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431338" Presentaciones="5 ml">Plumin Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431339" Presentaciones="90 ml">Jabón Huella Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431340" Presentaciones="200 ml">Acondicionador Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431341" Presentaciones="350 ml">Aromatizador Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431342" Presentaciones="60 ml">Agua de Colonia Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431343" Presentaciones="200 ml">Gel de Baño Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431344" Presentaciones="200 ml">Shampoo Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>024</CodigoF>
+    <NombreF CodigoBusqueda="0431345" Presentaciones="Unidad">Kit Piedra Libre Deditos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>029</CodigoF>
+    <NombreF CodigoBusqueda="0432346@0432347" Presentaciones="120 ml@350 ml">Aromatizador Garabatos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>029</CodigoF>
+    <NombreF CodigoBusqueda="0432348" Presentaciones="60 ml">Agua de Colonia Garabatos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>029</CodigoF>
+    <NombreF CodigoBusqueda="0432349" Presentaciones="5 ml">Plumin Garabatos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433350" Presentaciones="5 ml">Plumín Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433351" Presentaciones="200 ml">Acondicionador Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433352" Presentaciones="350 ml">Aromatizador Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433353" Presentaciones="60 ml">Agua de Colonia Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433354" Presentaciones="200 ml">Gel de Baño Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433355" Presentaciones="90 ml">Jabón Huella Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433356" Presentaciones="200 ml">Shampoo Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433357" Presentaciones="Unidad">Kit Piedra Libre Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>026</CodigoF>
+    <NombreF CodigoBusqueda="0433358" Presentaciones="Unidad">Toallitas Húmedas Lefrance</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>028</CodigoF>
+    <NombreF CodigoBusqueda="0434359" Presentaciones="350 ml">Aromatizador Tartinet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>028</CodigoF>
+    <NombreF CodigoBusqueda="0434360" Presentaciones="60 ml">Agua de Colonia Tartinet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>028</CodigoF>
+    <NombreF CodigoBusqueda="0434361" Presentaciones="5 ml">Plumín Tartinet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0516362" Presentaciones="Unidad">kit Inquietos Sticker y Ambientador</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>216</CodigoF>
+    <NombreF CodigoBusqueda="0516363" Presentaciones="270 ml">Repuesto Ambientador Remolinos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>097</CodigoF>
+    <NombreF CodigoBusqueda="0540364" Presentaciones="50 ml">Eau de Toilette Nenas Inquietas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>097</CodigoF>
+    <NombreF CodigoBusqueda="0540365" Presentaciones="Unidad">Jabón Nenas Inquietas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>097</CodigoF>
+    <NombreF CodigoBusqueda="0540366" Presentaciones="5 ml">Plumin Nenas Inquietas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>235</CodigoF>
+    <NombreF CodigoBusqueda="0540367" Presentaciones="60 ml">Eau de Toilette Be Pop</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>235</CodigoF>
+    <NombreF CodigoBusqueda="0540368" Presentaciones="5 ml">Plumín Be Pop</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>098</CodigoF>
+    <NombreF CodigoBusqueda="0541369" Presentaciones="50 ml">Eau de Toilette Nenes Inquietos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>098</CodigoF>
+    <NombreF CodigoBusqueda="0541370" Presentaciones="Unidad">Jabón Nenes Inquietos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>098</CodigoF>
+    <NombreF CodigoBusqueda="0541371" Presentaciones="5 ml">Plumin Nenes Inquietos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>234</CodigoF>
+    <NombreF CodigoBusqueda="0541372" Presentaciones="5 ml">Plumín Be Rock</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>234</CodigoF>
+    <NombreF CodigoBusqueda="0541373" Presentaciones="60 ml">Eau de Toilette Be Rock</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>096</CodigoF>
+    <NombreF CodigoBusqueda="0542374" Presentaciones="200 ml">Gel de Baño Cositas Inquiet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>095</CodigoF>
+    <NombreF CodigoBusqueda="0543375@0543376" Presentaciones="120 ml@350 ml">Aromatizador Picardías</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>095</CodigoF>
+    <NombreF CodigoBusqueda="0543377" Presentaciones="5 ml">Plumín Picardías</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>096</CodigoF>
+    <NombreF CodigoBusqueda="0543378@0543379" Presentaciones="120 ml@350 ml">Aromatizador Cositas Inquiet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>096</CodigoF>
+    <NombreF CodigoBusqueda="0543380" Presentaciones="5 ml">Plumín Cositas Inquiet</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>140</CodigoF>
+    <NombreF CodigoBusqueda="0625381@0625382@0625383" Presentaciones="120 ml@350 ml@5 ml">Verdad o Consec</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>141</CodigoF>
+    <NombreF CodigoBusqueda="0625384@0625385@0625386" Presentaciones="120 ml@350 ml@5 ml">In &amp; Out</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="0661387@0661388" Presentaciones="5 ml@55 ml">Verdad</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>231</CodigoF>
+    <NombreF CodigoBusqueda="0661389" Presentaciones="50 ml">Enredados M</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>121</CodigoF>
+    <NombreF CodigoBusqueda="0662390@0662391" Presentaciones="5 ml@55 ml">Consecuencia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>230</CodigoF>
+    <NombreF CodigoBusqueda="0662392@0662393" Presentaciones="50 ml@5 ml">Enredados H</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>105</CodigoF>
+    <NombreF CodigoBusqueda="0710394" Presentaciones="90 ml">Jabón Eco Bambú</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>105</CodigoF>
+    <NombreF CodigoBusqueda="0710395@0710396" Presentaciones="350 ml@120 ml">Aromatizador Eco Bambú</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>105</CodigoF>
+    <NombreF CodigoBusqueda="0710397" Presentaciones="350 ml">Sales Eco Bambú</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>105</CodigoF>
+    <NombreF CodigoBusqueda="0710398" Presentaciones="5 ml">Plumín Eco Bambú</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711399" Presentaciones="250 ml">Shampoo Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711400" Presentaciones="250 ml">Acondicionador Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711401" Presentaciones="250 ml">Gel de Baño Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711402" Presentaciones="5 ml">Plumín Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711403@0711404" Presentaciones="120 ml@350 ml">Aromatizador Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711405" Presentaciones="90 ml">Jabón Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>101</CodigoF>
+    <NombreF CodigoBusqueda="0711406" Presentaciones="350 ml">Sales Algas de Spa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>102</CodigoF>
+    <NombreF CodigoBusqueda="0712407@0712408" Presentaciones="350 ml@120 ml">Aromatizador Brisa Blanca</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>102</CodigoF>
+    <NombreF CodigoBusqueda="0712409" Presentaciones="90 ml">Jabón Brisa Blanca</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>102</CodigoF>
+    <NombreF CodigoBusqueda="0712410" Presentaciones="350 ml">Sales Brisa Blanca</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>102</CodigoF>
+    <NombreF CodigoBusqueda="0712411" Presentaciones="5 ml">Plumín Brisa Blanca</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>103</CodigoF>
+    <NombreF CodigoBusqueda="0713412" Presentaciones="5 ml">Plumín Origen Místico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>103</CodigoF>
+    <NombreF CodigoBusqueda="0713413@0713414" Presentaciones="350 ml@120 ml">Aromatizador Origen Místico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>103</CodigoF>
+    <NombreF CodigoBusqueda="0713415" Presentaciones="90 ml">Jabón Origen Místico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>103</CodigoF>
+    <NombreF CodigoBusqueda="0713416" Presentaciones="350 ml">Sales Origen Místico</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>104</CodigoF>
+    <NombreF CodigoBusqueda="0714417@0714418" Presentaciones="350 ml@120 ml">Aromatizador Pasión Oriental</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>104</CodigoF>
+    <NombreF CodigoBusqueda="0714419" Presentaciones="90 ml">Jabón Pasión Oriental</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>104</CodigoF>
+    <NombreF CodigoBusqueda="0714420" Presentaciones="350 ml">Sales Pasión Oriental</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>104</CodigoF>
+    <NombreF CodigoBusqueda="0714421" Presentaciones="5 ml">Plumín Pasión Oriental</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="0861422" Presentaciones="Unidad">Crema para manos Lady Up 50 g</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>123</CodigoF>
+    <NombreF CodigoBusqueda="0861423@0861424" Presentaciones="5 ml@60 ml">Lazos de Seda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>124</CodigoF>
+    <NombreF CodigoBusqueda="0861425@0861426" Presentaciones="5 ml@50 ml">Sensible</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>125</CodigoF>
+    <NombreF CodigoBusqueda="0861427@0861428" Presentaciones="5 ml@50 ml">Deseo Secreto</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>127</CodigoF>
+    <NombreF CodigoBusqueda="0861429@0861430" Presentaciones="60 ml@5 ml">Unica</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>129</CodigoF>
+    <NombreF CodigoBusqueda="0861431" Presentaciones="50 ml">Zenit</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>132</CodigoF>
+    <NombreF CodigoBusqueda="0861432@0861433" Presentaciones="100 ml@5 ml">Martinica</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>134</CodigoF>
+    <NombreF CodigoBusqueda="0861434@0861435" Presentaciones="5 ml@55 ml">Donna</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>204</CodigoF>
+    <NombreF CodigoBusqueda="0861436@0861437" Presentaciones="100 ml@5 ml">Insigne</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>311</CodigoF>
+    <NombreF CodigoBusqueda="0861438" Presentaciones="60 ml">Summer Mujer</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>122</CodigoF>
+    <NombreF CodigoBusqueda="0862439@0862440" Presentaciones="5 ml@50 ml">Momentos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>126</CodigoF>
+    <NombreF CodigoBusqueda="0862441@0862442" Presentaciones="60 ml@5 ml">Absoluto</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>128</CodigoF>
+    <NombreF CodigoBusqueda="0862443@0862444" Presentaciones="95 ml@5 ml">H</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>233</CodigoF>
+    <NombreF CodigoBusqueda="0862445@0862446@0862447" Presentaciones="5 ml@55 ml@75 ml">GEN Evolution</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>312</CodigoF>
+    <NombreF CodigoBusqueda="0862448@0862449" Presentaciones="5 ml@60 ml">Summer Hombre</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>135</CodigoF>
+    <NombreF CodigoBusqueda="0980450@0980451" Presentaciones="200 ml@5 ml">Radiante Clemen</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>136</CodigoF>
+    <NombreF CodigoBusqueda="0980452@0980453" Presentaciones="5 ml@200 ml">Exótica Orquíde</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>137</CodigoF>
+    <NombreF CodigoBusqueda="0980454@0980455" Presentaciones="200 ml@5 ml">Intenso Arandan</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>239</CodigoF>
+    <NombreF CodigoBusqueda="0980456@0980457" Presentaciones="5 ml@75 ml">Shine</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>145</CodigoF>
+    <NombreF CodigoBusqueda="1109458@1109459" Presentaciones="120 ml@500 ml">Alcohol en Gel</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282460" Presentaciones="5 ml">Esmalte Cremoso Cielo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282461" Presentaciones="5 ml">Esmalte Cremoso Aguamarina</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282462" Presentaciones="5 ml">Esmalte Cremoso Lavanda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282463" Presentaciones="5 ml">Esmalte Cremoso Naranja Coral</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282464" Presentaciones="5 ml">Esmalte Cremoso Limón</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282465" Presentaciones="5 ml">Esmalte Flúor Naranja</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282466" Presentaciones="5 ml">Esmalte Flúor Coral</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282467" Presentaciones="5 ml">Esmalte Flúor Verde</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282468" Presentaciones="10 ml">Esmalte Perlado Nácar</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282469" Presentaciones="10 ml">Esmalte Perlado Oro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282470" Presentaciones="10 ml">Esmalte Perlado Rojo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282471" Presentaciones="10 ml">Esmalte Perlado Rosa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282472" Presentaciones="5 ml">Esmalte Cremoso Esmeralda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282473" Presentaciones="10 ml">Esmalte Cremoso Coral</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282474" Presentaciones="10 ml">Esmalte Cremoso Mandarina</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282475" Presentaciones="10 ml">Esmalte Cremoso Rojo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282476" Presentaciones="10 ml">Esmalte Cremoso Vía Láctea</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282477" Presentaciones="5 ml">Esmalte Metalizado Azul</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282478" Presentaciones="10 ml">Esmalte Cremoso Magenta</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282479" Presentaciones="5 ml">Esmalte Flúor Rosa</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282480" Presentaciones="10 ml">Brillo Secador Esmalte</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282481" Presentaciones="10 ml">Nivelador de Uñas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282482" Presentaciones="10 ml">Fortalecedor de Uñas</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282483" Presentaciones="5 ml">Esmalte Cremoso Negro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282484" Presentaciones="5 ml">Esmalte Cremoso Verde Oscuro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282485" Presentaciones="5 ml">Esmalte Cremoso Mora</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282486" Presentaciones="5 ml">Esmalte Cremoso Nude</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282487" Presentaciones="10 ml">Esmalte Cremoso Borgoña</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282488" Presentaciones="10 ml">Esmalte Cremoso Orquídea</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282489" Presentaciones="10 ml">Esmalte Cremoso Bordó</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282490" Presentaciones="5 ml">Esmalte Perlado Plata</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282491" Presentaciones="5 ml">Esmalte Perlado Azulino</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282492" Presentaciones="10 ml">Esmalte Perlado Cobre</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1282493" Presentaciones="5 ml">Esmalte Glitter Plata</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283494" Presentaciones="Unidad">Rubor Dúo Rosa Mosqueta</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283495" Presentaciones="Unidad">Base de Maquillaje Beige</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283496" Presentaciones="Unidad">Base de Maquillaje Tostado</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283497" Presentaciones="Unidad">Lápiz Labial Perlado Burdeos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283498" Presentaciones="Unidad">Lápiz Labial Cremoso Violeta</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283499" Presentaciones="Unidad">Lápiz Labial Perlado Rosa Mosqueta</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283500" Presentaciones="Unidad">Lápiz Labial Glitter Dorado</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283501" Presentaciones="Unidad">Lápiz Labial Cremoso Chocolate Intenso</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283502" Presentaciones="Unidad">Brillo Labial Cristal</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283503" Presentaciones="Unidad">Brillo Labial Champagne</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283504" Presentaciones="Unidad">Brillo Labial Malbec</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283505" Presentaciones="Unidad">Brillo Labial Tentación</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283506" Presentaciones="Unidad">Lápiz Labial Glitter Rojo Glam</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283507" Presentaciones="Unidad">Lápiz Labial Glitter Rosa Star</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283508" Presentaciones="Unidad">Lápiz Labial Perlado Cereza</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283509" Presentaciones="Unidad">Lápiz Labial Perlado Durazno</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283510" Presentaciones="Unidad">Lápiz Labial Perlado Rosa Chic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283511" Presentaciones="Unidad">Lápiz Labial Perlado Rosa Classic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283512" Presentaciones="Unidad">Lápiz Labial Cremoso Fucsia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283513" Presentaciones="Unidad">Lápiz Labial Cremoso Púrpura</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283514" Presentaciones="Unidad">Lápiz Labial Cremoso Rojo Pasión</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283515" Presentaciones="Unidad">Lápiz Labial Cremoso Rojo Rubí</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283516" Presentaciones="Unidad">Lápiz Labial Cremoso Champagne Rosé</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283517" Presentaciones="Unidad">Lápiz Labial Cremoso Cobre Rojizo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283518" Presentaciones="Unidad">Lápiz Labial Perlado Rojo Love</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283519" Presentaciones="Unidad">Lápiz Labial Perlado Coral Intenso</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283520" Presentaciones="Unidad">Lápiz Labial Perlado Orquídea Luminoso</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283521" Presentaciones="Unidad">Lápiz Labial Perlado Naranja Luminoso</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283522" Presentaciones="Unidad">Brillo Labial Coral Suave</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283523" Presentaciones="Unidad">Corrector de Imperfecciones Claro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283524" Presentaciones="Unidad">Corrector de Imperfecciones Medio</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283525" Presentaciones="Unidad">Trío de Sombras Terra</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283526" Presentaciones="Unidad">Trío de Sombras Luminoso</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283527" Presentaciones="Unidad">Trío de Sombras Chic</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283528" Presentaciones="Unidad">Trío de Sombras Pastel</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283529" Presentaciones="Unidad">Delineador Líquido para Ojos Negro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1283530" Presentaciones="Unidad">Máscara para Pestañas Negra</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1386531" Presentaciones="Unidad">Funda Celular Cuero Negro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1386532" Presentaciones="Unidad">Funda Celular Cuero Rojo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1386533" Presentaciones="Unidad">Funda Celular Cuero Azul</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1386534" Presentaciones="Unidad">Funda Celular Cuero Aguamarina</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1386535" Presentaciones="Unidad">Funda Celular Cuero Suela</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1387536" Presentaciones="Unidad">Sobre Dorado Luxury</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="1387537" Presentaciones="Unidad">Cartera Limón</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000538" Presentaciones="Unidad">Bolsa Lienzo LCDA</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000539" Presentaciones="Unidad">Mochila Aromatizador Circus</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000540" Presentaciones="Unidad">Insumo Carpeta Institucional Gris</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000541" Presentaciones="Unidad">Reloj Escritorio SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000542" Presentaciones="Unidad">7 de 2</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000543" Presentaciones="Unidad">Billetera SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000544" Presentaciones="Unidad">Sticker Institucional SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000545" Presentaciones="Unidad">Porta Plumín Tal Cual unisex</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000546" Presentaciones="Unidad">Sticker SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5000547" Presentaciones="Unidad">Gatillo Aromatizador x 1 Lt</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066548" Presentaciones="Unidad">Folleto Instructivo Alta Cosmetica x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066549" Presentaciones="Unidad">Carpeta Incorporación</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066550" Presentaciones="Unidad">Probadores de Papel x 20 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066551" Presentaciones="Unidad">Talonario Orden De Compra x 25 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066552" Presentaciones="Unidad">Tarjeta Pago Fácil</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066553" Presentaciones="Unidad">Tarjetas Personales x 25 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066554" Presentaciones="Unidad">Folleto Instructivo Cosmética Básica x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5066555" Presentaciones="Unidad">Lapicera Institucional</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5066556" Presentaciones="Unidad">Folleto Minicatálogo x 50 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5066557" Presentaciones="Unidad">Revista Revendedor/a 2014 01</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5066558" Presentaciones="Unidad">Catálogo SM 2014 01</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5066559" Presentaciones="Unidad">Catálogo SM x 5 u 2014 01</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5066560" Presentaciones="Unidad">Catálogo SM x 3 u 2014 01</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5069561" Presentaciones="Unidad">Bolsa de Papel con cargo</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5069562" Presentaciones="Unidad">PIN "SANDRA MARZZAN"</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5069563" Presentaciones="Unidad">Display Sandra Marzzan</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069564" Presentaciones="Unidad">Esponja Deditos Cariñosos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069565" Presentaciones="Unidad">Esponja Limpieza de Cutis</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069566" Presentaciones="Unidad">Esponja Masaje</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069567" Presentaciones="Unidad">Esponja Acanalada</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069568" Presentaciones="Unidad">Caja de Kit Cosmética</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069569" Presentaciones="Unidad">Caja de Kit Inquietos</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069570" Presentaciones="Unidad">Stickers SM x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069571" Presentaciones="Unidad">Sticker Institucional SM Spa x 10 u.</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069572" Presentaciones="Unidad">Sticker Institucional SM x 20 u.</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069573" Presentaciones="Unidad">Bolsa Chica SM x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069574" Presentaciones="Unidad">Caja Kit Institucional Aniversario</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069575" Presentaciones="Unidad">Bolsa de Papel x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069576" Presentaciones="Unidad">Esponja Estrella</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069577" Presentaciones="Unidad">Bolsa para Regalo Institucional SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069578" Presentaciones="Unidad">Blister Vacío</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069579" Presentaciones="Unidad">Cartuchera SM (Vacía)</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069580" Presentaciones="Unidad">Bolso Vacío SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069581" Presentaciones="Unidad">Cartuchera Tal Cual Vacia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069582" Presentaciones="Unidad">Caja de Kit Sandra Marzzan</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069583" Presentaciones="Unidad">Cepillo Acrílico para Rostro</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069584" Presentaciones="Unidad">Esponja Centro Vegetal</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069585" Presentaciones="Unidad">Manopla Redonda</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5069586" Presentaciones="Unidad">Vincha para Cosmetica con Bordado SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5100587" Presentaciones="Unidad">Descuento Plumines Opción Nº 1</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5100588" Presentaciones="Unidad">Insumo Bolso Vacío SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5100589" Presentaciones="Unidad">Insumo Cartuchera Tal Cual Vacia</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5166590" Presentaciones="Unidad">Solicitud Incorporación x 10 u</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5167591" Presentaciones="Unidad">Incorporación_N°1</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5167592" Presentaciones="Unidad">Incorporación_N°2</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5167593" Presentaciones="Unidad">Incorporación_N°3</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5167594" Presentaciones="Unidad">Incorporación_N°4</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5167595" Presentaciones="Unidad">Incorporación Nº 0 Catálogo SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5168596" Presentaciones="Unidad">Bolso Vacío SM</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5168597" Presentaciones="Unidad">Cartuchera Completa con Ficha Técnica</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>00</CodigoF>
+    <NombreF CodigoBusqueda="5168598" Presentaciones="Unidad">Artículo Ficha Tal Cual</NombreF>
+  </Fragancia>
+  <Fragancia>
+    <CodigoF>000</CodigoF>
+    <NombreF CodigoBusqueda="5175599" Presentaciones="Unidad">Kit Nº1 Volvé a Conocernos</NombreF>
+  </Fragancia>
+</Fragancias>

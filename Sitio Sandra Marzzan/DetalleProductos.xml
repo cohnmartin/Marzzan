@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<result>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0101</CodigoL>
+    <NombreL>Fresh</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@50-500 ml@55-1000 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0102</CodigoL>
+    <NombreL>Aromaterapia</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@30-120 ml@50-500 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0103</CodigoL>
+    <NombreL>Selectivo</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@50-500 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0104</CodigoL>
+    <NombreL>Aromas de la Casa</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0105</CodigoL>
+    <NombreL>Aromas Regionales</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@50-500 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0106</CodigoL>
+    <NombreL>Solcito</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0107</CodigoL>
+    <NombreL>Difusor</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad@20-90 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0116</CodigoL>
+    <NombreL>Ambientador</NombreL>
+    <PresentacionesDisponible Descripcion="43-270 ml@00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0184</CodigoL>
+    <NombreL>Velas</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0185</CodigoL>
+    <NombreL>Aceites Aromáticos</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad@04-8 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>01</Codigo>
+    <Nombre>La Casa del Aroma</Nombre>
+    <CodigoL>0188</CodigoL>
+    <NombreL>Autos</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>02</Codigo>
+    <Nombre>Tal Cual</Nombre>
+    <CodigoL>0261</CodigoL>
+    <NombreL>Femenino</NombreL>
+    <PresentacionesDisponible Descripcion="10-50 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>02</Codigo>
+    <Nombre>Tal Cual</Nombre>
+    <CodigoL>0262</CodigoL>
+    <NombreL>Masculino</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@10-50 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>02</Codigo>
+    <Nombre>Tal Cual</Nombre>
+    <CodigoL>0263</CodigoL>
+    <NombreL>Unisex</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>03</Codigo>
+    <Nombre>Sandra Marzzan Cosmética</Nombre>
+    <CodigoL>0300</CodigoL>
+    <NombreL>Ninguna</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>03</Codigo>
+    <Nombre>Sandra Marzzan Cosmética</Nombre>
+    <CodigoL>0318</CodigoL>
+    <NombreL>Básica</NombreL>
+    <PresentacionesDisponible Descripcion="50-500 ml@10-50 ml@35-140 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>03</Codigo>
+    <Nombre>Sandra Marzzan Cosmética</Nombre>
+    <CodigoL>0319</CodigoL>
+    <NombreL>Alta Cosmética</NombreL>
+    <PresentacionesDisponible Descripcion="10-50 ml@05-30 ml@30-120 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>03</Codigo>
+    <Nombre>Sandra Marzzan Cosmética</Nombre>
+    <CodigoL>0320</CodigoL>
+    <NombreL>Verano</NombreL>
+    <PresentacionesDisponible Descripcion="36-150 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>03</Codigo>
+    <Nombre>Sandra Marzzan Cosmética</Nombre>
+    <CodigoL>0321</CodigoL>
+    <NombreL>Jabón Líquido</NombreL>
+    <PresentacionesDisponible Descripcion="50-500 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0416</CodigoL>
+    <NombreL>Ambientador</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad@43-270 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0430</CodigoL>
+    <NombreL>Caricias</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@45-350 ml@15-60 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0431</CodigoL>
+    <NombreL>Deditos</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@20-90 ml@40-200 ml@45-350 ml@15-60 ml@00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0432</CodigoL>
+    <NombreL>Garabatos</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@45-350 ml@15-60 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0433</CodigoL>
+    <NombreL>Lefrance</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@40-200 ml@45-350 ml@15-60 ml@20-90 ml@00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>04</Codigo>
+    <Nombre>Deditos</Nombre>
+    <CodigoL>0434</CodigoL>
+    <NombreL>Tartinet</NombreL>
+    <PresentacionesDisponible Descripcion="45-350 ml@15-60 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>05</Codigo>
+    <Nombre>Inquietos</Nombre>
+    <CodigoL>0516</CodigoL>
+    <NombreL>Ambientador</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad@43-270 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>05</Codigo>
+    <Nombre>Inquietos</Nombre>
+    <CodigoL>0540</CodigoL>
+    <NombreL>Nenas</NombreL>
+    <PresentacionesDisponible Descripcion="10-50 ml@00-Unidad@01-5 ml@15-60 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>05</Codigo>
+    <Nombre>Inquietos</Nombre>
+    <CodigoL>0541</CodigoL>
+    <NombreL>Nenes</NombreL>
+    <PresentacionesDisponible Descripcion="10-50 ml@00-Unidad@01-5 ml@15-60 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>05</Codigo>
+    <Nombre>Inquietos</Nombre>
+    <CodigoL>0542</CodigoL>
+    <NombreL>Unisex</NombreL>
+    <PresentacionesDisponible Descripcion="40-200 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>05</Codigo>
+    <Nombre>Inquietos</Nombre>
+    <CodigoL>0543</CodigoL>
+    <NombreL>Inquietos</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@45-350 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>06</Codigo>
+    <Nombre>Nuevo Latido</Nombre>
+    <CodigoL>0625</CodigoL>
+    <NombreL>Nuevo Latido</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@45-350 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>06</Codigo>
+    <Nombre>Nuevo Latido</Nombre>
+    <CodigoL>0661</CodigoL>
+    <NombreL>Femenino</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@11-55 ml@10-50 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>06</Codigo>
+    <Nombre>Nuevo Latido</Nombre>
+    <CodigoL>0662</CodigoL>
+    <NombreL>Masculino</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@11-55 ml@10-50 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>07</Codigo>
+    <Nombre>Spa</Nombre>
+    <CodigoL>0710</CodigoL>
+    <NombreL>Tierra</NombreL>
+    <PresentacionesDisponible Descripcion="20-90 ml@45-350 ml@30-120 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>07</Codigo>
+    <Nombre>Spa</Nombre>
+    <CodigoL>0711</CodigoL>
+    <NombreL>Agua</NombreL>
+    <PresentacionesDisponible Descripcion="42-250 ml@01-5 ml@30-120 ml@45-350 ml@20-90 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>07</Codigo>
+    <Nombre>Spa</Nombre>
+    <CodigoL>0712</CodigoL>
+    <NombreL>Aire</NombreL>
+    <PresentacionesDisponible Descripcion="45-350 ml@30-120 ml@20-90 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>07</Codigo>
+    <Nombre>Spa</Nombre>
+    <CodigoL>0713</CodigoL>
+    <NombreL>Madera</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@45-350 ml@30-120 ml@20-90 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>07</Codigo>
+    <Nombre>Spa</Nombre>
+    <CodigoL>0714</CodigoL>
+    <NombreL>Fuego</NombreL>
+    <PresentacionesDisponible Descripcion="45-350 ml@30-120 ml@20-90 ml@01-5 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>08</Codigo>
+    <Nombre>Sandra Marzzan Exclusiva</Nombre>
+    <CodigoL>0861</CodigoL>
+    <NombreL>Femenino</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad@01-5 ml@15-60 ml@10-50 ml@23-100 ml@11-55 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>08</Codigo>
+    <Nombre>Sandra Marzzan Exclusiva</Nombre>
+    <CodigoL>0862</CodigoL>
+    <NombreL>Masculino</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@10-50 ml@15-60 ml@21-95 ml@11-55 ml@17-75 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>09</Codigo>
+    <Nombre>Sandra Marzzan Elementos</Nombre>
+    <CodigoL>0980</CodigoL>
+    <NombreL>Splash Corporal</NombreL>
+    <PresentacionesDisponible Descripcion="40-200 ml@01-5 ml@17-75 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>11</Codigo>
+    <Nombre>SM</Nombre>
+    <CodigoL>1109</CodigoL>
+    <NombreL>SM</NombreL>
+    <PresentacionesDisponible Descripcion="30-120 ml@50-500 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>12</Codigo>
+    <Nombre>Imagen</Nombre>
+    <CodigoL>1282</CodigoL>
+    <NombreL>Manos</NombreL>
+    <PresentacionesDisponible Descripcion="01-5 ml@03-10 ml" />
+  </Unidad>
+  <Unidad>
+    <Codigo>12</Codigo>
+    <Nombre>Imagen</Nombre>
+    <CodigoL>1283</CodigoL>
+    <NombreL>Rostro</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>13</Codigo>
+    <Nombre>Tendencia</Nombre>
+    <CodigoL>1386</CodigoL>
+    <NombreL>Fundas</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>13</Codigo>
+    <Nombre>Tendencia</Nombre>
+    <CodigoL>1387</CodigoL>
+    <NombreL>Carteras</NombreL>
+    <PresentacionesDisponible Descripcion="00-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>50</Codigo>
+    <Nombre>Herramientas de Venta</Nombre>
+    <CodigoL>5000</CodigoL>
+    <NombreL>Ninguna</NombreL>
+    <PresentacionesDisponible Descripcion="5927-Unidad@6074-Unidad@6076-Unidad@4897-Unidad@5208-Unidad@5241-Unidad@5272-Unidad@5274-Unidad@5275-Unidad@5609-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>50</Codigo>
+    <Nombre>Herramientas de Venta</Nombre>
+    <CodigoL>5066</CodigoL>
+    <NombreL>Folletería y Papelería</NombreL>
+    <PresentacionesDisponible Descripcion="1950-Unidad@1954-Unidad@2005-Unidad@2013-Unidad@2017-Unidad@2020-Unidad@1972-Unidad@1990-Unidad@4330-Unidad@6373-Unidad@6374-Unidad@6380-Unidad@6381-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>50</Codigo>
+    <Nombre>Herramientas de Venta</Nombre>
+    <CodigoL>5069</CodigoL>
+    <NombreL>Accesorios y Merchandisin</NombreL>
+    <PresentacionesDisponible Descripcion="1952-Unidad@1997-Unidad@1959-Unidad@5201-Unidad@5200-Unidad@5193-Unidad@5192-Unidad@5198-Unidad@5199-Unidad@4040-Unidad@2008-Unidad@2009-Unidad@6383-Unidad@6400-Unidad@4167-Unidad@5191-Unidad@5194-Unidad@5937-Unidad@5837-Unidad@5612-Unidad@5613-Unidad@5203-Unidad@5451-Unidad@5450-Unidad@5449-Unidad@5202-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>51</Codigo>
+    <Nombre>Incorporaciones</Nombre>
+    <CodigoL>5100</CodigoL>
+    <NombreL>Ninguna</NombreL>
+    <PresentacionesDisponible Descripcion="2027-Unidad@4786-Unidad@4788-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>51</Codigo>
+    <Nombre>Incorporaciones</Nombre>
+    <CodigoL>5166</CodigoL>
+    <NombreL>Folletería y Papelería</NombreL>
+    <PresentacionesDisponible Descripcion="2023-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>51</Codigo>
+    <Nombre>Incorporaciones</Nombre>
+    <CodigoL>5167</CodigoL>
+    <NombreL>Incorporaciones</NombreL>
+    <PresentacionesDisponible Descripcion="5796-Unidad@5797-Unidad@5798-Unidad@5799-Unidad@4707-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>51</Codigo>
+    <Nombre>Incorporaciones</Nombre>
+    <CodigoL>5168</CodigoL>
+    <NombreL>Muestras</NombreL>
+    <PresentacionesDisponible Descripcion="2024-Unidad@2025-Unidad@2029-Unidad" />
+  </Unidad>
+  <Unidad>
+    <Codigo>51</Codigo>
+    <Nombre>Incorporaciones</Nombre>
+    <CodigoL>5175</CodigoL>
+    <NombreL>Programas</NombreL>
+    <PresentacionesDisponible Descripcion="4959-Unidad" />
+  </Unidad>
+</result>

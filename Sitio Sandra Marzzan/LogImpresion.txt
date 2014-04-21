@@ -1,0 +1,71 @@
+Fecha: 07/11/2013 12:00:28 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1416
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 532
+Fecha: 07/11/2013 12:07:46 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1419
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 532
+Fecha: 07/11/2013 12:10:32 p.m.
+Referencia a objeto no establecida como instancia de un objeto.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1414
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 532
+Fecha: 07/11/2013 12:13:33 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1419
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 532
+Fecha: 15/11/2013 09:27:36 a.m.
+Ya hay un DataReader abierto asociado a este comando, debe cerrarlo primero.
+   en System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   en System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   en System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   en GestionImpresionComprobantes.GetTableDetalleCabeceraFlete(CabeceraPedido cab) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1928
+   en GestionImpresionComprobantes.GenerarSegundaTabla(PdfContentByte cb, CabeceraPedido cab) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1257
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1329
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 532
+Fecha: 20/11/2013 06:54:12 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1438
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 560
+Fecha: 20/11/2013 06:55:18 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1438
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 560
+Fecha: 20/11/2013 06:58:20 p.m.
+Índice fuera de los límites de la matriz.
+   en GestionImpresionComprobantes.GenerarDetallePedido(PdfContentByte cb, CabeceraPedido cab, Document document) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 1438
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 560
+Fecha: 21/11/2013 10:26:04 a.m.
+Invalid column name 'Grupo'.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   en System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   en System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   en System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges()
+   en GestionImpresionComprobantes.GenerarReporte(List`1 lista, List`1 PedidosAgrupados) en f:\Desarrollo\Repositorio\Proyecto Sandra Marzzan\Sitio Sandra Marzzan\GestionImpresionComprobantes.aspx.cs:línea 603
