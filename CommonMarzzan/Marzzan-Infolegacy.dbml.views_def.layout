@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15.75, 28.25" name="Marzzan-Infolegacy">
+  <DataContextMoniker Name="/Marzzan_InfolegacyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="61846930-df0a-4630-a231-8bdab1fa9a91" absoluteBounds="0.75, 1.125, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="75dfe632-3e38-4d45-a4e7-619c1625ec6c" absoluteBounds="0.76499999999999968, 1.585, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 1.125); (1.75 : 0.875); (2.19307692307692 : 0.875); (2.19307692307692 : 1.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_Cliente" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ca600b7a-6293-4c07-931d-c20f222b316b" absoluteBounds="3.375, 0.5, 2, 3.1170068359375">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Direccione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebe91578-b39b-4075-ab1c-8b9972db6239" absoluteBounds="3.3899999999999997, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.37100341796875); (3.375 : 2.37100341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_Direccione" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="ca600b7a-6293-4c07-931d-c20f222b316b" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="75bec1d4-757d-4e06-af38-454dd98e43af" absoluteBounds="5.5, 2.5, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Producto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d9bc04d-8b8f-4305-abb8-a8049a7f773c" absoluteBounds="5.515, 2.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 3.19402602914663); (5.25 : 3.19402602914663); (5.25 : 3.77005126953125); (5.5 : 3.77005126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_Producto" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="30e73759-3e56-4598-b88d-5cb3020f3633" absoluteBounds="7.75, 3, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Presentacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f53c69e3-6e16-4427-abd0-9a5aa2b3e1a7" absoluteBounds="7.765, 3.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7c67e10-9a9d-4fbe-b9fd-da07cea045e7" absoluteBounds="7.375, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Parametro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ff59e14-8d08-49f0-b6ef-68e35a5e0692" absoluteBounds="7.39, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.08052987154447 : 2.27089680989583); (8.08052987154447 : 2.52089680989583); (8.68349251552484 : 2.52089680989583); (8.68349251552484 : 2.27089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Parametro/Parametro_Parametro" />
+      <nodes>
+        <classShapeMoniker Id="f7c67e10-9a9d-4fbe-b9fd-da07cea045e7" />
+        <classShapeMoniker Id="f7c67e10-9a9d-4fbe-b9fd-da07cea045e7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" absoluteBounds="3.25, 7.625, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/CabeceraPedido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e81fb9ff-993d-4b43-a9a9-0bb36347d270" absoluteBounds="3.2649999999999997, 8.085, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 8.61822727423206); (3.25 : 8.61822727423206)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_CabeceraPedido" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 8.12440690523496); (3 : 8.12440690523496); (3 : 7.95455533983025); (3.25 : 7.95455533983025)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_CabeceraPedido1" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.40625 : 3.6170068359375); (3.40625 : 7.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Direccione/Direccione_CabeceraPedido" />
+      <nodes>
+        <classShapeMoniker Id="ca600b7a-6293-4c07-931d-c20f222b316b" />
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3cd54085-42da-4e09-a574-80d864019ae1" absoluteBounds="9.125, 6.25, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/DetallePedido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94d88022-f5cf-4587-9cd6-209b24eaa94d" absoluteBounds="9.14, 6.7100000000000009, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 8.69155110677083); (9.125 : 8.69155110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/CabeceraPedido/CabeceraPedido_DetallePedido" />
+      <nodes>
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.0625 : 5.0401025390625); (6.0625 : 8.66029860677083); (7.82291666666667 : 8.66029860677083 : JumpStart); (7.98958333333333 : 8.66029860677083 : JumpEnd); (9.125 : 8.66029860677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_DetallePedido" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="064f48a5-e886-453c-8e76-e65f36ad8f64" absoluteBounds="0.5, 10.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/ConfTransporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8ccd7890-d457-416e-841b-8e7ce8633404" absoluteBounds="0.51500000000000012, 10.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 3.99600341796875); (3.48958333333333 : 3.99600341796875 : JumpStart); (3.32291666666667 : 3.99600341796875 : JumpEnd); (2.8125 : 3.99600341796875); (2.8125 : 9.11204264322916); (1.5 : 9.11204264322916); (1.5 : 10.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_ConfTransporte" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="064f48a5-e886-453c-8e76-e65f36ad8f64" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b19e7203-2455-4c79-b015-b5f71e107ede" absoluteBounds="5.625, 11.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/FormaDePago" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b0a79aa-4f95-42e6-97b6-5821f1bfd1a6" absoluteBounds="5.64, 12.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 11.9527091471354); (5.25 : 11.9527091471354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/FormaDePago/FormaDePago_CabeceraPedido" />
+      <nodes>
+        <classShapeMoniker Id="b19e7203-2455-4c79-b015-b5f71e107ede" />
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.703125 : 9.04954264322916); (2.703125 : 12.3902091471354); (5.625 : 12.3902091471354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_FormaDePago" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="b19e7203-2455-4c79-b015-b5f71e107ede" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4f004382-e491-4a48-ba26-cbfa822a35d9" absoluteBounds="13.125, 4, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/DetalleNivele" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79d6edee-87f3-4376-a7c6-d2b4b3441fc5" absoluteBounds="13.14, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="717d79b4-17d0-4501-acff-82903eda92db" absoluteBounds="10.375, 3.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Nivele" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5efc5025-5690-4533-939b-6463a0dd31e0" absoluteBounds="10.39, 3.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abfc2efe-9dd0-4fe4-a8a7-ded1c0308bed" absoluteBounds="13.125, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/NivelesCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf9d1d8a-bbb4-4155-b1b7-905856be29eb" absoluteBounds="13.14, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.8125025 : 5.0401025390625); (6.8125025 : 5.45274983723958); (13.125 : 5.45274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_DetalleNivele" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="4f004382-e491-4a48-ba26-cbfa822a35d9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 4.27492390950521); (13.125 : 4.27492390950521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Nivele/Nivele_DetalleNivele" />
+      <nodes>
+        <classShapeMoniker Id="717d79b4-17d0-4501-acff-82903eda92db" />
+        <classShapeMoniker Id="4f004382-e491-4a48-ba26-cbfa822a35d9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 1.125); (1.75 : 0.4375); (13.03125 : 0.4375); (13.03125 : 1.73159912109375); (13.125 : 1.73159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_NivelesCliente" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="abfc2efe-9dd0-4fe4-a8a7-ded1c0308bed" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 3.12609503678385); (12.75 : 2.75109503678385); (12.75 : 2.87989035929988); (13.125 : 1.44618029972957)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Nivele/Nivele_NivelesCliente" />
+      <nodes>
+        <classShapeMoniker Id="717d79b4-17d0-4501-acff-82903eda92db" />
+        <classShapeMoniker Id="abfc2efe-9dd0-4fe4-a8a7-ded1c0308bed" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b42ecb84-2cba-44a9-97d2-89ec9fa09919" absoluteBounds="12.25, 8.125, 2, 1.0016910807291666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/ComponentePromo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb9fd124-69ea-4eac-b150-689190eeeeaf" absoluteBounds="12.265, 8.585, 1.9700000000000002, 0.44169108072916663" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="93091788-4cc7-418f-b76e-690027424330" absoluteBounds="10.875, 12.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/DetallePromoPosible" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6d01267-cb4f-40e2-a44f-749784a9f9f4" absoluteBounds="10.89, 13.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="11433445-3af8-42b9-887b-6e28130bdff4" absoluteBounds="8, 13.375, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/UsuariosAltaTemprana" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1dfbb66-57b4-4047-ab00-d37677c3d117" absoluteBounds="8.015, 13.835, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd36af01-c40a-4018-8086-31dc94da309a" absoluteBounds="10.375, 0.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Composicion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9e12b3f-8f2b-48c3-9c0b-a84f99a8370a" absoluteBounds="10.39, 0.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 2.5); (6.5 : 2.33339680989583); (9.51041666666667 : 2.33339680989583 : JumpStart); (9.67708333333333 : 2.33339680989583 : JumpEnd); (10.28125 : 2.33339680989583); (10.28125 : 1.57774983723958); (10.375 : 1.57774983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_Composicion" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="fd36af01-c40a-4018-8086-31dc94da309a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.031252 : 2.5); (7.031252 : 2.33339680989583); (10.21875 : 2.33339680989583); (10.21875 : 1.00762291861979); (10.375 : 1.00762291861979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_Composicion1" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="fd36af01-c40a-4018-8086-31dc94da309a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5f111dd3-c78e-4410-b762-82711bbdab7c" absoluteBounds="6.625, 6.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/ConfPromocione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c7577e4-4ffe-4acc-8768-e086e4cf3a2f" absoluteBounds="6.64, 6.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.21875125 : 5.0401025390625); (7.21875125 : 6.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_ConfPromocione" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="5f111dd3-c78e-4410-b762-82711bbdab7c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.5 : 4.02005126953125); (7.75 : 4.02005126953125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Producto/Producto_Presentacion" />
+      <nodes>
+        <classShapeMoniker Id="75bec1d4-757d-4e06-af38-454dd98e43af" />
+        <classShapeMoniker Id="30e73759-3e56-4598-b88d-5cb3020f3633" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.4375 : 5.15549967447917); (9.4375 : 6.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Presentacion/Presentacion_DetallePedido" />
+      <nodes>
+        <classShapeMoniker Id="30e73759-3e56-4598-b88d-5cb3020f3633" />
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.75 : 4.96079752604167); (13.125 : 4.96079752604167)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Presentacion/Presentacion_DetalleNivele" />
+      <nodes>
+        <classShapeMoniker Id="30e73759-3e56-4598-b88d-5cb3020f3633" />
+        <classShapeMoniker Id="4f004382-e491-4a48-ba26-cbfa822a35d9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.59375 : 3); (9.59375 : 1.00762291861979); (10.375 : 1.00762291861979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Presentacion/Presentacion_Composicion" />
+      <nodes>
+        <classShapeMoniker Id="30e73759-3e56-4598-b88d-5cb3020f3633" />
+        <classShapeMoniker Id="fd36af01-c40a-4018-8086-31dc94da309a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3a052cc9-188d-4772-8691-30a70a2d614c" absoluteBounds="4.375, 14.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Clasificacione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ece93d1-2dd6-45d7-9ccb-cafd1a34c5e1" absoluteBounds="4.3900000000000006, 15.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 15.3181469726563); (8 : 15.3181469726563)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Clasificacione/Clasificacione_UsuariosAltaTemprana" />
+      <nodes>
+        <classShapeMoniker Id="3a052cc9-188d-4772-8691-30a70a2d614c" />
+        <classShapeMoniker Id="11433445-3af8-42b9-887b-6e28130bdff4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.375 : 14.9090734863281); (8 : 14.9090734863281)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Clasificacione/Clasificacione_UsuariosAltaTemprana1" />
+      <nodes>
+        <classShapeMoniker Id="3a052cc9-188d-4772-8691-30a70a2d614c" />
+        <classShapeMoniker Id="11433445-3af8-42b9-887b-6e28130bdff4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.375 : 15.7272204589844); (8 : 15.7272204589844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Clasificacione/Clasificacione_UsuariosAltaTemprana2" />
+      <nodes>
+        <classShapeMoniker Id="3a052cc9-188d-4772-8691-30a70a2d614c" />
+        <classShapeMoniker Id="11433445-3af8-42b9-887b-6e28130bdff4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fec102dc-b5fa-47ba-b84f-811fc2e358c2" absoluteBounds="11.375, 5.75, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/RemitosPendiente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f897f62f-cfd2-45da-9bb7-91e4bc7e361d" absoluteBounds="11.39, 6.21, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cadc3547-64f6-42cd-9b34-623eb092a9e7" absoluteBounds="3, 12.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/ConfMail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b3227cd-12cb-4819-9a2a-2aae61426fe0" absoluteBounds="3.015, 12.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.60156 : 9.04954264322916); (2.60156 : 12.71875); (3 : 12.71875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_ConfMail" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="cadc3547-64f6-42cd-9b34-623eb092a9e7" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4b366e15-88ce-47ae-9b50-0d96300293d8" absoluteBounds="11.875, 9.75, 3, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/DetalleRegalos" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12f3d2c4-ea9f-4589-9065-6721004da900" absoluteBounds="11.89, 10.21, 2.9699999999999998, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9b8605e4-f06d-4623-a717-f27c53ff0d31" absoluteBounds="8, 11.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/IncorporacionesHistorica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="123b165b-f8b2-4784-91c8-0aa4b83f983f" absoluteBounds="8.015, 11.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.8085601923077 : 8.7901025390625); (10.8085601923077 : 10.53125); (11.875 : 10.53125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/DetallePedido/DetallePedido_DetalleRegalos" />
+      <nodes>
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+        <classShapeMoniker Id="4b366e15-88ce-47ae-9b50-0d96300293d8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b58fb871-5738-4af4-abfa-c80a20bf7980" absoluteBounds="6.625, 9.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/ConfTransPromo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a9e636bc-a63b-4256-a25d-05f64f4a7102" absoluteBounds="6.64, 9.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.90625 : 8.53049967447917); (7.90625 : 9.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/ConfPromocione/ConfPromocione_ConfTransPromo" />
+      <nodes>
+        <classShapeMoniker Id="5f111dd3-c78e-4410-b762-82711bbdab7c" />
+        <classShapeMoniker Id="b58fb871-5738-4af4-abfa-c80a20bf7980" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.83423076923077 : 8.7901025390625); (9.83423076923077 : 9.0401025390625); (10.4296153846154 : 9.0401025390625); (10.4296153846154 : 8.7901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/DetallePedido/DetallePedido_DetallePedido" />
+      <nodes>
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+        <classShapeMoniker Id="3cd54085-42da-4e09-a574-80d864019ae1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b12a5ab4-049c-430a-8997-56133130ccb5" absoluteBounds="13.5, 16.625, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/View_Transporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88ec5bf4-f42f-4f41-9cbd-71c49da0cffe" absoluteBounds="13.515, 17.085, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="69716b23-4c8f-4283-b934-6f5497acf7ea" absoluteBounds="13.375, 12.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/View_Localidades_Transporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e10ffe5-340c-492f-8509-54f036e5f6f2" absoluteBounds="13.39, 13.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f26dc76b-c770-4bfe-ad68-091ceb7fd3c2" absoluteBounds="13.375, 14.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/View_Provincias_Transporte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d94670e-b349-433a-95bd-bf6138717ebe" absoluteBounds="13.39, 15.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="146909b3-8a34-437c-8a13-33b564f51dd2" absoluteBounds="2.875, 16.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/LimitesDeCompra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a70545a5-7d36-455e-917a-14434e910045" absoluteBounds="2.8900000000000006, 16.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c912992-4669-4da2-b906-a561474d47ff" absoluteBounds="0.5, 13, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/AudiSolModCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0eb926c-e355-414c-b2a8-1194072fb08a" absoluteBounds="0.51500000000000012, 13.46, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(0.780768230769231 : 9.04954264322916); (0.343268230769231 : 9.48704264322916); (0.125 : 9.48704264322916); (0.125 : 12.6573076923077); (0.5 : 13.0323076923077)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_AudiSolModCliente" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="1c912992-4669-4da2-b906-a561474d47ff" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.785383615384615 : 9.04954264322916); (0.410383615384616 : 9.42454264322916); (0.25 : 9.42454264322916); (0.25 : 12.7146163846154); (0.535383615384615 : 13)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/Cliente/Cliente_AudiSolModCliente1" />
+      <nodes>
+        <classShapeMoniker Id="61846930-df0a-4630-a231-8bdab1fa9a91" />
+        <classShapeMoniker Id="1c912992-4669-4da2-b906-a561474d47ff" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ab12d674-806b-401d-9ac0-ce5cf3be5fd1" absoluteBounds="0.625, 17.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/LogisticaEntrega" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b95db148-b979-453e-b7be-686967300b01" absoluteBounds="0.64000000000000057, 18.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e7b1334-eff0-42a1-b8c3-b090fb3f5c67" absoluteBounds="3.5, 4.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/RemitosAfectados" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bf3b8205-abb9-4c1f-ac86-8ac535709051" absoluteBounds="3.515, 4.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.375 : 7.625); (4.375 : 6.9151025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/CabeceraPedido/CabeceraPedido_RemitosAfectados" />
+      <nodes>
+        <classShapeMoniker Id="9cc4a30c-5501-4065-a9b0-496e7c08039c" />
+        <classShapeMoniker Id="0e7b1334-eff0-42a1-b8c3-b090fb3f5c67" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b07fd087-7d71-4869-9fbe-09e7df2ef17a" absoluteBounds="3.5, 19, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/View_PedidosParaImpresion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30966a68-e02b-486e-83cd-142e6f856cd5" absoluteBounds="3.5149999999999997, 19.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abd1f0b9-fce6-404d-bc40-8282c05f83bb" absoluteBounds="6.875, 18.875, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/SolicitudesAlta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7efde838-8e4e-4829-a856-9fe283fad3a9" absoluteBounds="6.89, 19.335, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06b3b5f6-c129-490b-88c7-8616412cf91c" absoluteBounds="9.875, 19.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/DireccionesSolicitudAlta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e89b17af-ccb0-4859-b69d-aa2dc26fa1a4" absoluteBounds="9.89, 20.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.875 : 20.9527498372396); (9.875 : 20.9527498372396)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_InfolegacyDataContext/SolicitudesAlta/SolicitudesAlta_DireccionesSolicitudAlta" />
+      <nodes>
+        <classShapeMoniker Id="abd1f0b9-fce6-404d-bc40-8282c05f83bb" />
+        <classShapeMoniker Id="06b3b5f6-c129-490b-88c7-8616412cf91c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="82fc5fa8-f9f6-4970-89fe-666be231a60e" absoluteBounds="2.875, 23.75, 2, 4.2708154296875">
+      <DataClassMoniker Name="/Marzzan_InfolegacyDataContext/Comisiones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93ffec7b-d80c-42ce-95f7-4e57b7cefc24" absoluteBounds="2.8899999999999997, 24.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

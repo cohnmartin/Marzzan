@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.75, 23.125" name="Marzzan-Bejerman">
+  <DataContextMoniker Name="/Marzzan_BejermanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9625e7d8-ebf3-4487-8311-6b82b144e2fe" absoluteBounds="6.375, 3.625, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_PromosNivelesRegalo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bd12662-584c-4259-9086-160d23add0fa" absoluteBounds="6.3900000000000006, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5fa36e63-160d-4cc2-a002-f13e9916c2e1" absoluteBounds="6.625, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_RemitosPendientesMesActual" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd9dc3bf-3f6b-459d-82d3-d80e589751fd" absoluteBounds="6.64, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50e59d2f-2e91-484a-a29a-77200ff1cc31" absoluteBounds="3.25, 3.375, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Producto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba5bb7ac-e478-45a3-b4fa-803fc978cea0" absoluteBounds="3.2649999999999997, 3.835, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6015041b-f454-480f-9727-72cc45eca336" absoluteBounds="1, 0.5, 2, 6.7707340494791657">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12ce688c-a1f0-439d-b724-ae18cec24ec4" absoluteBounds="1.0150000000000001, 0.96, 1.9700000000000002, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f673d491-7f43-43ec-ae44-01dc16b76263" absoluteBounds="3.75, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Direccione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb99ec96-ce71-4fb7-ac89-b8c04fe65ba3" absoluteBounds="3.7650000000000006, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="22199529-51a2-48da-9009-8b0aa59f600a" absoluteBounds="6, 6.5, 2, 11.385968424479165">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/Clientes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25f57489-4cc8-48f1-9222-46643869fd1a" absoluteBounds="6.015, 6.9600000000000009, 1.9700000000000002, 10.825968424479166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="063ea700-242a-4dd7-9c76-a8ac2292ee9a" absoluteBounds="9.125, 7.75, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/Transportes" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36732449-7cce-4940-a713-b02aa724d10e" absoluteBounds="9.14, 8.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a940510f-4499-4f3d-86db-bfc9e387c447" absoluteBounds="3.625, 6.625, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/LugarEnt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87dae0c8-29f2-4c39-8210-e05f94afd06b" absoluteBounds="3.6400000000000006, 7.0850000000000009, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 10.0665104166667); (5.89583333333333 : 10.0665104166667 : JumpStart); (5.72916666666667 : 10.0665104166667 : JumpEnd); (5.625 : 10.0665104166667)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Clientes/Clientes_LugarEnt" />
+      <nodes>
+        <classShapeMoniker Id="22199529-51a2-48da-9009-8b0aa59f600a" />
+        <classShapeMoniker Id="a940510f-4499-4f3d-86db-bfc9e387c447" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.125 : 10.8502018229167); (8 : 10.8502018229167)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Transportes/Transportes_Clientes" />
+      <nodes>
+        <classShapeMoniker Id="063ea700-242a-4dd7-9c76-a8ac2292ee9a" />
+        <classShapeMoniker Id="22199529-51a2-48da-9009-8b0aa59f600a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="17435588-d093-42db-91f5-e77a5e1dcea5" absoluteBounds="9, 2.625, 2, 0.8093896484375">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/VeoCtaCte" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8870fcf6-bf29-4ad0-9104-3dc6ea924b9d" isExpanded="false" absoluteBounds="9.015, 3.085, 1.9700000000000002, 0.2493896484375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cd6d1dc2-a8c6-4ee3-a7f0-d698516f10d2" absoluteBounds="0.875, 7.75, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/VeoComisionablesTotales" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f9275d6-6904-4644-8305-23e0c3113e28" absoluteBounds="0.88999999999999968, 8.21, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="269bd9b8-5d1a-475a-a479-3024def9848b" absoluteBounds="8.875, 6, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/RaulFormula" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6bf6ef5-cdad-4c38-a92e-d852d87b6a72" absoluteBounds="8.89, 6.46, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="026dabfa-d738-4dd2-973e-12bfeb900fa8" absoluteBounds="9.125, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/prv" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0639b829-ac74-41ad-942d-e9c31e0112d0" absoluteBounds="9.14, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8d280a7-e2b0-4abf-b894-f8c59a9e042e" absoluteBounds="9.25, 3.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/Defi1Cli" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d85f53ac-41c3-484f-a588-50a438eb6e41" absoluteBounds="9.265, 4.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.21875 : 5.45359537760417); (11.21875 : 17.2923811848958); (11.0520833333333 : 17.2923811848958 : JumpStart); (10.8854166666667 : 17.2923811848958 : JumpEnd); (8 : 17.2923811848958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Defi1Cli/Defi1Cli_Clientes" />
+      <nodes>
+        <classShapeMoniker Id="d8d280a7-e2b0-4abf-b894-f8c59a9e042e" />
+        <classShapeMoniker Id="22199529-51a2-48da-9009-8b0aa59f600a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="24f47139-367b-47e0-b1ce-11a772fb733a" absoluteBounds="8.75, 11.875, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/DtsCliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3970b2af-f0ae-45ce-ae71-f96ba4993329" absoluteBounds="8.765, 12.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8 : 13.3373527018229); (8.75 : 13.3373527018229)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Clientes/Clientes_DtsCliente" />
+      <nodes>
+        <classShapeMoniker Id="22199529-51a2-48da-9009-8b0aa59f600a" />
+        <classShapeMoniker Id="24f47139-367b-47e0-b1ce-11a772fb733a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="56c385f6-b4a0-40bf-adb4-ce655d99e52c" absoluteBounds="3.25, 12.5, 2, 9.4629541015625">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/ClientesCRM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4cf1725c-e58f-4037-81e3-41dcc8707692" absoluteBounds="3.2649999999999997, 12.96, 1.9700000000000002, 8.9029541015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.96875 : 11.2516097005208); (10.96875 : 18.96771234375); (5.89583333333333 : 18.96771234375 : JumpStart); (5.72916666666667 : 18.96771234375 : JumpEnd); (5.25 : 18.96771234375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Transportes/Transportes_ClientesCRM" />
+      <nodes>
+        <classShapeMoniker Id="063ea700-242a-4dd7-9c76-a8ac2292ee9a" />
+        <classShapeMoniker Id="56c385f6-b4a0-40bf-adb4-ce655d99e52c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7101021a-cc98-40aa-a6d8-19cf7e143f51" absoluteBounds="0.875, 13.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/veocliultcpra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25c295ba-2878-4625-b13b-5e7713b31346" absoluteBounds="0.88999999999999968, 14.21, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="48390fab-14ee-4b68-8241-3b7037147033" absoluteBounds="5.25, 5.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/Defi1CliCRM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3d44aca4-1f22-4cd2-9037-fb1ea428a88c" absoluteBounds="5.265, 5.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.8125 : 6.82859537760417); (5.8125 : 20.0494612630209); (5.25 : 20.0494612630209)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Marzzan_BejermanDataContext/Defi1CliCRM/Defi1CliCRM_ClientesCRM" />
+      <nodes>
+        <classShapeMoniker Id="48390fab-14ee-4b68-8241-3b7037147033" />
+        <classShapeMoniker Id="56c385f6-b4a0-40bf-adb4-ce655d99e52c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d46684da-695a-45c3-9cbe-41ad8e5cb5f1" absoluteBounds="7, 21.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/VeoArticulosyDescuento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="98ca4cf1-5882-4819-aba1-04a13dba20e8" absoluteBounds="7.0150000000000006, 21.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Marzzan-Bejerman">
+  <DataContextMoniker Name="/Marzzan_BejermanDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9625e7d8-ebf3-4487-8311-6b82b144e2fe" absoluteBounds="7.125, 3.875, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_PromosNivelesRegalo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9bd12662-584c-4259-9086-160d23add0fa" absoluteBounds="7.1400000000000006, 4.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5fa36e63-160d-4cc2-a002-f13e9916c2e1" absoluteBounds="6.625, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_RemitosPendientesMesActual" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd9dc3bf-3f6b-459d-82d3-d80e589751fd" absoluteBounds="6.64, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e37b00c7-53b0-4926-97f0-175fbd207874" absoluteBounds="3.875, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Direccione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="333f44f0-3acb-4cbd-91ae-774dac9cd744" absoluteBounds="3.8899999999999997, 0.96, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="50e59d2f-2e91-484a-a29a-77200ff1cc31" absoluteBounds="4.125, 3.375, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Producto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba5bb7ac-e478-45a3-b4fa-803fc978cea0" absoluteBounds="4.14, 3.835, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6015041b-f454-480f-9727-72cc45eca336" absoluteBounds="1, 0.5, 2, 6.5784326171875">
+      <DataClassMoniker Name="/Marzzan_BejermanDataContext/View_Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12ce688c-a1f0-439d-b724-ae18cec24ec4" absoluteBounds="1.0150000000000001, 0.96, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

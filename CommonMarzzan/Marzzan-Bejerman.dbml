@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Marzzan-Bejerman" Class="Marzzan_BejermanDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=servidorinfo;Initial Catalog=Marzzan-Bejerman;Persist Security Info=True;User ID=sa" SettingsObjectName="CommonMarzzan.Properties.Settings" SettingsPropertyName="MarzzanBejermanConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.View_PromosNivelesRegalos" Member="View_PromosNivelesRegalos">
+    <Type Name="View_PromosNivelesRegalo">
+      <Column Name="TIPO_PRODUCTO" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="Art_DescCompleta" Type="System.String" DbType="VarChar(95) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCompleto" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="Precio" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Tipo" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="CodigoBarra" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_RemitosPendientesMesActual" Member="View_RemitosPendientesMesActuals">
+    <Type Name="View_RemitosPendientesMesActual">
+      <Column Name="NroRemito" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="CodCliente" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="FechaRemito" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CodArticulo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DescArticulo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_Productos" Member="View_Productos">
+    <Type Name="View_Producto">
+      <Column Name="UNIDAD_NEGOCIO" Type="System.String" DbType="VarChar(46)" CanBeNull="true" />
+      <Column Name="LINEA" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="FRAGANCIA" Type="System.String" DbType="VarChar(59) NOT NULL" CanBeNull="false" />
+      <Column Name="MEDIDA" Type="System.String" DbType="VarChar(24) NOT NULL" CanBeNull="false" />
+      <Column Name="Art_DescCompleta" Type="System.String" DbType="VarChar(98) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCompleto" Type="System.String" DbType="VarChar(41) NOT NULL" CanBeNull="false" />
+      <Column Name="Precio" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Habilitado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_Clientes" Member="View_Clientes">
+    <Type Name="View_Cliente">
+      <Column Name="CodigoExterno" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_DNI" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="Desc_DNI" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_Provincia" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="Desc_Provincia" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_SitIVA" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="Desc_SitIVA" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Cod_CondVta" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="Desc_CondVta" Type="System.String" DbType="VarChar(35)" CanBeNull="true" />
+      <Column Name="Cod_TipoCliente" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Desc_TipoCliente" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Cod_Transporte" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="Desc_Transporte" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Cod_Vendedor" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="Desc_Vendedor" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Cod_Clasif1" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="Desc_Clasif1" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Cod_Zona" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="FechaAlta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Padre" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="TipoConsultor" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="SaldoCtaCte" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="CantIncSolicitadas" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PoseeIncorporacion" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PoseeCartuchera" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Habilitado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="SaldoPagoAnticipado" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_Direcciones" Member="View_Direcciones">
+    <Type Name="View_Direccione">
+      <Column Name="Cod_Cliente" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_LugarEntrega" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="Calle" Type="System.String" DbType="VarChar(51)" CanBeNull="true" />
+      <Column Name="Pais" Type="System.String" DbType="VarChar(9) NOT NULL" CanBeNull="false" />
+      <Column Name="Provincia" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Localidad" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Departamento" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_Postal" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="EsPrincipal" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Clientes" Member="Clientes">
+    <Type Name="Clientes">
+      <Column Name="cli_Cod" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cli_RazSoc" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_NomFantasia" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Direc" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Loc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="cliprv_Codigo" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_CodPos" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Tel" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Fax" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_EMail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Modem" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="clisiv_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clitdc_Cod" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="cli_CUIT" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="clisib_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_NroIB" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="clisig_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Habilitado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="clidlp_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clidco_Cod" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="clizon_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cliven_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clicvt_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clidc1_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clidc2_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cli_Contacto" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_RespPago" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_LugarPago" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_HorarioPago" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="clidep_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clitrn_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cli_Nota" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="clitic_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cli_Alic" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="cli_ControlaCred" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="cli_PagWeb" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Password" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_Activo" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_FecMod" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cliusu_Codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_FotocopiaCUIT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="clipai_Cod" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="cliape_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cliidm_Cod" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="clipro_cod" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="cli_ControlaCredAutoriz" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="cli_Calle" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="cli_Numero" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="cliccn_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cli_Piso" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="cli_Depto" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cli_Barrio" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="clicpl_CodLoc" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="clicpl_CodPos" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="cli_NotaIngVta" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Clientes_LugarEnt" Member="LugarEnts" ThisKey="cli_Cod" OtherKey="lencli_Cod" Type="LugarEnt" />
+      <Association Name="Clientes_DtsCliente" Member="DtsCliente" ThisKey="cli_Cod" OtherKey="cli_Cod" Type="DtsCliente" Cardinality="One" />
+      <Association Name="Transportes_Clientes" Member="Transportes" ThisKey="clitrn_Cod" OtherKey="trn_Cod" Type="Transportes" IsForeignKey="true" />
+      <Association Name="Defi1Cli_Clientes" Member="Defi1Cli" ThisKey="clidc1_Cod" OtherKey="dc1_Cod" Type="Defi1Cli" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Transporte" Member="Transportes">
+    <Type Name="Transportes">
+      <Column Name="trn_Cod" Type="System.String" DbType="VarChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="trn_RazSoc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_Direc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_Loc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="trnprv_Cod" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_CodPos" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_Tel" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_Fax" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="trntdc_Cod" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="trn_CUIT" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_NroIB" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="trn_FecMod" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="trnusu_Codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="trnpai_Cod" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="Transportes_Clientes" Member="Clientes" ThisKey="trn_Cod" OtherKey="clitrn_Cod" Type="Clientes" />
+      <Association Name="Transportes_ClientesCRM" Member="ClientesCRMs" ThisKey="trn_Cod" OtherKey="clrtrn_Cod" Type="ClientesCRM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LugarEnt" Member="LugarEnts">
+    <Type Name="LugarEnt">
+      <Column Name="len_ID" Type="System.String" DbType="VarChar(9) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lencli_Cod" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="len_Cod" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="len_Desc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="len_Lugar" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="len_Loc" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="lenprv_Codigo" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="len_CodPos" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="len_Horario" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="len_GuiaCalles" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="len_EsDefault" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="lenemp_Codigo" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="lensuc_Cod" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="lenpai_Cod" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="len_calle" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="len_Numero" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="lenccn_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="len_Piso" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="len_Depto" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="len_Barrio" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="lencpl_Codloc" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="lencpl_CodPos" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="Clientes_LugarEnt" Member="Clientes" ThisKey="lencli_Cod" OtherKey="cli_Cod" Type="Clientes" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VeoCtaCte" Member="VeoCtaCtes">
+    <Type Name="VeoCtaCte">
+      <Column Name="cve_FEmision" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cve_HEmision" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cve_FContab" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cve_CodPvt" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="cve_Letra" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="cvetco_Cod" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="cve_Nro" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="cve_CodCli" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="cve_ImpMonLoc" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cve_ImpMonEmis" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cve_SaldoMonLoc" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cve_SaldoMonCC" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="cvecvt_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="cvecli_RazSoc" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="ven_Desc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="dc1_Cod" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="dc1_Desc" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VeoComisionablesTotales" Member="VeoComisionablesTotales">
+    <Type Name="VeoComisionablesTotales">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FEmision" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TipoComp" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="PtoVta" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="Letra" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Nro" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="CodCliente" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="RazonSocial" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="TipoDocumento" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="NroDoc" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="PtoTrabajo" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="CodVendedor" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="Vendedor" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="CondVta" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="CodProvincia" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="ProvinciaCliente" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="CodTransporte" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="Transporte" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="Grupo" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Importe" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RaulFormulas" Member="RaulFormulas">
+    <Type Name="RaulFormula">
+      <Column Name="formula" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="componente" Type="System.String" DbType="VarChar(41)" CanBeNull="true" />
+      <Column Name="paso" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="deposito" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="art_DescGen" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="artele_Desc1" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="artele_Desc2" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="producto" Type="System.String" DbType="VarChar(41)" CanBeNull="true" />
+      <Column Name="batch" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cantidadUM1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="stkdep_Cod" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="stk_CantUM1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Expr1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cantidadUM2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="UMbatch" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.prv" Member="prvs">
+    <Type Name="prv">
+      <Column Name="prv_codigo" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="prv_descrip" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="prv_fecmod" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="usu_codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="prv_habili" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="prvpra_codigo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Defi1Cli" Member="Defi1Clis">
+    <Type Name="Defi1Cli">
+      <Column Name="dc1_Cod" Type="System.String" DbType="VarChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dc1_Desc" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="dc1_FecMod" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="dc1usu_Codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Association Name="Defi1Cli_Clientes" Member="Clientes" ThisKey="dc1_Cod" OtherKey="clidc1_Cod" Type="Clientes" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DtsClientes" Member="DtsClientes">
+    <Type Name="DtsCliente">
+      <Column Name="cli_Cod" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Dcli_000FchNac" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Dcli_001Profesion" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="Dcli_002Falta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Dcli_010Clase" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="Dcli_DNI" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="DcliFecReincorp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DcliFBaja" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Dcli_conyuge" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Dcli_codigoInc" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Dcli_EsPatrocinador" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Association Name="Clientes_DtsCliente" Member="Clientes" ThisKey="cli_Cod" OtherKey="cli_Cod" Type="Clientes" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClientesCRM" Member="ClientesCRMs">
+    <Type Name="ClientesCRM">
+      <Column Name="clr_Cod" Type="System.String" DbType="VarChar(6) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="clr_RazSoc" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_NomFantasia" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Direc" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Loc" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="clrprv_Codigo" Type="System.String" DbType="VarChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_CodPos" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Tel" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Fax" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_EMail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Modem" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="clrsiv_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clrtdc_Cod" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="clr_CUIT" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="clrsib_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_NroIB" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="clrsig_Cod" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Habilitado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="clrdlp_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clrdco_Cod" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="clrzon_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clrven_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clrcvt_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clrdr1_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clrdr2_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clrdr3_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clrdr4_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clr_Contacto" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_RespPago" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_LugarPago" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_HorarioPago" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="clrdep_Cod" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="clrtrn_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clr_Nota" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="clrtic_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="clr_Alic" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Column Name="clr_ControlaCred" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="clr_PagWeb" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Password" Type="System.String" DbType="VarChar(8) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Activo" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_FotocopiaCUIT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="clr_Potencial" Type="System.Char" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="clr_FecMod" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="clrusu_Codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="clrpai_Cod" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="Transportes_ClientesCRM" Member="Transportes" ThisKey="clrtrn_Cod" OtherKey="trn_Cod" Type="Transportes" IsForeignKey="true" />
+      <Association Name="Defi1CliCRM_ClientesCRM" Member="Defi1CliCRM" ThisKey="clrdr1_Cod" OtherKey="dr1_Cod" Type="Defi1CliCRM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.veocliultcpra" Member="veocliultcpras">
+    <Type Name="veocliultcpra">
+      <Column Name="cli_Cod" Type="System.String" DbType="VarChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="cli_RazSoc" Type="System.String" DbType="VarChar(40) NOT NULL" CanBeNull="false" />
+      <Column Name="cfc_FUltCpra" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cli_Habilitado" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DiasSCompra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dc1_Cod" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="dc1_Desc" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="SaldoPagoAnticipado" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Defi1CliCRM" Member="Defi1CliCRMs">
+    <Type Name="Defi1CliCRM">
+      <Column Name="dr1_Cod" Type="System.String" DbType="VarChar(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="dr1_Desc" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="dr1_FecMod" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="dr1usu_Codigo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Association Name="Defi1CliCRM_ClientesCRM" Member="ClientesCRMs" ThisKey="dr1_Cod" OtherKey="clrdr1_Cod" Type="ClientesCRM" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VeoarticulosyDescuentos" Member="VeoArticulosyDescuentos">
+    <Type Name="VeoArticulosyDescuento">
+      <Column Name="Porcentaje" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCompleto" Type="System.String" DbType="VarChar(41) NOT NULL" CanBeNull="false" />
+      <Column Name="DescCompleta" Type="System.String" DbType="VarChar(98) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
