@@ -26,18 +26,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonMarzzan", "CommonMarz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportesMarzzan", "ReportesMarzzan\ReportesMarzzan.csproj", "{0828C1EF-5974-4184-9B7A-23121D9E7463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServiceMarzzan", "SincronizadorMarzzan\TestServiceMarzzan.csproj", "{D74B27B9-A582-4988-A4F0-4C44822BE5A8}"
-	ProjectSection(ProjectDependencies) = postProject
-		{551F9B8B-1C3A-4DA8-9C73-2727D3B49341} = {551F9B8B-1C3A-4DA8-9C73-2727D3B49341}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneradorArchivosTransportistas", "GeneradorArchivosTransportistas\GeneradorArchivosTransportistas.csproj", "{FC05A6DA-561C-469A-8F9F-1BE9BF55B286}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectLibrary", "..\Encuestas\EffectLibrary\EffectLibrary.csproj", "{B30DFD30-F426-46A0-AC6B-11DE667257BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsAjaxNotti", "..\ControlesAjax\ControlsAjaxNotti.csproj", "{DDACB432-E830-4B38-AE60-E9489340C3BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SincronizadorClientes", "SincronizadorClientes\SincronizadorClientes.csproj", "{5B347993-7537-40B6-AF75-A6916C4BF9D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsAjaxNotti", "ControlesAjax\ControlsAjaxNotti.csproj", "{DDACB432-E830-4B38-AE60-E9489340C3BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,21 +44,10 @@ Global
 		{0828C1EF-5974-4184-9B7A-23121D9E7463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0828C1EF-5974-4184-9B7A-23121D9E7463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0828C1EF-5974-4184-9B7A-23121D9E7463}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D74B27B9-A582-4988-A4F0-4C44822BE5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D74B27B9-A582-4988-A4F0-4C44822BE5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D74B27B9-A582-4988-A4F0-4C44822BE5A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC05A6DA-561C-469A-8F9F-1BE9BF55B286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC05A6DA-561C-469A-8F9F-1BE9BF55B286}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC05A6DA-561C-469A-8F9F-1BE9BF55B286}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B30DFD30-F426-46A0-AC6B-11DE667257BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B30DFD30-F426-46A0-AC6B-11DE667257BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B30DFD30-F426-46A0-AC6B-11DE667257BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDACB432-E830-4B38-AE60-E9489340C3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDACB432-E830-4B38-AE60-E9489340C3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDACB432-E830-4B38-AE60-E9489340C3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDACB432-E830-4B38-AE60-E9489340C3BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B347993-7537-40B6-AF75-A6916C4BF9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B347993-7537-40B6-AF75-A6916C4BF9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B347993-7537-40B6-AF75-A6916C4BF9D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
