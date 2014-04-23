@@ -1,0 +1,316 @@
+﻿body
+{
+}
+
+.TVista .vacia div
+{
+    font-size: 15px;
+    vertical-align: text-top;
+    padding-top: 2px;
+}
+.TVista .vacia
+{
+    vertical-align: text-top;
+}
+
+.TVista .btnChangePageIndex
+{
+    text-align: center;
+    color: Black;
+    cursor: pointer;
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.btnPageEmpty.jpg")%>');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    height: 22px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+
+.TVista .ImgPagingNext
+{
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0 -850px;
+    text-align: center;
+    color: Black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    height: 22px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.TVista .ImgPagingFirst
+{
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0px -550px;
+    text-align: center;
+    color: Black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    height: 22px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+
+.TVista .ImgPagingLast
+{
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0 -1000px;
+    text-align: center;
+    color: Black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    height: 22px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+
+.TVista .ImgPagingPrev
+{
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0 -700px;
+    text-align: center;
+    color: Black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    font-size: 12px;
+    height: 22px;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+
+.TVista .tdFooter
+{
+    padding-left: 20px;
+    background-color: #ECF9FF;
+}
+
+.TVista .tdFooter .tdGral
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb99d #fff #fff #fff;
+}
+
+.TVista .tdEliminar
+{
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    width: 3%;
+    background-color: White;
+    cursor: pointer;
+}
+
+.TVista .tdEliminarAlt
+{
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    width: 3%;
+    background-color: #DBF3FD;
+    cursor: pointer;
+}
+
+.TVista .tdEdit
+{
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    width: 3%;
+    background-color: White;
+    cursor: pointer;
+}
+
+.TVista .tdEditAlt
+{
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    width: 3%;
+    background-color: #DBF3FD;
+    cursor: pointer;
+}
+
+.TVista .tdSimple
+{
+    color: #333;
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+    border-color: #fff #EFEFEF #fff #EFEFEF;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding-left: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: White;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.TVista .tdSimpleAlt
+{
+    color: #333;
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+    border-color: #fff #EFEFEF #DBF3FD #EFEFEF;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding-left: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #E2F5FE;
+    text-align: left;
+}
+
+.TVista
+{
+    border: 1px solid #bbb99d;
+}
+
+.TVista thead tr
+{
+    background-color: White;
+}
+
+.TVista .Theader
+{
+    background-position: 0 -2300px;
+    border-top: 0;
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-repeat: repeat;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff #dcf2fc #3c7fb1 #8bbdde;
+    color: #333;
+    font-family: "segoe ui" ,arial,sans-serif;
+    font-size: 12px;
+    height: 23px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    line-height: 1em;
+}
+
+.TVista .tdFunctionAdd
+{
+    background-position: 0 -2100px;
+    border-top: 0;
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-repeat: repeat;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff #dcf2fc #3c7fb1 #8bbdde;
+    color: #333;
+    font-family: "segoe ui" ,arial,sans-serif;
+    font-size: 12px;
+    height: 23px;
+    padding: 0px 0px 0px 0px;
+    vertical-align: middle;
+    background-color: #635c4e;
+}
+
+.TVista .trSelected td
+{
+    background: #abdbf5 0 -3900px repeat-x url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-color: #d7f0fc;
+    font-weight: bold;
+}
+
+
+.TVista .rgGroupItem
+{
+    background: 0 -6489px repeat-x url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    font-size: 1.1em;
+    line-height: 21px;
+    color: #039;
+    font-family: "segoe ui" ,arial,sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.TVista .rgGroupItem span
+{
+    background-color: White;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.TVista .rgGroupItemImageCerrado
+{
+    cursor: hand;
+    background-position: 2px 7px;
+    background-image: url('images/SingleMinus.gif');
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 15px;
+    padding-left: 2px;
+}
+
+.TVista .rgGroupItemImageAbierto
+{
+    cursor: hand;
+    background-position: 2px 7px;
+    background-image: url('images/SinglePlus.gif');
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 15px;
+    padding-left: 2px;
+}
+
+.TVista .tdTotalizador
+{
+    font-weight: bold;
+    color: #333;
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    text-align: center;
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0 -3900px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #993333;
+    color: Black;
+}
+
+.TVista .tdTotalizadorVacio
+{
+    font-weight: bold;
+    color: #333;
+    font: 12px/16px "segoe ui" ,arial,sans-serif;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    text-align: center;
+    background-image: url('<%= WebResource("ControlsAjaxNotti.ImagenesGrid.sprite_vista.gif")%>');
+    background-position: 0 -3900px;
+    color: Black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: transparent;
+}
+
+.TVista tbody.on
+{
+    display: table-row-group;
+}
+
+.TVista tbody.off
+{
+    display: none;
+}
