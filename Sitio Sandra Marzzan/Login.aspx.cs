@@ -20,7 +20,8 @@ public partial class Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-       
+        //AAAA
+
         /// Consultas a BEJERMAN
         //Marzzan_BejermanDataContext dc = new Marzzan_BejermanDataContext();
         //DateTime fecha = DateTime.Parse("01/09/2012");
