@@ -4082,21 +4082,21 @@ public partial class NotaDePedido : BasePage
                                     if (detExistente == null || promosGeneradaExistente.Count > 0)
                                     {
                                         DetalleProductosRequeridos det = new DetalleProductosRequeridos();
-                                        det.Cantidad = 1;
+                                        det.Cantidad = int.Parse(item.componentes.FirstOrDefault().Cantidad);
                                         det.Tipo = "Fijo";
                                         det.objDetallePedido = promoGeneradaxSolicitud;
                                         det.IdProducto = item.componentes.FirstOrDefault().objProductoHijo.IdProducto;
                                         det.IdPresentacion = item.componentes.FirstOrDefault().objPresentacion.IdPresentacion;
                                         det.ValorUnitario = item.componentes.FirstOrDefault().objPresentacion.Precio.Value;
                                         det.CodigoCompleto = item.componentes.FirstOrDefault().objPresentacion.Codigo;
-                                        det.DescripcionProducto = "<b><span style='color:Blue' >1</span></b> " + item.componentes.FirstOrDefault().objProductoHijo.Descripcion + " x " + item.componentes.FirstOrDefault().objPresentacion.Descripcion;
+                                        det.DescripcionProducto = "<b><span style='color:Blue' >" + item.componentes.FirstOrDefault().Cantidad + "</span></b> " + item.componentes.FirstOrDefault().objProductoHijo.Descripcion + " x " + item.componentes.FirstOrDefault().objPresentacion.Descripcion;
                                         promoGeneradaxSolicitud.colProductosRequeridos.Add(det);
                                         valorPromocionSegunComponentes += item.componentes.FirstOrDefault().objPresentacion.Precio.Value;
                                     }
                                     else
                                     {
                                         DetalleProductosRequeridos det = new DetalleProductosRequeridos();
-                                        det.Cantidad = 1;
+                                        det.Cantidad = int.Parse(item.componentes.FirstOrDefault().Cantidad);
                                         det.Tipo = "Fijo";
                                         det.objDetallePedido = promoGeneradaxSolicitud;
                                         det.IdProducto = detExistente.IdProducto;
