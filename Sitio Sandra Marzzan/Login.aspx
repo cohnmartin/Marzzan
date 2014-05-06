@@ -192,6 +192,7 @@
                                                             <asp:UpdatePanel ID="upLogin" runat="server">
                                                                 <ContentTemplate>
                                                                     <asp:Label ID="lblError" runat="server" Visible="false">El usuario o clave no son correctos, por favor intentelo nuevamente.</asp:Label>
+                                                                    <asp:Label ID="lblErrorHabilitado" runat="server" Visible="false">El usuario con el que intenta ingresar no esta habilitado, tome contacto con su asistente.</asp:Label>
                                                                 </ContentTemplate>
                                                                 <Triggers>
                                                                     <asp:AsyncPostBackTrigger ControlID="btnLogin" EventName="Click" />

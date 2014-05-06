@@ -343,12 +343,20 @@
 
     function LlmarValidarPaginaPSP(IdOperacion, monto, tipoTarjeta, cuotas) {
 
-        document.getElementById("NROOPERACION").value = IdOperacion;
-        document.getElementById("MONTO").value = monto;
-        document.getElementById("MEDIODEPAGO").value = tipoTarjeta;
-        document.getElementById("CUOTAS").value = cuotas;
 
-        document.getElementById("FormPSP").submit();
+        window.formPSP.NROOPERACION.value = IdOperacion;
+        window.formPSP.MONTO.value = monto;
+        window.formPSP.MEDIODEPAGO.value = tipoTarjeta;
+        window.formPSP.CUOTAS.value = cuotas;
+        window.formPSP.submit();
+
+
+//        document.getElementById("NROOPERACION").value = IdOperacion;
+//        document.getElementById("MONTO").value = monto;
+//        document.getElementById("MEDIODEPAGO").value = tipoTarjeta;
+//        document.getElementById("CUOTAS").value = cuotas;
+//        document.getElementById("FormPSP").submit();
+
 
     }
 
@@ -1720,7 +1728,7 @@
         </table>
     </div>
     </form>
-    <form id="formPSP" action="http://localhost:1741/Sitio%20Sandra%20Marzzan/ValidarPSP.aspx"
+    <form id="formPSP" action="https://sps.decidir.com/sps-ar/Validar"
     method="post">
     <input type="HIDDEN" name="NROCOMERCIO" value="20926895" size="8" maxlength="8" />
     <input type="HIDDEN" name="NROOPERACION" value="" size="10" maxlength="10" />

@@ -20,8 +20,7 @@ public partial class Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        //AAAA
-
+       
         /// Consultas a BEJERMAN
         //Marzzan_BejermanDataContext dc = new Marzzan_BejermanDataContext();
         //DateTime fecha = DateTime.Parse("01/09/2012");
@@ -76,9 +75,13 @@ public partial class Login : System.Web.UI.Page
         {
 
             var cliente = (from C in dc.Clientes
-                           where (C.Login == UserName.Text.Trim() && C.CodTipoCliente != "9" && C.CodTipoCliente != "7") || (C.Login == UserName.Text.Trim() && C.CodTipoCliente == null)
-                           select C).First<Cliente>();
+                           where C.Habilitado == true && (C.Login == UserName.Text.Trim() && C.CodTipoCliente != "9" && C.CodTipoCliente != "7") || (C.Login == UserName.Text.Trim() && C.CodTipoCliente == null)
+			    
+                           select C).FirstOrDefault<Cliente>();
 
+
+	if (cliente  != null)
+	{
 
             if (Password.Text.Trim() == cliente.Pass.Trim())
             {
@@ -103,6 +106,11 @@ public partial class Login : System.Web.UI.Page
             {
                 lblError.Visible = true;
             }
+	}
+else
+{
+                lblErrorHabilitado.Visible = true;
+}
 
 
         }

@@ -235,7 +235,7 @@ public partial class GestionOrdenesProduccion : BasePage
                         
                         if (itemOtrosDepositos.stk_CantUM1 > 0)
                         {
-                            //if (!listaDetalleComponentes.Any(w => w.CodigoComponente == componente.componente))
+                            //if (!listaDetalleComponentes.Any(w => w.CodigoComponente.Trim() == componente.componente.Trim()))
                             //{
                                 tempComponentes comp = new tempComponentes();
                                 comp.Desposito = itemOtrosDepositos.stkdep_Cod.ToString();

@@ -1037,14 +1037,14 @@ public partial class NotaDePedido : BasePage
         DetallePedido newDetalle = null;
         string mensajeStock = "";
 
-        ///// Si el pedido NO es temporal, PERO el medio de pago es tarjeta, entonces lo marco como 
-        ///// temporal, ya que es necesario la aprobación de la misma, y grabo la operación como temporal
-        ///// indicando que es pago con tarjeta para aplicar la logica particular de la misma.
-        //if (!EsTemporal && cboFormaPago.SelectedItem.Text.Contains("Tarjeta"))
-        //{
-        //    EsPagoConTarjeta = true;
-        //    EsTemporal = true;
-        //}
+        /// Si el pedido NO es temporal, PERO el medio de pago es tarjeta, entonces lo marco como 
+        /// temporal, ya que es necesario la aprobación de la misma, y grabo la operación como temporal
+        /// indicando que es pago con tarjeta para aplicar la logica particular de la misma.
+        if (!EsTemporal && cboFormaPago.SelectedItem.Text.Contains("Tarjeta"))
+        {
+            EsPagoConTarjeta = true;
+            EsTemporal = false;
+        }
 
 
         if (ControlStockValido(EsTemporal, out mensajeStock))
@@ -2310,8 +2310,9 @@ public partial class NotaDePedido : BasePage
                         RelacionarRemitosPendientes(cabecera);
                         GenerarPedidoConCredito(cabecera);
                         Contexto.SubmitChanges();
-                        //ActualizarTotalPedido(cabecera.IdCabeceraPedido);
                         ActualizarSolicitudProductosEspeciales(cabecera.DetallePedidos.ToList());
+                        cabecera  = ActualizarTotalPedido(cabecera.IdCabeceraPedido);
+
                         if (!EsClienteEspecial)
                             EnviarMailAvisoPedido(cabecera);
 
@@ -2349,9 +2350,8 @@ public partial class NotaDePedido : BasePage
 
                     }
 
-                    //ActualizarTotalPedido(cabecera.IdCabeceraPedido);
-
-
+                    cabecera = ActualizarTotalPedido(cabecera.IdCabeceraPedido);
+                    
                     /// Mando a imprimir, si se realizo la solicitud del pedido
                     if (EsTemporal)
                     {
@@ -2767,7 +2767,7 @@ public partial class NotaDePedido : BasePage
     /// despues de grabar, por las dudas de errores al grabar.
     /// </summary>
     /// <param name="IdPedido"></param>
-    private void ActualizarTotalPedido(long IdPedido)
+    private CabeceraPedido ActualizarTotalPedido(long IdPedido)
     {
         Marzzan_InfolegacyDataContext NewContext = new Marzzan_InfolegacyDataContext();
 
@@ -2792,6 +2792,8 @@ public partial class NotaDePedido : BasePage
         cab.DetalleImpuestos = DetalleImpuestosCalculados;
 
         NewContext.SubmitChanges();
+        
+        return cab;
     }
 
 
@@ -2856,18 +2858,25 @@ public partial class NotaDePedido : BasePage
             }
             else
             {
-                if (CurrrentCliente.Cod_CondVta == "SIN")
+                if (CurrrentCliente.Login == "DEMO")
+                {
+                    FormasDePago = (from Fp in Contexto.FormaDePagos
+                                    where Fp.Cliente == 2
+                                    select Fp).ToList();
+                }
+
+                else if (CurrrentCliente.Cod_CondVta == "SIN")
                 {
 
                     FormasDePago = (from Fp in Contexto.FormaDePagos
-                                    where Fp.Cliente == 2
+                                    where Fp.Cliente == 2 && Fp.Codigo != "TRJ"
                                     select Fp).ToList();
                 }
                 else
                 {
                     FormasDePago = (from Fp in Contexto.FormaDePagos
                                     where Fp.Cliente == 2
-                                    && Fp.Codigo != "SIN"
+                                    && Fp.Codigo != "SIN" && Fp.Codigo != "TRJ"
                                     select Fp).ToList();
                 }
             }
