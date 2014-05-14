@@ -20,7 +20,7 @@ public partial class Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-       
+        //AAA prueba git
         /// Consultas a BEJERMAN
         //Marzzan_BejermanDataContext dc = new Marzzan_BejermanDataContext();
         //DateTime fecha = DateTime.Parse("01/09/2012");
@@ -76,41 +76,41 @@ public partial class Login : System.Web.UI.Page
 
             var cliente = (from C in dc.Clientes
                            where C.Habilitado == true && (C.Login == UserName.Text.Trim() && C.CodTipoCliente != "9" && C.CodTipoCliente != "7") || (C.Login == UserName.Text.Trim() && C.CodTipoCliente == null)
-			    
+
                            select C).FirstOrDefault<Cliente>();
 
 
-	if (cliente  != null)
-	{
-
-            if (Password.Text.Trim() == cliente.Pass.Trim())
+            if (cliente != null)
             {
-                lblError.Visible = false;
-                Session.Add("IdUsuario", cliente.IdCliente.ToString());
-                Session.Add("NombreUsuario", cliente.Nombre.ToLower().ToString());
-                Session.Add("TipoUsuario", cliente.TipoCliente.ToUpper());
-                Session.Add("CodigoBejerman", cliente.CodigoExterno.Trim());
-                Session.Add("EmailUsuario", cliente.Email);
-                Session.Add("GrupoCliente", cliente.Clasif1);
-                if (cliente.TipoCliente == "TRANSPORTISTA")
-                    Session.Add("Transporte", cliente.Transporte);
+
+                if (Password.Text.Trim() == cliente.Pass.Trim())
+                {
+                    lblError.Visible = false;
+                    Session.Add("IdUsuario", cliente.IdCliente.ToString());
+                    Session.Add("NombreUsuario", cliente.Nombre.ToLower().ToString());
+                    Session.Add("TipoUsuario", cliente.TipoCliente.ToUpper());
+                    Session.Add("CodigoBejerman", cliente.CodigoExterno.Trim());
+                    Session.Add("EmailUsuario", cliente.Email);
+                    Session.Add("GrupoCliente", cliente.Clasif1);
+                    if (cliente.TipoCliente == "TRANSPORTISTA")
+                        Session.Add("Transporte", cliente.Transporte);
+                    else
+                        Session.Add("Transporte", "");
+
+                    Session.Add("CodigoVendedor", cliente.CodVendedor);
+
+                    Response.Redirect("Inicio.aspx");
+
+                }
                 else
-                    Session.Add("Transporte", "");
-
-                Session.Add("CodigoVendedor", cliente.CodVendedor);
-
-                Response.Redirect("Inicio.aspx");
-
+                {
+                    lblError.Visible = true;
+                }
             }
             else
             {
-                lblError.Visible = true;
-            }
-	}
-else
-{
                 lblErrorHabilitado.Visible = true;
-}
+            }
 
 
         }
