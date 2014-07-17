@@ -1032,4 +1032,11 @@
       <Association Name="SegRol_SegUsuarioRol" Member="SegRol" ThisKey="Rol" OtherKey="IdSegRol" Type="SegRol" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.SujetosNoCategorizados" Member="SujetosNoCategorizados">
+    <Type Name="SujetosNoCategorizado">
+      <Column Name="IdSujetoNoCategorizado" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CodClienteBejerman" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NombreCliente" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
 </Database>

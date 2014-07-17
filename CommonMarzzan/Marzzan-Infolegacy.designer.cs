@@ -189,6 +189,9 @@ namespace CommonMarzzan
     partial void InsertSegUsuarioRol(SegUsuarioRol instance);
     partial void UpdateSegUsuarioRol(SegUsuarioRol instance);
     partial void DeleteSegUsuarioRol(SegUsuarioRol instance);
+    partial void InsertSujetosNoCategorizado(SujetosNoCategorizado instance);
+    partial void UpdateSujetosNoCategorizado(SujetosNoCategorizado instance);
+    partial void DeleteSujetosNoCategorizado(SujetosNoCategorizado instance);
     #endregion
 		
 		public Marzzan_InfolegacyDataContext() : 
@@ -746,6 +749,14 @@ namespace CommonMarzzan
 			get
 			{
 				return this.GetTable<SegUsuarioRol>();
+			}
+		}
+		
+		public System.Data.Linq.Table<SujetosNoCategorizado> SujetosNoCategorizados
+		{
+			get
+			{
+				return this.GetTable<SujetosNoCategorizado>();
 			}
 		}
 	}
@@ -22630,6 +22641,116 @@ namespace CommonMarzzan
 						this._Rol = default(long);
 					}
 					this.SendPropertyChanged("SegRol");
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.SujetosNoCategorizados")]
+	public partial class SujetosNoCategorizado : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private long _IdSujetoNoCategorizado;
+		
+		private string _CodClienteBejerman;
+		
+		private string _NombreCliente;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIdSujetoNoCategorizadoChanging(long value);
+    partial void OnIdSujetoNoCategorizadoChanged();
+    partial void OnCodClienteBejermanChanging(string value);
+    partial void OnCodClienteBejermanChanged();
+    partial void OnNombreClienteChanging(string value);
+    partial void OnNombreClienteChanged();
+    #endregion
+		
+		public SujetosNoCategorizado()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IdSujetoNoCategorizado", AutoSync=AutoSync.OnInsert, DbType="BigInt NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public long IdSujetoNoCategorizado
+		{
+			get
+			{
+				return this._IdSujetoNoCategorizado;
+			}
+			set
+			{
+				if ((this._IdSujetoNoCategorizado != value))
+				{
+					this.OnIdSujetoNoCategorizadoChanging(value);
+					this.SendPropertyChanging();
+					this._IdSujetoNoCategorizado = value;
+					this.SendPropertyChanged("IdSujetoNoCategorizado");
+					this.OnIdSujetoNoCategorizadoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CodClienteBejerman", DbType="VarChar(50)")]
+		public string CodClienteBejerman
+		{
+			get
+			{
+				return this._CodClienteBejerman;
+			}
+			set
+			{
+				if ((this._CodClienteBejerman != value))
+				{
+					this.OnCodClienteBejermanChanging(value);
+					this.SendPropertyChanging();
+					this._CodClienteBejerman = value;
+					this.SendPropertyChanged("CodClienteBejerman");
+					this.OnCodClienteBejermanChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NombreCliente", DbType="VarChar(50)")]
+		public string NombreCliente
+		{
+			get
+			{
+				return this._NombreCliente;
+			}
+			set
+			{
+				if ((this._NombreCliente != value))
+				{
+					this.OnNombreClienteChanging(value);
+					this.SendPropertyChanging();
+					this._NombreCliente = value;
+					this.SendPropertyChanged("NombreCliente");
+					this.OnNombreClienteChanged();
 				}
 			}
 		}
