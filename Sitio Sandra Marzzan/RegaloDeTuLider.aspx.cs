@@ -385,6 +385,7 @@ public partial class RegaloDeTuLider : BasePage
             comp.CodigoSeleccionado = PreseSel.Codigo;
             comp.FraganciaSeleccionada = fragancia;
             comp.IdProducto = PreseSel.objProducto.IdProducto;
+            comp.IdPresentacion = PreseSel.IdPresentacion;
 
 
             dlDetalleRegalo.DataSource = Session["ListaComponente"];

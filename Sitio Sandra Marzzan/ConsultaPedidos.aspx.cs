@@ -137,14 +137,14 @@ public partial class ConsultaPedidos : BasePage
                     cabeceras = (from C in dc.CabeceraPedidos
                                  where (C.Cliente == cliente.IdCliente || C.ClienteSolicitante == clienteCtaBolsos.IdCliente)
                                  && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                                 && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                                 && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                                  select C).ToList<CabeceraPedido>();
                 else
 
                     cabeceras = (from C in dc.CabeceraPedidos
                                  where (C.Cliente == cliente.IdCliente || C.ClienteSolicitante == clienteCtaBolsos.IdCliente)
                                  && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                                 && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                                 && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                                  && C.TipoPedido == cboTipoPedido.SelectedValue
                                  select C).ToList<CabeceraPedido>();
 
@@ -155,13 +155,13 @@ public partial class ConsultaPedidos : BasePage
                     cabeceras = (from C in dc.CabeceraPedidos
                                  where C.Cliente == cliente.IdCliente
                                  && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                                 && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                                 && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                                  select C).ToList<CabeceraPedido>();
                 else
                     cabeceras = (from C in dc.CabeceraPedidos
                                  where C.Cliente == cliente.IdCliente
                                  && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                                 && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                                 && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                                  && C.TipoPedido == cboTipoPedido.SelectedValue
                                  select C).ToList<CabeceraPedido>();
 
@@ -203,13 +203,13 @@ public partial class ConsultaPedidos : BasePage
                 cabeceras = (from C in dc.CabeceraPedidos
                              where (IdsConsultores.Contains(C.Cliente) || C.ClienteSolicitante == clienteCtaBolsos.IdCliente)
                              && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                             && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                             && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                              select C).ToList<CabeceraPedido>();
             else
                 cabeceras = (from C in dc.CabeceraPedidos
                              where (IdsConsultores.Contains(C.Cliente) || C.ClienteSolicitante == clienteCtaBolsos.IdCliente)
                              && (C.FechaPedido.Date >= txtFechaInicial.SelectedDate.Value.Date && C.FechaPedido.Date <= txtFechaFinal.SelectedDate.Value.Date)
-                             && (C.EsTemporal == null || C.EsTemporal.Value == false)
+                             && (C.EsTemporal == null || C.EsTemporal.Value == false) && (C.EstadoOperacionTarjeta == "" || C.EstadoOperacionTarjeta == "APROBADA")
                              && C.TipoPedido == cboTipoPedido.SelectedValue
                              select C).ToList<CabeceraPedido>();
 

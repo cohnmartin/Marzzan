@@ -266,10 +266,10 @@ public partial class TotalizadorPromos : System.Web.UI.UserControl, IGrilla
     }
 
     public long productosRequeridosIngresadosTemp
-    {get;set;}
+    { get; set; }
 
     public long totalProductosRequeridosTemp
-    {get;set;}
+    { get; set; }
 
     protected void grillaPromosGanadas_ItemDataBound(object sender, GridItemEventArgs e)
     {
@@ -312,17 +312,17 @@ public partial class TotalizadorPromos : System.Web.UI.UserControl, IGrilla
                 lblDescComprado.Text = "Por Haber Solicitado </br><span style='color:Black'>" + currentRow.PresentacionDesc + "</span>";
             }
 
-            
+
             if (currentRow.Tipo == "PS" || currentRow.Tipo == "PSD") // Promo solicitadas en forma directa
             {
                 var TotalesProductosRequeridos = (from v in (Session["Context"] as Marzzan_InfolegacyDataContext).View_PromosActivas
-                                                where v.IdPromocion == currentRow.Producto.Value
-                                                select v.CantidadSolicitada).ToList();
+                                                  where v.IdPromocion == currentRow.Producto.Value
+                                                  select v.CantidadSolicitada).ToList();
 
                 int TotalProductosRequeridos = TotalesProductosRequeridos.Select(w => int.Parse(w)).Sum();
 
                 totalProductosRequeridosTemp = TotalProductosRequeridos;
-                e.Item.Attributes.Add("TotalProductosRequeridos" , TotalProductosRequeridos.ToString());
+                e.Item.Attributes.Add("TotalProductosRequeridos", TotalProductosRequeridos.ToString());
 
                 if (currentRow.colProductosRequeridos.Count > 0)
                 {
@@ -368,7 +368,7 @@ public partial class TotalizadorPromos : System.Web.UI.UserControl, IGrilla
             }
 
             productosRequeridosIngresadosTemp = TotalRequeridosIngresados;
-            detallePromo.Attributes.Add("TotalRequeridosIngresados",TotalRequeridosIngresados.ToString());
+            detallePromo.Attributes.Add("TotalRequeridosIngresados", TotalRequeridosIngresados.ToString());
             detallePromo.DataSource = componentes;
             detallePromo.DataBind();
 
@@ -387,9 +387,17 @@ public partial class TotalizadorPromos : System.Web.UI.UserControl, IGrilla
     protected void ListRegalos_ItemDataBound(object sender, DataListItemEventArgs e)
     {
         DetalleRegalos item = (DetalleRegalos)e.Item.DataItem;
-        (e.Item.FindControl("lblNroRegalo") as Label).Text = "1 ";
+        if (item.Cantidad > 0)
+            (e.Item.FindControl("lblNroRegalo") as Label).Text = item.Cantidad.ToString() + " ";
+        else
+        {
+            (e.Item.FindControl("lblNroRegalo") as Label).Text = "1 ";
+            item.Cantidad = 1;
+        }
 
-        if (item.IdPresentacionRegaloSeleccionado != 0 && item.IdPresentacionPreSeleccionado==0)
+
+
+        if (item.IdPresentacionRegaloSeleccionado != 0 && item.IdPresentacionPreSeleccionado == 0)
         {
             (e.Item.FindControl("trProductoEleccion") as HtmlControl).Visible = false;
 
@@ -401,7 +409,7 @@ public partial class TotalizadorPromos : System.Web.UI.UserControl, IGrilla
             string indiceRegalo = e.Item.ItemIndex.ToString();
             string grupo = (e.Item.FindControl("lblGrupo") as Label).Text;
 
-            
+
             item.IdPresentacionRegaloSeleccionado = item.IdPresentacionPreSeleccionado;
             (e.Item.FindControl("lblProdRegalo") as Label).Text = item.DescripcionPreSeleccionado;
 

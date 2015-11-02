@@ -232,10 +232,11 @@ public partial class GestionBajaClientes : BasePage
             revendedores += item.CodigoExterno + " - " + item.Nombre + " Saldo al momento de la baja: " + string.Format("{0:#0.00}", saldo) + "<br>";
         }
 
-        #region Recupero el asistente nro 2, que es el destinatario del mail
+        #region Recupero el asistente nro 6, que es el destinatario del mail
+        /// Pedido solicitado por Miguel el 05/01/2015 cambio de asistente responsable del 2 al 6
 
         long IdAsistente = (from d in Contexto.Clientes
-                            where d.Email.ToLower() == "asistente2@sandramarzzan.com.ar"
+                            where d.Email.ToLower() == "asistente6@sandramarzzan.com.ar"
                             && d.TipoCliente == "INTERNO"
                             select d.IdCliente).FirstOrDefault();
 

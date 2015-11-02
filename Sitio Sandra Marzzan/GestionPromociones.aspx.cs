@@ -97,7 +97,7 @@ public partial class GestionPromociones : System.Web.UI.Page
 
             var datos = (from prod in _dc.Productos
                          where (prod.Tipo != 'A' && prod.Tipo != 'G'
-                         && prod.Tipo != 'R' && prod.Tipo != 'N' && prod.Tipo != 'I')
+                         && prod.Tipo != 'R' && prod.Tipo != 'I') //&& prod.Tipo != 'N'
                          && prod.Descripcion.StartsWith(e.Text)
                          orderby prod.Descripcion
                          select new

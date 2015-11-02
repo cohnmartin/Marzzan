@@ -17,552 +17,593 @@
   <item>5922</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="2628" Presentaciones="Unidad|">Accesorios y Merchandisin</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="5804" Presentaciones="Unidad|8 ml|">Aceites Aromáticos</item>
-  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1687" Presentaciones="5 ml|90 ml|120 ml|250 ml|350 ml|">Agua</item>
-  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1692" Presentaciones="5 ml|90 ml|120 ml|350 ml|">Aire</item>
+  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1687" Presentaciones="5 ml|120 ml|250 ml|">Agua</item>
+  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1692" Presentaciones="5 ml|120 ml|350 ml|">Aire</item>
   <item padre="4251" padreDesc="Alcohol en Gel" Codigos="" Precios="" Descripciones="" IdProducto="4255">Alcohol en Gel</item>
   <item padre="4035" padreDesc="Sandra Marzzan Elementos" Codigos="" Precios="" Descripciones="" IdProducto="6240" Presentaciones="65 ml|">Alcohol en Gel</item>
   <item padre="1620" padreDesc="Sandra Marzzan Cosmética" Codigos="" Precios="" Descripciones="" IdProducto="1630" Presentaciones="30 ml|50 ml|120 ml|">Alta Cosmética</item>
-  <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="5002" Presentaciones="Unidad|270 ml|">Ambientador</item>
-  <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="5394" Presentaciones="Unidad|">Ambientador</item>
-  <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="5396" Presentaciones="Unidad|270 ml|">Ambientador</item>
+  <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="5002" Presentaciones="270 ml|">Ambientador</item>
+  <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="5394" Presentaciones="270 ml|">Ambientador</item>
+  <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="5396" Presentaciones="270 ml|">Ambientador</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="4107">Ar Reg</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1522">Aromas de la Casa</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1525" Presentaciones="5 ml|120 ml|500 ml|">Aromas Regionales</item>
-  <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1507" Presentaciones="5 ml|120 ml|500 ml|">Aromaterapia</item>
+  <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1507" Presentaciones="Unidad|5 ml|120 ml|500 ml|">Aromaterapia</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="5948" Presentaciones="5 ml|120 ml|">Autos</item>
-  <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="5176">Básica</item>
   <item padre="1620" padreDesc="Sandra Marzzan Cosmética" Codigos="" Precios="" Descripciones="" IdProducto="1621" Presentaciones="50 ml|140 ml|500 ml|">Básica</item>
-  <item padre="5922" padreDesc="Tendencia" Codigos="" Precios="" Descripciones="" IdProducto="6266">Billeteras</item>
+  <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="5176">Básica</item>
+  <item padre="5922" padreDesc="Tendencia" Codigos="" Precios="" Descripciones="" IdProducto="6266" Presentaciones="Unidad|">Billeteras</item>
+  <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="6579">Caricias</item>
+  <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="6650">Caricias</item>
   <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1642" Presentaciones="5 ml|60 ml|350 ml|">Caricias</item>
   <item padre="5922" padreDesc="Tendencia" Codigos="" Precios="" Descripciones="" IdProducto="5923" Presentaciones="Unidad|">Carteras</item>
   <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1645" Presentaciones="5 ml|60 ml|90 ml|200 ml|350 ml|">Deditos</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="4868" Presentaciones="5 ml|90 ml|">Difusor</item>
   <item padre="4035" padreDesc="Sandra Marzzan Elementos" Codigos="" Precios="" Descripciones="" IdProducto="4036">Femenino</item>
   <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="3888">Femenino</item>
-  <item padre="1677" padreDesc="Nuevo Latido" Codigos="" Precios="" Descripciones="" IdProducto="2773" Presentaciones="5 ml|50 ml|55 ml|">Femenino</item>
-  <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="1708" Presentaciones="Unidad|5 ml|50 ml|55 ml|60 ml|100 ml|">Femenino</item>
+  <item padre="1677" padreDesc="Nuevo Latido" Codigos="" Precios="" Descripciones="" IdProducto="2773" Presentaciones="5 ml|55 ml|">Femenino</item>
+  <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="1708" Presentaciones="Unidad|5 ml|50 ml|60 ml|100 ml|">Femenino</item>
   <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="1544" Presentaciones="5 ml|50 ml|">Femenino</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="2623" Presentaciones="Unidad|">Folletería y Papelería</item>
-  <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="2856" Presentaciones="Unidad|">Folletería y Papelería</item>
+  <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="2856">Folletería y Papelería</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1493" Presentaciones="5 ml|120 ml|500 ml|">Fresh</item>
-  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1702" Presentaciones="5 ml|90 ml|120 ml|350 ml|">Fuego</item>
+  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1702" Presentaciones="5 ml|120 ml|350 ml|">Fuego</item>
   <item padre="5922" padreDesc="Tendencia" Codigos="" Precios="" Descripciones="" IdProducto="5930" Presentaciones="Unidad|">Fundas</item>
   <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1652" Presentaciones="5 ml|60 ml|120 ml|350 ml|">Garabatos</item>
   <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="2860" Presentaciones="Unidad|">Incorporaciones</item>
   <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="5494" Presentaciones="5 ml|120 ml|350 ml|">Inquietos</item>
   <item padre="1620" padreDesc="Sandra Marzzan Cosmética" Codigos="" Precios="" Descripciones="" IdProducto="5268" Presentaciones="500 ml|">Jabón Líquido</item>
   <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="4459">Lefrance</item>
-  <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1655" Presentaciones="Unidad|5 ml|60 ml|90 ml|200 ml|350 ml|">Lefrance</item>
+  <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1655" Presentaciones="5 ml|60 ml|90 ml|200 ml|350 ml|">Lefrance</item>
   <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1697" Presentaciones="5 ml|90 ml|120 ml|350 ml|">Madera</item>
   <item padre="5586" padreDesc="Imagen" Codigos="" Precios="" Descripciones="" IdProducto="5600" Presentaciones="5 ml|10 ml|">Manos</item>
   <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="1712" Presentaciones="5 ml|50 ml|55 ml|60 ml|75 ml|95 ml|">Masculino</item>
-  <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="1587" Presentaciones="5 ml|50 ml|">Masculino</item>
   <item padre="1677" padreDesc="Nuevo Latido" Codigos="" Precios="" Descripciones="" IdProducto="2774" Presentaciones="5 ml|50 ml|55 ml|">Masculino</item>
+  <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="1587" Presentaciones="5 ml|50 ml|">Masculino</item>
   <item padre="5922" padreDesc="Tendencia" Codigos="" Precios="" Descripciones="" IdProducto="5974">Monederos</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="2639">Muestras</item>
   <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="2626" Presentaciones="Unidad|">Muestras</item>
   <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="1668" Presentaciones="Unidad|5 ml|50 ml|60 ml|">Nenas</item>
   <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="1672" Presentaciones="Unidad|5 ml|50 ml|60 ml|">Nenes</item>
+  <item padre="4251" padreDesc="Alcohol en Gel" Codigos="" Precios="" Descripciones="" IdProducto="4252">Ninguna</item>
   <item padre="1620" padreDesc="Sandra Marzzan Cosmética" Codigos="" Precios="" Descripciones="" IdProducto="3786" Presentaciones="Unidad|">Ninguna</item>
   <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="3787" Presentaciones="Unidad|">Ninguna</item>
-  <item padre="4251" padreDesc="Alcohol en Gel" Codigos="" Precios="" Descripciones="" IdProducto="4252">Ninguna</item>
+  <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="5319">Ninguna</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="4770" Presentaciones="Unidad|">Ninguna</item>
   <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="5326">Ninguna</item>
-  <item padre="1707" padreDesc="Sandra Marzzan Exclusiva" Codigos="" Precios="" Descripciones="" IdProducto="5319">Ninguna</item>
   <item padre="1677" padreDesc="Nuevo Latido" Codigos="" Precios="" Descripciones="" IdProducto="5495" Presentaciones="5 ml|120 ml|350 ml|">Nuevo Latido</item>
-  <item padre="4035" padreDesc="Sandra Marzzan Elementos" Codigos="" Precios="" Descripciones="" IdProducto="6317">Óleo Corporal</item>
-  <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="4923" Presentaciones="Unidad|">Programas</item>
+  <item padre="4035" padreDesc="Sandra Marzzan Elementos" Codigos="" Precios="" Descripciones="" IdProducto="6317" Presentaciones="125 ml|">Óleo Corporal</item>
+  <item padre="1790" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="4923">Programas</item>
   <item padre="5586" padreDesc="Imagen" Codigos="" Precios="" Descripciones="" IdProducto="5587" Presentaciones="Unidad|">Rostro</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="1513" Presentaciones="5 ml|120 ml|500 ml|">Selectivo</item>
-  <item padre="4509" padreDesc="SM" Codigos="" Precios="" Descripciones="" IdProducto="4510" Presentaciones="120 ml|500 ml|">SM</item>
+  <item padre="4509" padreDesc="SM" Codigos="" Precios="" Descripciones="" IdProducto="4510">SM</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="5399">SPA</item>
   <item padre="4035" padreDesc="Sandra Marzzan Elementos" Codigos="" Precios="" Descripciones="" IdProducto="4302" Presentaciones="5 ml|75 ml|200 ml|">Splash Corporal</item>
   <item padre="1714" padreDesc="Herramientas de Venta" Codigos="" Precios="" Descripciones="" IdProducto="4319">Splash Corporal</item>
   <item padre="1637" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="1662" Presentaciones="5 ml|60 ml|350 ml|">Tartinet</item>
-  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1682" Presentaciones="5 ml|90 ml|120 ml|350 ml|">Tierra</item>
+  <item padre="1681" padreDesc="Spa" Codigos="" Precios="" Descripciones="" IdProducto="1682" Presentaciones="5 ml|120 ml|350 ml|">Tierra</item>
   <item padre="1665" padreDesc="Inquietos" Codigos="" Precios="" Descripciones="" IdProducto="1675" Presentaciones="200 ml|">Unisex</item>
-  <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="1616" Presentaciones="5 ml|">Unisex</item>
+  <item padre="1540" padreDesc="Tal Cual" Codigos="" Precios="" Descripciones="" IdProducto="1616">Unisex</item>
   <item padre="1677" padreDesc="Nuevo Latido" Codigos="" Precios="" Descripciones="" IdProducto="4033">Unisex</item>
   <item padre="1492" padreDesc="La Casa del Aroma" Codigos="" Precios="" Descripciones="" IdProducto="5565" Presentaciones="Unidad|">Velas</item>
   <item padre="1620" padreDesc="Sandra Marzzan Cosmética" Codigos="" Precios="" Descripciones="" IdProducto="4596" Presentaciones="150 ml|">Verano</item>
-  <item padre="4509" padreDesc="SM" Codigos="" Precios="" Descripciones="" IdProducto="4620">Verano</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -030-01 |1020000002   -030-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1547">01F_212</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -070-01 |1020000002   -070-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1589">01M_212</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -031-01 |1020000002   -031-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1548">02F_5ºTH</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -071-01 |1020000002   -071-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1590">02M_Acqua</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -032-01 |1020000002   -032-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1549">03F_Acqua</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -033-01 |1020000002   -033-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1550">04F_Amari</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -034-01 |1020000002   -034-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1551">05F_Amor</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1020000002   -M23-10 |" Precios="110,00|" Descripciones="50 ml|" IdProducto="1614">05M_One</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -035-01 |1020000002   -035-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1552">06F_Angel</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -036-01 |1020000002   -036-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1553">07F_Cabot</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -074-01 |1020000002   -074-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1593">07M_Fahr</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -075-01 |1020000002   -075-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1594">08M_Gent</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1020000002   -023-10 |" Precios="110,00|" Descripciones="50 ml|" IdProducto="1545">09F_One</item>
-  <item padre="1616" padreDesc="Unisex" Codigos="2020000007   -023-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4490">09F_One</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -076-01 |1020000002   -076-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1595">09M_Hman</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -038-01 |1020000002   -038-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1555">10F_CaroH</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -077-01 |1020000002   -077-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1596">10M_HBoss</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -039-01 |1020000002   -039-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1556">11F_Chan</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -040-01 |1020000002   -040-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1557">12F_Dolce</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -025-01 |1020000002   -025-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1588">12M_Ken</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -041-01 |1020000002   -041-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1558">13F_Eden</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -081-01 |1020000002   -081-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1600">13M_Disey</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -042-01 |1020000002   -042-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1559">14F_Escap</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -082-01 |1020000002   -082-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1601">14M_Lacos</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -043-01 |1020000002   -043-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1560">15F_Eter</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -083-01 |1020000002   -083-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1602">15M_Man</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -044-01 |1020000002   -044-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1561">16F_Flow</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -084-01 |1020000002   -084-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1603">16M_PBlue</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -045-01 |1020000002   -045-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1562">17F_Green</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -085-01 |1020000002   -085-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1604">17M_Polo</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -046-01 |1020000002   -046-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1563">18F_Hall</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -087-01 |1020000002   -087-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1606">18M_XS</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -090-01 |1020000002   -090-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1609">19M_Ultra</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -049-01 |1020000002   -049-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1566">20F_Jador</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -051-01 |1020000002   -051-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1568">21F_Disey</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -092-01 |1020000002   -092-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1611">21M_Black</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -163-10 |2026100007   -163-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5019">22F_Lady Millon</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -093-01 |1020000002   -093-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1612">22M_PBlack</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -053-01 |1020000002   -053-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1570">23F_Mirac</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -174-01 |1026200002   -174-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5157">24M_Play</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -055-01 |1020000002   -055-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1572">25F_Orga</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -057-01 |1020000002   -057-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1574">27F_Ral</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -170-10 |2026200007   -170-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4362">27M_Very</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -058-01 |1020000002   -058-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1575">28F_Red</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -059-01 |1020000002   -059-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1576">29F_Rush</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -171-10 |2026200007   -171-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4690">31M_Millon</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -062-01 |1020000002   -062-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1579">32F_Tomm</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -172-10 |2026200007   -172-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4691">32M_Ch</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -173-10 |2026200007   -173-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4928">33M_Amor</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -064-01 |1020000002   -064-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1581">34F_Very</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -065-01 |1020000002   -065-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1582">35F_Pure</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -220-10 |2026200007   -220-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5426">35M_Bleu</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -066-01 |1020000002   -066-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1583">36F_Ultra</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -221-01 |1020000002   -221-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5512">36M_212 Vip</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -067-01 |1020000002   -067-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1584">37F_Sexy</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -054-01 |1020000002   -054-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1571">38F_Euph</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -222-01 |1026200002   -222-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5802">38M_LSport</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -068-01 |1020000002   -068-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="1585">40F_Nina</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -223-10 |2026200007   -223-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5993">40M_Guess</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -164-01 |1026100002   -164-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5158">41F_Parisien</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -069-10 |2026100007   -069-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4360">42F_Chic Woman</item>
-  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -175-01 |1026200002   -175-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="6238">42M_Gucci Sp</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -160-10 |2026100007   -160-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4361">43F_Ch Woman</item>
+  <item padre="4509" padreDesc="SM" Codigos="" Precios="" Descripciones="" IdProducto="4620" Presentaciones="Unidad|">Verano</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -030-01 |1020000002   -030-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1547">01F_212</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6582">01F_212</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6621">01M_212</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -070-01 |1020000002   -070-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1589">01M_212</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -031-01 |1020000002   -031-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1548">02F_5ºTH</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6583">02F_5ºTH</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6622">02M_Acqua</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -071-01 |1020000002   -071-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1590">02M_Acqua</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -032-01 |1020000002   -032-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1549">03F_Acqua</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6584">03F_Acqua</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6623">03M_Azza</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6585">04F_Amari</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -033-01 |1020000002   -033-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1550">04F_Amari</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -034-01 |1020000002   -034-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1551">05F_Amor</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6586">05F_Amor</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1020000002   -M23-10 |" Precios="71,50|" Descripciones="50 ml|" IdProducto="1614">05M_One</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -035-01 |1020000002   -035-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1552">06F_Angel</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6587">06F_Angel</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6624">06M_Eter</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6588">07F_Cabot</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -036-01 |1020000002   -036-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1553">07F_Cabot</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6625">07M_Fahr</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6646">08F_Be</item>
+  <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="1618">08F_Be</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -075-01 |1020000002   -075-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1594">08M_Gent</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6626">08M_Gent</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6645">09F_One</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1020000002   -023-10 |2020000007   -023-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="1545">09F_One</item>
+  <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="4490">09F_One</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -076-01 |1020000002   -076-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1595">09M_Hman</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6627">09M_Hman</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6589">10F_CaroH</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -038-01 |1020000002   -038-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1555">10F_CaroH</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -077-01 |1020000002   -077-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1596">10M_HBoss</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6628">10M_HBoss</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6590">11F_Chan</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -039-01 |1020000002   -039-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1556">11F_Chan</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6629">11M_Jazz</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6591">12F_Dolce</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -040-01 |1020000002   -040-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1557">12F_Dolce</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -025-01 |1020000002   -025-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1588">12M_Ken</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6620">12M_Ken</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6592">13F_Eden</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -041-01 |1020000002   -041-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1558">13F_Eden</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -081-01 |1020000002   -081-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1600">13M_Disey</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6631">13M_Disey</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6593">14F_Escap</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6632">14M_Lacos</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -082-01 |1020000002   -082-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1601">14M_Lacos</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -043-01 |1020000002   -043-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1560">15F_Eter</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6594">15F_Eter</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6633">15M_Man</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -083-01 |1020000002   -083-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1602">15M_Man</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -044-01 |1020000002   -044-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1561">16F_Flow</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6595">16F_Flow</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6634">16M_PBlue</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -084-01 |1020000002   -084-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1603">16M_PBlue</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -045-01 |1020000002   -045-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1562">17F_Green</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6596">17F_Green</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6635">17M_Polo</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -085-01 |1020000002   -085-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1604">17M_Polo</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -046-01 |1020000002   -046-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1563">18F_Hall</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6597">18F_Hall</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6637">18M_XS</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -087-01 |1020000002   -087-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1606">18M_XS</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6598">19F_HotCou</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6640">19M_Ultra</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -090-01 |1020000002   -090-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1609">19M_Ultra</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -049-01 |1020000002   -049-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1566">20F_Jador</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6600">20F_Jador</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6641">20M_Dior</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="2010300007   -244-01 |1010300001   -244-30 |1010300001   -244-50 |" Precios="9,50|36,40|67,90|" Descripciones="5 ml|120 ml|500 ml|" IdProducto="6416">212 Splash</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6602">21F_Disey</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -051-01 |1020000002   -051-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1568">21F_Disey</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6638">21M_Balde</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6642">21M_Black</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -163-10 |2026100007   -163-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5019">22F_Lady Millon</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6603">22F_Man</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6643">22M_PBlack</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2020000007   -093-01 |1020000002   -093-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1612">22M_PBlack</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -053-01 |1020000002   -053-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1570">23F_Mirac</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6604">23F_Mirac</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6630">23M_In2U</item>
+  <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="4158">23M_In2U</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6581">24F_Noa</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -174-01 |1026200002   -174-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5157">24M_Play</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6636">24M_Tomm</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6606">25F_Orga</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -055-01 |1020000002   -055-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1572">25F_Orga</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6607">26F_Polo</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6639">26M_Orange</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6608">27F_Ral</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -057-01 |1020000002   -057-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1574">27F_Ral</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6644">27M_Label</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -170-10 |2026200007   -170-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4362">27M_Very</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -058-01 |1020000002   -058-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1575">28F_Red</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6609">28F_Red</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6610">29F_Rush</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -059-01 |1020000002   -059-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1576">29F_Rush</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6611">30F_Sen</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6612">31F_Sun</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -171-10 |2026200007   -171-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4690">31M_Millon</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -062-01 |1020000002   -062-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1579">32F_Tomm</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6613">32F_Tomm</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -172-10 |2026200007   -172-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4691">32M_Ch</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6614">33F_Tréss</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -173-10 |2026200007   -173-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4928">33M_Amor</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -064-01 |1020000002   -064-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1581">34F_Very</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6615">34F_Very</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6616">35F_Pure</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -065-01 |1020000002   -065-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1582">35F_Pure</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -220-10 |2026200007   -220-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5426">35M_Bleu</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6617">36F_Ultra</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -066-01 |1020000002   -066-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1583">36F_Ultra</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -221-01 |1020000002   -221-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5512">36M_212 Vip</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6618">37F_Sexy</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -067-01 |1020000002   -067-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1584">37F_Sexy</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -054-01 |1020000002   -054-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1571">38F_Euph</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6605">38F_Euph</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -222-01 |1026200002   -222-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5802">38M_LSport</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6599">39F_In2U</item>
+  <item padre="6579" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6619">40F_Nina</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2020000007   -068-01 |1020000002   -068-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="1585">40F_Nina</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="1026200002   -223-10 |2026200007   -223-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5993">40M_Guess</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -164-01 |1026100002   -164-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5158">41F_Parisien</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -175-01 |1026200002   -175-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="6238">42M_Gucci Sp</item>
   <item padre="1544" padreDesc="Femenino" Codigos="" Precios="" Descripciones="" IdProducto="4409">43F_Ch Woman</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -161-10 |2026100007   -161-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4689">49F_Delici</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -162-10 |2026100007   -162-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4688">50F_Demon</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -154-01 |1026100002   -154-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5240">52F_DK Pure</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -210-01 |1026100002   -210-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="5331">53F_Hypnos</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -211-10 |2026100007   -211-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5398">54F_Gioia</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -214-10 |2026100007   -214-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5503">55F_Chance</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -217-10 |2026100007   -217-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5700">58F_Marry Me</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -218-10 |2026100007   -218-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5801">60F_CH L'Eau</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -219-10 |2026100007   -219-01 |" Precios="110,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5994">61F_Guess</item>
-  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -165-01 |1026100002   -165-10 |" Precios="9,50|110,00|" Descripciones="5 ml|50 ml|" IdProducto="6239">64F_NinaLEau</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -160-10 |2026100007   -160-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4361">43F_Ch Woman</item>
+  <item padre="1587" padreDesc="Masculino" Codigos="2026200007   -177-01 |1026200002   -177-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="6675">45M_Invict</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -162-10 |2026100007   -162-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="4688">50F_Demon</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -154-01 |1026100002   -154-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5240">52F_DK Pure</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -210-01 |1026100002   -210-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="5331">53F_Hypnos</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -211-10 |2026100007   -211-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5398">54F_Gioia</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -214-10 |2026100007   -214-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5503">55F_Chance</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -217-10 |2026100007   -217-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5700">58F_Marry Me</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -218-10 |2026100007   -218-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5801">60F_CH L'Eau</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="1026100002   -219-10 |2026100007   -219-01 |" Precios="71,50|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5994">61F_Guess</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -165-01 |1026100002   -165-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="6239">64F_NinaLEau</item>
+  <item padre="1544" padreDesc="Femenino" Codigos="2026100007   -176-01 |1026100002   -176-10 |" Precios="9,50|71,50|" Descripciones="5 ml|50 ml|" IdProducto="6483">65F_LaVie</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2580000067056   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5159">7 de 2</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="1080000002   -126-15 |2080000007   -126-01 |" Precios="163,00|9,50|" Descripciones="60 ml|5 ml|" IdProducto="4144">Absoluto</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111013   -101-42 |" Precios="69,00|" Descripciones="250 ml|" IdProducto="3828">Acondicionador Algas de Spa</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="1043100013   -024-40 |" Precios="64,00|" Descripciones="200 ml|" IdProducto="1646">Acondicionador Deditos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300013   -026-40 |" Precios="64,00|" Descripciones="200 ml|" IdProducto="1656">Acondicionador Lefrance</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -001-30 |1010100001   -001-50 |2010100007   -001-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1494">Acqua</item>
-  <item padre="1642" padreDesc="Caricias" Codigos="1043000003   -022-15 |" Precios="61,50|" Descripciones="60 ml|" IdProducto="1644">Agua de Colonia Caricias</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="1043100003   -024-15 |" Precios="61,50|" Descripciones="60 ml|" IdProducto="1648">Agua de Colonia Deditos</item>
-  <item padre="1652" padreDesc="Garabatos" Codigos="1043200003   -029-15 |" Precios="61,50|" Descripciones="60 ml|" IdProducto="1654">Agua de Colonia Garabatos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300003   -026-15 |" Precios="61,50|" Descripciones="60 ml|" IdProducto="1658">Agua de Colonia Lefrance</item>
-  <item padre="1662" padreDesc="Tartinet" Codigos="1043400003   -028-15 |" Precios="61,50|" Descripciones="60 ml|" IdProducto="1664">Agua de Colonia Tartinet</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010503001   -110-30 |2010500007   -110-01 |" Precios="45,00|9,50|" Descripciones="120 ml|5 ml|" IdProducto="1526">Aguas Grandes</item>
-  <item padre="4510" padreDesc="SM" Codigos="1110900102   -145-30 |1110900102   -145-50 |" Precios="28,00|65,00|" Descripciones="120 ml|500 ml|" IdProducto="4511">Alcohol en Gel</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600116   -A01-00 |" Precios="232,00|" Descripciones="Unidad|" IdProducto="5005">Analogico</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111001   -101-45 |1071111001   -101-30 |" Precios="75,50|46,50|" Descripciones="350 ml|120 ml|" IdProducto="1688">Aromatizador Algas de Spa</item>
-  <item padre="1692" padreDesc="Aire" Codigos="1071212001   -102-45 |1071212001   -102-30 |" Precios="75,50|46,50|" Descripciones="350 ml|120 ml|" IdProducto="1693">Aromatizador Brisa Blanca</item>
-  <item padre="1642" padreDesc="Caricias" Codigos="1043000001   -022-45 |" Precios="77,00|" Descripciones="350 ml|" IdProducto="1643">Aromatizador Caricias</item>
+  <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5323">Absoluto</item>
+  <item padre="1687" padreDesc="Agua" Codigos="1071111013   -101-42 |" Precios="45,00|" Descripciones="250 ml|" IdProducto="3828">Acondicionador Algas de Spa</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="1043100013   -024-40 |" Precios="41,60|" Descripciones="200 ml|" IdProducto="1646">Acondicionador Deditos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300013   -026-40 |" Precios="41,60|" Descripciones="200 ml|" IdProducto="1656">Acondicionador Lefrance</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -001-50 |2010100007   -001-01 |" Precios="55,50|9,50|" Descripciones="500 ml|5 ml|" IdProducto="1494">Acqua</item>
+  <item padre="1642" padreDesc="Caricias" Codigos="1043000003   -022-15 |" Precios="40,00|" Descripciones="60 ml|" IdProducto="1644">Agua de Colonia Caricias</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="1043100003   -024-15 |" Precios="40,00|" Descripciones="60 ml|" IdProducto="1648">Agua de Colonia Deditos</item>
+  <item padre="1652" padreDesc="Garabatos" Codigos="1043200003   -029-15 |" Precios="40,00|" Descripciones="60 ml|" IdProducto="1654">Agua de Colonia Garabatos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300003   -026-15 |" Precios="40,00|" Descripciones="60 ml|" IdProducto="1658">Agua de Colonia Lefrance</item>
+  <item padre="1662" padreDesc="Tartinet" Codigos="1043400003   -028-15 |" Precios="40,00|" Descripciones="60 ml|" IdProducto="1664">Agua de Colonia Tartinet</item>
+  <item padre="1687" padreDesc="Agua" Codigos="1071111001   -101-30 |" Precios="32,50|" Descripciones="120 ml|" IdProducto="1688">Aromatizador Algas de Spa</item>
+  <item padre="1692" padreDesc="Aire" Codigos="1071212001   -102-45 |1071212001   -102-30 |" Precios="53,76|32,50|" Descripciones="350 ml|120 ml|" IdProducto="1693">Aromatizador Brisa Blanca</item>
+  <item padre="1642" padreDesc="Caricias" Codigos="1043000001   -022-45 |" Precios="54,00|" Descripciones="350 ml|" IdProducto="1643">Aromatizador Caricias</item>
   <item padre="1675" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="1676">Aromatizador Cositas Inquiet</item>
-  <item padre="5494" padreDesc="Inquietos" Codigos="1054200001   -096-30 |1054200001   -096-45 |" Precios="46,50|75,50|" Descripciones="120 ml|350 ml|" IdProducto="5498">Aromatizador Cositas Inquiet</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="1043100001   -024-45 |" Precios="77,00|" Descripciones="350 ml|" IdProducto="1647">Aromatizador Deditos</item>
-  <item padre="1682" padreDesc="Tierra" Codigos="1071015001   -105-45 |1071015001   -105-30 |" Precios="75,50|46,50|" Descripciones="350 ml|120 ml|" IdProducto="4661">Aromatizador Eco Bambú</item>
-  <item padre="1652" padreDesc="Garabatos" Codigos="1043200001   -029-30 |1043200001   -029-45 |" Precios="48,00|77,00|" Descripciones="120 ml|350 ml|" IdProducto="1653">Aromatizador Garabatos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300001   -026-45 |" Precios="77,00|" Descripciones="350 ml|" IdProducto="1657">Aromatizador Lefrance</item>
-  <item padre="1697" padreDesc="Madera" Codigos="1071313001   -103-45 |1071313001   -103-30 |" Precios="75,50|46,50|" Descripciones="350 ml|120 ml|" IdProducto="1698">Aromatizador Origen Místico</item>
-  <item padre="1702" padreDesc="Fuego" Codigos="1071414001   -104-45 |1071414001   -104-30 |" Precios="75,50|46,50|" Descripciones="350 ml|120 ml|" IdProducto="1703">Aromatizador Pasión Oriental</item>
+  <item padre="5494" padreDesc="Inquietos" Codigos="1054200001   -096-30 |1054200001   -096-45 |" Precios="32,50|53,76|" Descripciones="120 ml|350 ml|" IdProducto="5498">Aromatizador Cositas Inquiet</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="1043100001   -024-45 |" Precios="54,00|" Descripciones="350 ml|" IdProducto="1647">Aromatizador Deditos</item>
+  <item padre="1682" padreDesc="Tierra" Codigos="1071015001   -105-45 |1071015001   -105-30 |" Precios="53,76|32,50|" Descripciones="350 ml|120 ml|" IdProducto="4661">Aromatizador Eco Bambú</item>
+  <item padre="1652" padreDesc="Garabatos" Codigos="1043200001   -029-30 |1043200001   -029-45 |" Precios="33,50|54,00|" Descripciones="120 ml|350 ml|" IdProducto="1653">Aromatizador Garabatos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300001   -026-45 |" Precios="54,00|" Descripciones="350 ml|" IdProducto="1657">Aromatizador Lefrance</item>
+  <item padre="1697" padreDesc="Madera" Codigos="1071313001   -103-45 |1071313001   -103-30 |" Precios="53,76|32,50|" Descripciones="350 ml|120 ml|" IdProducto="1698">Aromatizador Origen Místico</item>
+  <item padre="1702" padreDesc="Fuego" Codigos="1071414001   -104-45 |1071414001   -104-30 |" Precios="53,76|32,50|" Descripciones="350 ml|120 ml|" IdProducto="1703">Aromatizador Pasión Oriental</item>
   <item padre="1675" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="4294">Aromatizador Picardías</item>
-  <item padre="5494" padreDesc="Inquietos" Codigos="1054200001   -095-30 |1054200001   -095-45 |" Precios="46,50|75,50|" Descripciones="120 ml|350 ml|" IdProducto="5496">Aromatizador Picardías</item>
-  <item padre="1662" padreDesc="Tartinet" Codigos="1043400001   -028-45 |" Precios="77,00|" Descripciones="350 ml|" IdProducto="1663">Aromatizador Tartinet</item>
+  <item padre="5494" padreDesc="Inquietos" Codigos="1054200001   -095-30 |1054200001   -095-45 |" Precios="32,50|53,76|" Descripciones="120 ml|350 ml|" IdProducto="5496">Aromatizador Picardías</item>
+  <item padre="1662" padreDesc="Tartinet" Codigos="1043400001   -028-45 |" Precios="54,00|" Descripciones="350 ml|" IdProducto="1663">Aromatizador Tartinet</item>
   <item padre="2626" padreDesc="Muestras" Codigos="2510000030009   |" Precios="13,00|" Descripciones="Unidad|" IdProducto="2862">Artículo Ficha Tal Cual</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -002-30 |1010100001   -002-50 |2010100007   -002-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1495">Azahares</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -181-50 |1010300001   -181-30 |2010300007   -181-01 |" Precios="93,00|48,00|9,50|" Descripciones="500 ml|120 ml|5 ml|" IdProducto="4842">Banana Republic</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180090-000-00 |" Precios="540,00|" Descripciones="Unidad|" IdProducto="6341">Bandolera Visón</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300230001-000-00 |" Precios="83,00|" Descripciones="Unidad|" IdProducto="5857">Base de Maquillaje Beige</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300230002-000-00 |" Precios="83,00|" Descripciones="Unidad|" IdProducto="5858">Base de Maquillaje Tostado</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -002-30 |1010100001   -002-50 |2010100007   -002-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1495">Azahares</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300230001-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5857">Base de Maquillaje Beige</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300230002-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5858">Base de Maquillaje Tostado</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300232002-000-00 |" Precios="52,50|" Descripciones="Unidad|" IdProducto="6286">Base Líquida Caramelo</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300232001-000-00 |" Precios="52,50|" Descripciones="Unidad|" IdProducto="6285">Base Líquida Nude</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300233001-000-00 |" Precios="49,00|" Descripciones="Unidad|" IdProducto="6287">BB Cream Natural</item>
+  <item padre="6266" padreDesc="Billeteras" Codigos="1137900184009-000-00 |" Precios="330,00|" Descripciones="Unidad|" IdProducto="6691">Billetera Cuero Afrodita</item>
+  <item padre="6266" padreDesc="Billeteras" Codigos="1137900184003-000-00 |" Precios="238,00|" Descripciones="Unidad|" IdProducto="6503">Billetera Cuero Almendra</item>
+  <item padre="6266" padreDesc="Billeteras" Codigos="1137900184007-000-00 |" Precios="330,00|" Descripciones="Unidad|" IdProducto="6689">Billetera Cuero Artemisa</item>
+  <item padre="6266" padreDesc="Billeteras" Codigos="1137900184008-000-00 |" Precios="330,00|" Descripciones="Unidad|" IdProducto="6690">Billetera Cuero Atenea</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000031100   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5191">Billetera SM</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900023029   |" Precios="12,00|" Descripciones="Unidad|" IdProducto="5854">Blister Vacío</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -021-30 |1010300001   -021-50 |2010300007   -021-01 |" Precios="48,00|93,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1514">Blue</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -021-30 |1010300001   -021-50 |2010300007   -021-01 |" Precios="33,50|65,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1514">Blue</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900018015   |" Precios="7,50|" Descripciones="Unidad|" IdProducto="6272">Bolsa Chica SM x 10 u</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000018004   |" Precios="2,50|" Descripciones="Unidad|" IdProducto="2785">Bolsa de Papel con cargo</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900018001   |" Precios="22,00|" Descripciones="Unidad|" IdProducto="4146">Bolsa de Papel x 10 u</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000018045   |" Precios="0,01|" Descripciones="Unidad|" IdProducto="5846">Bolsa Lienzo LCDA</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900018008   |" Precios="13,00|" Descripciones="Unidad|" IdProducto="4697">Bolsa para Regalo Institucional SM</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180061-000-00 |" Precios="500,00|" Descripciones="Unidad|" IdProducto="6249">Bolso Combinado Beige</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900018008   |" Precios="11,00|" Descripciones="Unidad|" IdProducto="4697">Bolsa para Regalo Institucional SM</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900023019   |" Precios="87,50|" Descripciones="Unidad|" IdProducto="5561">Bolso Vacío SM</item>
-  <item padre="2626" padreDesc="Muestras" Codigos="2510000023007   |" Precios="70,00|" Descripciones="Unidad|" IdProducto="2857">Bolso Vacío SM</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010505001   -114-30 |1010505001   -114-50 |2010500007   -114-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1530">Bosque Sur</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300152002-000-00 |" Precios="57,00|" Descripciones="Unidad|" IdProducto="5692">Brillo Labial Champagne</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300152005-000-00 |" Precios="57,00|" Descripciones="Unidad|" IdProducto="6061">Brillo Labial Coral Suave</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300152001-000-00 |" Precios="57,00|" Descripciones="Unidad|" IdProducto="5691">Brillo Labial Cristal</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300152003-000-00 |" Precios="57,00|" Descripciones="Unidad|" IdProducto="5693">Brillo Labial Malbec</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="1054000152001-000-00 |" Precios="27,00|" Descripciones="Unidad|" IdProducto="6290">Brillo Labial Manfruti</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="1054000152002-000-00 |" Precios="27,00|" Descripciones="Unidad|" IdProducto="6291">Brillo Labial Naraná</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300152004-000-00 |" Precios="57,00|" Descripciones="Unidad|" IdProducto="5694">Brillo Labial Tentación</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128200141000-000-03 |" Precios="50,00|" Descripciones="10 ml|" IdProducto="5665">Brillo Secador Esmalte</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -003-30 |1010100001   -003-50 |2010100007   -003-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1496">Brisas</item>
-  <item padre="4596" padreDesc="Verano" Codigos="1032000106002-000-36 |" Precios="105,00|" Descripciones="150 ml|" IdProducto="4622">Bronceador FPS 07</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -131-50 |1010100001   -131-30 |2010100007   -131-01 |" Precios="79,00|45,00|9,50|" Descripciones="500 ml|120 ml|5 ml|" IdProducto="4843">Burbujas de Jab</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -109-30 |1010100001   -109-50 |2010100007   -109-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="6293">C de Algodón</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300152002-000-00 |" Precios="40,00|" Descripciones="Unidad|" IdProducto="5692">Brillo Labial Champagne</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300152005-000-00 |" Precios="40,00|" Descripciones="Unidad|" IdProducto="6061">Brillo Labial Coral Suave</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300152001-000-00 |" Precios="40,00|" Descripciones="Unidad|" IdProducto="5691">Brillo Labial Cristal</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="1054000152001-000-00 |" Precios="19,00|" Descripciones="Unidad|" IdProducto="6290">Brillo Labial Manfruti</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="1054000152002-000-00 |" Precios="19,00|" Descripciones="Unidad|" IdProducto="6291">Brillo Labial Naraná</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300152004-000-00 |" Precios="40,00|" Descripciones="Unidad|" IdProducto="5694">Brillo Labial Tentación</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128200141000-000-03 |" Precios="35,00|" Descripciones="10 ml|" IdProducto="5665">Brillo Secador Esmalte</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -003-30 |1010100001   -003-50 |2010100007   -003-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1496">Brisas</item>
+  <item padre="4596" padreDesc="Verano" Codigos="1032000106002-000-36 |" Precios="68,25|" Descripciones="150 ml|" IdProducto="4622">Bronceador FPS 07</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -131-50 |2010100007   -131-01 |" Precios="55,50|9,50|" Descripciones="500 ml|5 ml|" IdProducto="4843">Burbujas de Jab</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -109-30 |1010100001   -109-50 |2010100007   -109-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="6293">C de Algodón</item>
   <item padre="1513" padreDesc="Selectivo" Codigos="" Precios="" Descripciones="" IdProducto="5695">C.K. One</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -023-30 |1010300001   -023-50 |2010300007   -023-01 |" Precios="48,00|93,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1516">C.K. One</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -023-30 |1010300001   -023-50 |2010300007   -023-01 |" Precios="33,50|65,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1516">C.K. One</item>
   <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="1617">C.K. One W</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075098   |" Precios="15,80|" Descripciones="Unidad|" IdProducto="3857">Caja de Kit Cosmética</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075100   |" Precios="15,80|" Descripciones="Unidad|" IdProducto="3859">Caja de Kit Inquietos</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075014   |" Precios="15,80|" Descripciones="Unidad|" IdProducto="5156">Caja de Kit Sandra Marzzan</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075001   |" Precios="26,00|" Descripciones="Unidad|" IdProducto="6288">Caja Kit Institucional Aniversario</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075098   |" Precios="13,45|" Descripciones="Unidad|" IdProducto="3857">Caja de Kit Cosmética</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075100   |" Precios="13,45|" Descripciones="Unidad|" IdProducto="3859">Caja de Kit Inquietos</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075014   |" Precios="13,45|" Descripciones="Unidad|" IdProducto="5156">Caja de Kit Sandra Marzzan</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900075001   |" Precios="22,00|" Descripciones="Unidad|" IdProducto="6288">Caja Kit Institucional Aniversario</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128200145001-000-03 |" Precios="35,00|" Descripciones="10 ml|" IdProducto="6484">Calcio para Uñas</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -245-20 |" Precios="80,50|" Descripciones="90 ml|" IdProducto="6428">Capriccio</item>
   <item padre="1536" padreDesc="Solcito" Codigos="1010600002   -022-30 |1010600001   -022-30 |" Precios="0,00|25,50|" Descripciones="120 ml|120 ml|" IdProducto="1537">Caricias</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -022-30 |1010300001   -022-50 |" Precios="48,00|93,00|" Descripciones="120 ml|500 ml|" IdProducto="1515">Caricias</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -022-30 |1010300001   -022-50 |" Precios="33,50|65,00|" Descripciones="120 ml|500 ml|" IdProducto="1515">Caricias</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030008   |" Precios="24,50|" Descripciones="Unidad|" IdProducto="2787">Carpeta Incorporación</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180168-000-00 |" Precios="900,00|" Descripciones="Unidad|" IdProducto="6342">Cartera Arena</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180171-000-00 |" Precios="720,00|" Descripciones="Unidad|" IdProducto="6345">Cartera Azulina</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180173-000-00 |" Precios="820,00|" Descripciones="Unidad|" IdProducto="6347">Cartera Black</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180167-000-00 |" Precios="799,00|" Descripciones="Unidad|" IdProducto="6253">Cartera Blanca</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180176-000-00 |" Precios="820,00|" Descripciones="Unidad|" IdProducto="6350">Cartera Café</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180170-000-00 |" Precios="620,00|" Descripciones="Unidad|" IdProducto="6344">Cartera Camel</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180169-000-00 |" Precios="820,00|" Descripciones="Unidad|" IdProducto="6343">Cartera Cherry</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180174-000-00 |" Precios="900,00|" Descripciones="Unidad|" IdProducto="6348">Cartera Marfil</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180175-000-00 |" Precios="900,00|" Descripciones="Unidad|" IdProducto="6349">Cartera Print</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180165-000-00 |" Precios="699,00|" Descripciones="Unidad|" IdProducto="6251">Cartera Terra</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180172-000-00 |" Precios="820,00|" Descripciones="Unidad|" IdProducto="6346">Cartera Tostada</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180177-000-00 |" Precios="820,00|" Descripciones="Unidad|" IdProducto="6351">Cartera Verde Jade</item>
-  <item padre="5923" padreDesc="Carteras" Codigos="1138700180166-000-00 |" Precios="699,00|" Descripciones="Unidad|" IdProducto="6252">Cartera Verde Pastel</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180011-000-00 |" Precios="1058,00|" Descripciones="Unidad|" IdProducto="6661">Cartera Amanda</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180012-000-00 |" Precios="1058,00|" Descripciones="Unidad|" IdProducto="6662">Cartera Charlotte</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180013-000-00 |" Precios="1058,00|" Descripciones="Unidad|" IdProducto="6663">Cartera Chloe</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180014-000-00 |" Precios="1164,00|" Descripciones="Unidad|" IdProducto="6664">Cartera Greta</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180015-000-00 |" Precios="1164,00|" Descripciones="Unidad|" IdProducto="6665">Cartera Isabella</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180016-000-00 |" Precios="1058,00|" Descripciones="Unidad|" IdProducto="6666">Cartera Juana</item>
+  <item padre="5923" padreDesc="Carteras" Codigos="1138700180017-000-00 |" Precios="1164,00|" Descripciones="Unidad|" IdProducto="6667">Cartera Simona</item>
   <item padre="2626" padreDesc="Muestras" Codigos="2510000073013   |" Precios="264,00|" Descripciones="Unidad|" IdProducto="2858">Cartuchera Completa con Ficha Técnica</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900023020   |" Precios="70,00|" Descripciones="Unidad|" IdProducto="5758">Cartuchera SM (Vacía)</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900023018   |" Precios="15,00|" Descripciones="Unidad|" IdProducto="5562">Cartuchera Tal Cual Vacia</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030140   |" Precios="10,00|" Descripciones="Unidad|" IdProducto="6368">Catálogo SM 2014 02</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030141   |" Precios="25,50|" Descripciones="Unidad|" IdProducto="6369">Catálogo SM x 3 u 2014 02</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030142   |" Precios="38,00|" Descripciones="Unidad|" IdProducto="6370">Catálogo SM x 5 u 2014 02</item>
+  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030045   |" Precios="11,00|" Descripciones="Unidad|" IdProducto="6659">Catálogo SM 2014 05</item>
+  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030044   |" Precios="30,50|" Descripciones="Unidad|" IdProducto="6658">Catálogo SM x 3 u 2014 05</item>
+  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030043   |" Precios="45,00|" Descripciones="Unidad|" IdProducto="6657">Catálogo SM x 5 u 2014 05</item>
   <item padre="5176" padreDesc="Básica" Codigos="" Precios="" Descripciones="" IdProducto="5402">Cepillo Acrílico para Rostro</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1501800121092   |" Precios="26,50|" Descripciones="Unidad|" IdProducto="5404">Cepillo Acrílico para Rostro</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -133-50 |1010300001   -133-30 |" Precios="93,00|48,00|" Descripciones="500 ml|120 ml|" IdProducto="5985">Circus</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -005-30 |1010100001   -005-50 |2010100007   -005-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1498">Citrico</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -153-50 |" Precios="144,00|" Descripciones="500 ml|" IdProducto="5564">CK One Shock</item>
-  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -236-30 |2018800007   -236-01 |" Precios="45,00|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5950">Classic</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -014-30 |1010200001   -014-50 |2010200007   -014-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1508">Coco _ Vani</item>
-  <item padre="2774" padreDesc="Masculino" Codigos="2060000007   -121-01 |1060000002   -121-11 |" Precios="9,50|121,00|" Descripciones="5 ml|55 ml|" IdProducto="2776">Consecuencia</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1501800121092   |" Precios="22,50|" Descripciones="Unidad|" IdProducto="5404">Cepillo Acrílico para Rostro</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -133-50 |2010300007   -133-01 |1010300001   -133-30 |" Precios="65,00|9,50|33,50|" Descripciones="500 ml|5 ml|120 ml|" IdProducto="5985">Circus</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -005-30 |1010100001   -005-50 |2010100007   -005-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1498">Citrico</item>
+  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -236-30 |2018800007   -236-01 |" Precios="31,50|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5950">Classic</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -014-30 |1010200001   -014-50 |2010200007   -014-01 |" Precios="34,93|68,60|13,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1508">Coco _ Vani</item>
+  <item padre="2774" padreDesc="Masculino" Codigos="2060000007   -121-01 |1060000002   -121-11 |" Precios="9,50|78,65|" Descripciones="5 ml|55 ml|" IdProducto="2776">Consecuencia</item>
   <item padre="2773" padreDesc="Femenino" Codigos="" Precios="" Descripciones="" IdProducto="4023">Consecuencia</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300241001-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6046">Corrector de Imperfecciones Claro</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300241002-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6047">Corrector de Imperfecciones Medio</item>
-  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009003-000-10 |" Precios="145,00|" Descripciones="50 ml|" IdProducto="1631">Crema de Día FPS 15</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009004-000-10 |" Precios="96,00|" Descripciones="50 ml|" IdProducto="1622">Crema de Limpieza Facial</item>
-  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009004-000-10 |" Precios="135,00|" Descripciones="50 ml|" IdProducto="1632">Crema de Noche</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009002-000-10 |" Precios="98,00|" Descripciones="50 ml|" IdProducto="1623">Crema Humectante</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009008-000-50 |" Precios="115,00|" Descripciones="500 ml|" IdProducto="5152">Crema M y C Hidratante</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009006-000-50 |" Precios="115,00|" Descripciones="500 ml|" IdProducto="5150">Crema M y C Humectante</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009007-000-50 |" Precios="115,00|" Descripciones="500 ml|" IdProducto="5151">Crema M y C Nutritiva</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009003-000-10 |" Precios="100,00|" Descripciones="50 ml|" IdProducto="1624">Crema Nutritiva</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800009001-000-35 |" Precios="98,00|" Descripciones="140 ml|" IdProducto="1625">Crema para Manos</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1086100009001-000-00 |" Precios="69,00|" Descripciones="Unidad|" IdProducto="6315">Crema para manos Lady Up 50 g</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010504001   -115-30 |1010504001   -115-50 |2010500007   -115-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1531">Cumbres Heladas</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -024-30 |1010300001   -024-50 |" Precios="48,00|93,00|" Descripciones="120 ml|500 ml|" IdProducto="1517">Deditos</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200127   -350-00 |" Precios="29,25|" Descripciones="Unidad|" IdProducto="6779">Corazones Aromatizantes Magnolia_Vainil</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200127   -301-00 |" Precios="29,25|" Descripciones="Unidad|" IdProducto="6778">Corazones Aromatizantes Pomelo_Melón</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300241001-000-00 |" Precios="40,60|" Descripciones="Unidad|" IdProducto="6046">Corrector de Imperfecciones Claro</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300241002-000-00 |" Precios="40,60|" Descripciones="Unidad|" IdProducto="6047">Corrector de Imperfecciones Medio</item>
+  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009003-000-10 |" Precios="94,50|" Descripciones="50 ml|" IdProducto="1631">Crema de Día FPS 15</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009004-000-10 |" Precios="62,40|" Descripciones="50 ml|" IdProducto="1622">Crema de Limpieza Facial</item>
+  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009004-000-10 |" Precios="88,01|" Descripciones="50 ml|" IdProducto="1632">Crema de Noche</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009002-000-10 |" Precios="63,70|" Descripciones="50 ml|" IdProducto="1623">Crema Humectante</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009008-000-50 |" Precios="74,75|" Descripciones="500 ml|" IdProducto="5152">Crema M y C Hidratante</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009006-000-50 |" Precios="74,75|" Descripciones="500 ml|" IdProducto="5150">Crema M y C Humectante</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009007-000-50 |" Precios="74,75|" Descripciones="500 ml|" IdProducto="5151">Crema M y C Nutritiva</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009003-000-10 |" Precios="65,00|" Descripciones="50 ml|" IdProducto="1624">Crema Nutritiva</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800009001-000-35 |" Precios="63,70|" Descripciones="140 ml|" IdProducto="1625">Crema para Manos</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="1086100009001-000-00 |" Precios="45,00|" Descripciones="Unidad|" IdProducto="6315">Crema para manos Lady Up 50 g</item>
+  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010504001   -115-30 |1010504001   -115-50 |2010500007   -115-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1531">Cumbres Heladas</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -024-30 |1010300001   -024-50 |" Precios="33,50|65,00|" Descripciones="120 ml|500 ml|" IdProducto="1517">Deditos</item>
   <item padre="1536" padreDesc="Solcito" Codigos="1010600002   -024-30 |1010600001   -024-30 |" Precios="0,00|25,50|" Descripciones="120 ml|120 ml|" IdProducto="1538">Deditos</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300244001-000-00 |" Precios="55,00|" Descripciones="Unidad|" IdProducto="6117">Delineador Líquido para Ojos Negro</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300244002-000-00 |" Precios="50,00|" Descripciones="Unidad|" IdProducto="6150">Delineador Retráctil para Ojos Negro</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300244001-000-00 |" Precios="38,50|" Descripciones="Unidad|" IdProducto="6117">Delineador Líquido para Ojos Negro</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300244002-000-00 |" Precios="35,00|" Descripciones="Unidad|" IdProducto="6150">Delineador Retráctil para Ojos Negro</item>
   <item padre="3787" padreDesc="Ninguna" Codigos="2510000019012   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="3789">Descuento Plumines Opción Nº 1</item>
   <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="4026">Deseo Secreto</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2080000007   -125-01 |1080000002   -125-10 |" Precios="9,50|151,00|" Descripciones="5 ml|50 ml|" IdProducto="1711">Deseo Secreto</item>
   <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5321">Deseo Secreto</item>
   <item padre="3786" padreDesc="Ninguna" Codigos="1031900009005-000-00 |" Precios="0,00|" Descripciones="Unidad|" IdProducto="3788">Diferencia Kit Alta Cosmetica x 5 u</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600116   -D01-00 |" Precios="285,00|" Descripciones="Unidad|" IdProducto="5004">Digital</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000031070   |" Precios="95,00|" Descripciones="Unidad|" IdProducto="2792">Display Sandra Marzzan</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -134-01 |1086100002   -134-11 |" Precios="9,50|224,00|" Descripciones="5 ml|55 ml|" IdProducto="6045">Donna</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="2010300007   -309-01 |1010300001   -309-50 |" Precios="9,50|93,00|" Descripciones="5 ml|500 ml|" IdProducto="6151">Dot</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -015-30 |1010200001   -015-50 |2010200007   -015-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1509">Durazno _ Mango</item>
-  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -238-30 |2018800007   -238-01 |" Precios="45,00|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5949">Dynamic</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="1054000003   -235-15 |" Precios="94,00|" Descripciones="60 ml|" IdProducto="5959">Eau de Toilette Be Pop</item>
-  <item padre="1672" padreDesc="Nenes" Codigos="1054100003   -234-15 |" Precios="94,00|" Descripciones="60 ml|" IdProducto="5958">Eau de Toilette Be Rock</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="1054000003   -097-10 |" Precios="103,00|" Descripciones="50 ml|" IdProducto="1669">Eau de Toilette Nenas Inquietas</item>
-  <item padre="1672" padreDesc="Nenes" Codigos="1054100003   -098-10 |" Precios="103,00|" Descripciones="50 ml|" IdProducto="1673">Eau de Toilette Nenes Inquietos</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800011006-000-35 |" Precios="90,00|" Descripciones="140 ml|" IdProducto="1626">Emulsion Corporal HN</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800011007-000-35 |" Precios="85,00|" Descripciones="140 ml|" IdProducto="1627">Emulsion de Limpieza</item>
-  <item padre="4596" padreDesc="Verano" Codigos="1032000011003-000-36 |" Precios="90,00|" Descripciones="150 ml|" IdProducto="4599">Emulsión Post Solar</item>
-  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -240-14 |" Precios="32,50|" Descripciones="65 ml|" IdProducto="6241">Energía</item>
-  <item padre="2774" padreDesc="Masculino" Codigos="1066200002   -230-10 |2066200007   -230-01 |" Precios="91,00|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5685">Enredados H</item>
-  <item padre="2773" padreDesc="Femenino" Codigos="1066100002   -231-10 |" Precios="91,00|" Descripciones="50 ml|" IdProducto="5684">Enredados M</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140055-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="6063">Esmalte Cremoso Aguamarina</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140053-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5785">Esmalte Cremoso Bordó</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140054-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="6062">Esmalte Cremoso Cielo</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140042-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5609">Esmalte Cremoso Coral</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140040-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5608">Esmalte Cremoso Esmeralda</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140056-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="6064">Esmalte Cremoso Lavanda</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140058-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="6066">Esmalte Cremoso Limón</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140046-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5748">Esmalte Cremoso Magenta</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140043-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5610">Esmalte Cremoso Mandarina</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140049-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5781">Esmalte Cremoso Mora</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140057-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="6065">Esmalte Cremoso Naranja Coral</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140047-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5779">Esmalte Cremoso Negro</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140050-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5782">Esmalte Cremoso Nude</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140052-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5784">Esmalte Cremoso Orquídea</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140044-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5611">Esmalte Cremoso Rojo</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140048-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5780">Esmalte Cremoso Verde Oscuro</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140045-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5612">Esmalte Cremoso Vía Láctea</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140002-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5602">Esmalte Flúor Coral</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140001-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5601">Esmalte Flúor Naranja</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140004-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5749">Esmalte Flúor Rosa</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140003-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5603">Esmalte Flúor Verde</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140080-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5945">Esmalte Glitter Plata</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140060-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5613">Esmalte Metalizado Azul</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140064-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="6356">Esmalte Metalizado Fest</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140061-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="6339">Esmalte Metalizado Gold</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140065-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="6357">Esmalte Metalizado Onix</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140062-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="6340">Esmalte Metalizado Rose</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140063-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="6355">Esmalte Metalizado Silver</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140025-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5787">Esmalte Perlado Azulino</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140026-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5788">Esmalte Perlado Cobre</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140020-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5604">Esmalte Perlado Nácar</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140021-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5605">Esmalte Perlado Oro</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140024-000-01 |" Precios="36,00|" Descripciones="5 ml|" IdProducto="5786">Esmalte Perlado Plata</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140022-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5606">Esmalte Perlado Rojo</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128201140023-000-03 |" Precios="49,00|" Descripciones="10 ml|" IdProducto="5607">Esmalte Perlado Rosa</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900017085   |" Precios="17,00|" Descripciones="Unidad|" IdProducto="3836">Esponja Acanalada</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1501500017001   |" Precios="22,00|" Descripciones="Unidad|" IdProducto="5405">Esponja Centro Vegetal</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -015-30 |1010200001   -015-50 |2010200007   -015-01 |" Precios="34,93|68,60|13,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1509">Durazno _ Mango</item>
+  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -238-30 |2018800007   -238-01 |" Precios="31,50|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5949">Dynamic</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="1054000003   -235-15 |" Precios="61,00|" Descripciones="60 ml|" IdProducto="5959">Eau de Toilette Be Pop</item>
+  <item padre="1672" padreDesc="Nenes" Codigos="1054100003   -234-15 |" Precios="61,00|" Descripciones="60 ml|" IdProducto="5958">Eau de Toilette Be Rock</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="1054000003   -097-10 |" Precios="67,00|" Descripciones="50 ml|" IdProducto="1669">Eau de Toilette Nenas Inquietas</item>
+  <item padre="1672" padreDesc="Nenes" Codigos="1054100003   -098-10 |" Precios="67,00|" Descripciones="50 ml|" IdProducto="1673">Eau de Toilette Nenes Inquietos</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800011006-000-35 |" Precios="58,50|" Descripciones="140 ml|" IdProducto="1626">Emulsion Corporal HN</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800011007-000-35 |" Precios="55,25|" Descripciones="140 ml|" IdProducto="1627">Emulsion de Limpieza</item>
+  <item padre="4596" padreDesc="Verano" Codigos="1032000011003-000-36 |" Precios="58,50|" Descripciones="150 ml|" IdProducto="4599">Emulsión Post Solar</item>
+  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -240-14 |" Precios="22,75|" Descripciones="65 ml|" IdProducto="6241">Energía</item>
+  <item padre="2774" padreDesc="Masculino" Codigos="1066200002   -230-10 |2066200007   -230-01 |" Precios="59,15|9,50|" Descripciones="50 ml|5 ml|" IdProducto="5685">Enredados H</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140053-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5785">Esmalte Cremoso Bordó</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140008-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6671">Esmalte Cremoso Capri</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140006-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6669">Esmalte Cremoso Chicle</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140042-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5609">Esmalte Cremoso Coral</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140040-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5608">Esmalte Cremoso Esmeralda</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140007-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6670">Esmalte Cremoso Jade</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140058-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="6066">Esmalte Cremoso Limón</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140046-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5748">Esmalte Cremoso Magenta</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140043-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5610">Esmalte Cremoso Mandarina</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140010-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6673">Esmalte Cremoso Naranja</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140057-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="6065">Esmalte Cremoso Naranja Coral</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140047-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5779">Esmalte Cremoso Negro</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140050-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5782">Esmalte Cremoso Nude</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140052-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5784">Esmalte Cremoso Orquídea</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140044-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5611">Esmalte Cremoso Rojo</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140009-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6672">Esmalte Cremoso Tutti Frutti</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140048-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5780">Esmalte Cremoso Verde Oscuro</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140045-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5612">Esmalte Cremoso Vía Láctea</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140001-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5601">Esmalte Flúor Naranja</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140080-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5945">Esmalte Glitter Plata</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140060-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5613">Esmalte Metalizado Azul</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140064-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6356">Esmalte Metalizado Fest</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140061-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6339">Esmalte Metalizado Gold</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140065-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6357">Esmalte Metalizado Onix</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140062-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6340">Esmalte Metalizado Rose</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140063-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6355">Esmalte Metalizado Silver</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140005-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="6668">Esmalte Metalizado Zafiro</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140025-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5787">Esmalte Perlado Azulino</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140020-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5604">Esmalte Perlado Nácar</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140021-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5605">Esmalte Perlado Oro</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140024-000-01 |" Precios="25,20|" Descripciones="5 ml|" IdProducto="5786">Esmalte Perlado Plata</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140022-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5606">Esmalte Perlado Rojo</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128201140023-000-03 |" Precios="34,50|" Descripciones="10 ml|" IdProducto="5607">Esmalte Perlado Rosa</item>
   <item padre="5399" padreDesc="SPA" Codigos="" Precios="" Descripciones="" IdProducto="5401">Esponja Centro Vegetal</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5154">Esponja Deditos Cariñosos</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000017003   |" Precios="17,00|" Descripciones="Unidad|" IdProducto="2794">Esponja Deditos Cariñosos</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900017005   |" Precios="17,00|" Descripciones="Unidad|" IdProducto="4260">Esponja Estrella</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000017003   |" Precios="14,45|" Descripciones="Unidad|" IdProducto="2794">Esponja Deditos Cariñosos</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900017005   |" Precios="14,45|" Descripciones="Unidad|" IdProducto="4260">Esponja Estrella</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000017001   |" Precios="12,75|" Descripciones="Unidad|" IdProducto="2795">Esponja Limpieza de Cutis</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5153">Esponja Limpieza de Cutis</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000017001   |" Precios="15,00|" Descripciones="Unidad|" IdProducto="2795">Esponja Limpieza de Cutis</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1506900017089   |" Precios="20,00|" Descripciones="Unidad|" IdProducto="3833">Esponja Masaje</item>
+  <item padre="4302" padreDesc="Splash Corporal" Codigos="1090800005   -136-40 |2098000007   -136-01 |" Precios="55,25|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4303">Exótica Orquíde</item>
   <item padre="4036" padreDesc="Femenino" Codigos="" Precios="" Descripciones="" IdProducto="4145">Exótica Orquíde</item>
-  <item padre="4302" padreDesc="Splash Corporal" Codigos="1090800005   -136-40 |2098000007   -136-01 |" Precios="85,00|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4303">Exótica Orquíde</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -130-30 |1010100001   -130-50 |2010100007   -130-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="3820">Flor de Agua</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -306-04 |" Precios="49,00|" Descripciones="8 ml|" IdProducto="5809">Flores B y Aloe</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -193-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5316">Flores Cítricas</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -193-20 |2010700007001-193-01 |" Precios="115,00|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4872">Flores Cítricas</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2501900030084   |" Precios="13,50|" Descripciones="Unidad|" IdProducto="2783">Folleto Instructivo Alta Cosmetica x 10 u</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -130-30 |1010100001   -130-50 |2010100007   -130-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="3820">Flor de Agua</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -306-04 |" Precios="34,30|" Descripciones="8 ml|" IdProducto="5809">Flores B y Aloe</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -193-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5316">Flores Cítricas</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -193-20 |2010700007001-193-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4872">Flores Cítricas</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030033   |" Precios="7,50|" Descripciones="Unidad|" IdProducto="2805">Folleto Instructivo Cosmética Básica x 10 u</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030080   |" Precios="24,00|" Descripciones="Unidad|" IdProducto="6260">Folleto Instructivo Cosmética General x 10 u.</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030016   |" Precios="25,00|" Descripciones="Unidad|" IdProducto="4316">Folleto Minicatálogo x 50 u</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128200143000-000-03 |" Precios="50,00|" Descripciones="10 ml|" IdProducto="5667">Fortalecedor de Uñas</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -201-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5023">Frutal Fresco</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -192-20 |2010700007001-192-01 |" Precios="115,00|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4871">Frutos Rojos</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128200143000-000-03 |" Precios="35,00|" Descripciones="10 ml|" IdProducto="5667">Fortalecedor de Uñas</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -201-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5023">Frutal Fresco</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -192-20 |2010700007001-192-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4871">Frutos Rojos</item>
   <item padre="5930" padreDesc="Fundas" Codigos="1138600190021-000-00 |" Precios="75,00|" Descripciones="Unidad|" IdProducto="6220">Funda Celular Cuero Azul</item>
+  <item padre="5930" padreDesc="Fundas" Codigos="1138600190027-000-00 |" Precios="123,25|" Descripciones="Unidad|" IdProducto="6500">Funda Celular Cuero Azulina</item>
+  <item padre="5930" padreDesc="Fundas" Codigos="1138600190026-000-00 |" Precios="140,25|" Descripciones="Unidad|" IdProducto="6499">Funda Celular Cuero Azulina Large</item>
   <item padre="5930" padreDesc="Fundas" Codigos="1138600190023-000-00 |" Precios="75,00|" Descripciones="Unidad|" IdProducto="6222">Funda Celular Cuero Suela</item>
+  <item padre="4770" padreDesc="Ninguna" Codigos="2500000032001   |" Precios="0,01|" Descripciones="Unidad|" IdProducto="6654">Gatillo Aromatizador 500 ml</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000032107   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5558">Gatillo Aromatizador x 1 Lt</item>
-  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009001-000-05 |" Precios="140,00|" Descripciones="30 ml|" IdProducto="1634">Gel Correctivo Lineas de Expresion</item>
-  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009002-000-05 |" Precios="105,00|" Descripciones="30 ml|" IdProducto="1635">Gel Crema Contorno de Ojos</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111014   -101-42 |" Precios="69,00|" Descripciones="250 ml|" IdProducto="3829">Gel de Baño Algas de Spa</item>
-  <item padre="1675" padreDesc="Unisex" Codigos="1054200014   -096-40 |" Precios="68,00|" Descripciones="200 ml|" IdProducto="4915">Gel de Baño Cositas Inquiet</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="1043100014   -024-40 |" Precios="66,00|" Descripciones="200 ml|" IdProducto="1649">Gel de Baño Deditos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300014   -026-40 |" Precios="66,00|" Descripciones="200 ml|" IdProducto="1659">Gel de Baño Lefrance</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -233-01 |1086200002   -233-11 |1086200220   -233-17 |" Precios="9,50|155,00|76,00|" Descripciones="5 ml|55 ml|75 ml|" IdProducto="5853">GEN Evolution</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -190-20 |2010700007001-190-01 |" Precios="115,00|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4869">Glasé de Naranj</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -152-50 |1010300001   -152-30 |2010300007   -152-01 |" Precios="93,00|48,00|9,50|" Descripciones="500 ml|120 ml|5 ml|" IdProducto="5255">Gucci</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="5332">H</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="2080000007   -128-01 |1080000002   -128-21 |" Precios="9,50|187,00|" Descripciones="5 ml|95 ml|" IdProducto="5333">H</item>
+  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009001-000-05 |" Precios="91,00|" Descripciones="30 ml|" IdProducto="1634">Gel Correctivo Lineas de Expresion</item>
+  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900009002-000-05 |" Precios="68,25|" Descripciones="30 ml|" IdProducto="1635">Gel Crema Contorno de Ojos</item>
+  <item padre="1687" padreDesc="Agua" Codigos="1071111014   -101-42 |" Precios="45,00|" Descripciones="250 ml|" IdProducto="3829">Gel de Baño Algas de Spa</item>
+  <item padre="1675" padreDesc="Unisex" Codigos="1054200014   -096-40 |" Precios="44,20|" Descripciones="200 ml|" IdProducto="4915">Gel de Baño Cositas Inquiet</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="1043100014   -024-40 |" Precios="43,00|" Descripciones="200 ml|" IdProducto="1649">Gel de Baño Deditos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300014   -026-40 |" Precios="43,00|" Descripciones="200 ml|" IdProducto="1659">Gel de Baño Lefrance</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -233-01 |1086200002   -233-11 |1086200220   -233-17 |" Precios="9,50|100,75|49,40|" Descripciones="5 ml|55 ml|75 ml|" IdProducto="5853">GEN Evolution</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -190-20 |2010700007001-190-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4869">Glasé de Naranj</item>
+  <item padre="5495" padreDesc="Nuevo Latido" Codigos="2062500007   -167-01 |1062500001   -167-30 |1062500001   -167-45 |" Precios="9,50|32,50|53,76|" Descripciones="5 ml|120 ml|350 ml|" IdProducto="6479">Graffiti</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -152-50 |1010300001   -152-30 |2010300007   -152-01 |" Precios="65,00|33,50|9,50|" Descripciones="500 ml|120 ml|5 ml|" IdProducto="5255">Gucci</item>
   <item padre="5326" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5327">H</item>
-  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -237-30 |2018800007   -237-01 |" Precios="45,00|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5951">Harmony</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170003-000-00 |" Precios="82,00|" Descripciones="Unidad|" IdProducto="5983">Hornillo Geo Salmón</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170004-000-00 |" Precios="82,00|" Descripciones="Unidad|" IdProducto="5984">Hornillo Geo Verde</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170001-000-00 |" Precios="82,00|" Descripciones="Unidad|" IdProducto="5849">Hornillo Prisma</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170002-000-00 |" Precios="65,00|" Descripciones="Unidad|" IdProducto="5850">Hornillo Vasija</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170005-000-00 |" Precios="91,00|" Descripciones="Unidad|" IdProducto="6245">Hornillo Vitreaux</item>
-  <item padre="5495" padreDesc="Nuevo Latido" Codigos="1066300001   -141-30 |1066300001   -141-45 |2062500007   -141-01 |" Precios="46,50|75,50|9,50|" Descripciones="120 ml|350 ml|5 ml|" IdProducto="5497">In &amp; Out</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="5332">H</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="2080000007   -128-01 |1080000002   -128-21 |" Precios="9,50|121,55|" Descripciones="5 ml|95 ml|" IdProducto="5333">H</item>
+  <item padre="5948" padreDesc="Autos" Codigos="1018800001   -237-30 |2018800007   -237-01 |" Precios="31,50|9,50|" Descripciones="120 ml|5 ml|" IdProducto="5951">Harmony</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170003-000-00 |" Precios="69,70|" Descripciones="Unidad|" IdProducto="5983">Hornillo Geo Salmón</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500170004-000-00 |" Precios="69,70|" Descripciones="Unidad|" IdProducto="5984">Hornillo Geo Verde</item>
+  <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="1619">Image</item>
   <item padre="4033" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="4929">In &amp; Out</item>
-  <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700019020   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="4693">Incorporación Nº 0 Catálogo SM</item>
+  <item padre="5495" padreDesc="Nuevo Latido" Codigos="1066300001   -141-30 |1066300001   -141-45 |2062500007   -141-01 |" Precios="32,50|53,76|9,50|" Descripciones="120 ml|350 ml|5 ml|" IdProducto="5497">In &amp; Out</item>
+  <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700019020   |" Precios="0,01|" Descripciones="Unidad|" IdProducto="4693">Incorporación Nº 0 Catálogo SM</item>
   <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700021001   |" Precios="49,00|" Descripciones="Unidad|" IdProducto="5714">Incorporación_N°1</item>
   <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700021002   |" Precios="284,00|" Descripciones="Unidad|" IdProducto="5715">Incorporación_N°2</item>
   <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700021003   |" Precios="490,00|" Descripciones="Unidad|" IdProducto="5718">Incorporación_N°3</item>
   <item padre="2860" padreDesc="Incorporaciones" Codigos="2516700021004   |" Precios="767,00|" Descripciones="Unidad|" IdProducto="5719">Incorporación_N°4</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1086100002   -204-23 |2086100007   -204-01 |" Precios="187,00|9,50|" Descripciones="100 ml|5 ml|" IdProducto="5078">Insigne</item>
   <item padre="3787" padreDesc="Ninguna" Codigos="2510000023009   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="4775">Insumo Bolso Vacío SM</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000030110   |" Precios="2,89|" Descripciones="Unidad|" IdProducto="5992">Insumo Carpeta Institucional Gris</item>
   <item padre="3787" padreDesc="Ninguna" Codigos="2510000023010   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="4777">Insumo Cartuchera Tal Cual Vacia</item>
-  <item padre="4302" padreDesc="Splash Corporal" Codigos="1098000005   -137-40 |2098000007   -137-01 |" Precios="85,00|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4765">Intenso Arandan</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111008   -101-20 |" Precios="46,00|" Descripciones="90 ml|" IdProducto="1690">Jabón Algas de Spa</item>
-  <item padre="1692" padreDesc="Aire" Codigos="1071212008   -102-20 |" Precios="46,00|" Descripciones="90 ml|" IdProducto="1695">Jabón Brisa Blanca</item>
-  <item padre="1682" padreDesc="Tierra" Codigos="1071015008   -105-20 |" Precios="46,00|" Descripciones="90 ml|" IdProducto="4665">Jabón Eco Bambú</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="10431000081  -024-20 |" Precios="42,00|" Descripciones="90 ml|" IdProducto="3845">Jabón Huella Deditos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300008002-026-20 |" Precios="42,00|" Descripciones="90 ml|" IdProducto="1660">Jabón Huella Lefrance</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="1054000008   -097-00 |" Precios="39,00|" Descripciones="Unidad|" IdProducto="1670">Jabón Nenas Inquietas</item>
-  <item padre="1672" padreDesc="Nenes" Codigos="1054100008   -098-00 |" Precios="39,00|" Descripciones="Unidad|" IdProducto="1674">Jabón Nenes Inquietos</item>
-  <item padre="1697" padreDesc="Madera" Codigos="1071313008   -103-20 |" Precios="46,00|" Descripciones="90 ml|" IdProducto="1700">Jabón Origen Místico</item>
-  <item padre="1702" padreDesc="Fuego" Codigos="1071414008   -104-20 |" Precios="46,00|" Descripciones="90 ml|" IdProducto="1705">Jabón Pasión Oriental</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -308-20 |2010700007001-308-01 |" Precios="115,00|9,50|" Descripciones="90 ml|5 ml|" IdProducto="6152">Jardines de Pra</item>
-  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -302-00 |" Precios="52,00|" Descripciones="Unidad|" IdProducto="5568">Jazmín</item>
+  <item padre="4302" padreDesc="Splash Corporal" Codigos="1098000005   -137-40 |2098000007   -137-01 |" Precios="55,25|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4765">Intenso Arandan</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="10431000081  -024-20 |" Precios="27,30|" Descripciones="90 ml|" IdProducto="3845">Jabón Huella Deditos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300008002-026-20 |" Precios="27,30|" Descripciones="90 ml|" IdProducto="1660">Jabón Huella Lefrance</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="1054000008   -097-00 |" Precios="25,35|" Descripciones="Unidad|" IdProducto="1670">Jabón Nenas Inquietas</item>
+  <item padre="1672" padreDesc="Nenes" Codigos="1054100008   -098-00 |" Precios="25,35|" Descripciones="Unidad|" IdProducto="1674">Jabón Nenes Inquietos</item>
+  <item padre="1697" padreDesc="Madera" Codigos="1071313008   -103-20 |" Precios="30,00|" Descripciones="90 ml|" IdProducto="1700">Jabón Origen Místico</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -308-20 |2010700007001-308-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="6152">Jardines de Pra</item>
+  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -302-00 |" Precios="36,50|" Descripciones="Unidad|" IdProducto="5568">Jazmín</item>
   <item padre="1513" padreDesc="Selectivo" Codigos="" Precios="" Descripciones="" IdProducto="5697">Kenzo</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -025-30 |1010300001   -025-50 |2010300007   -025-01 |" Precios="48,00|93,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1518">Kenzo</item>
-  <item padre="5396" padreDesc="Ambientador" Codigos="1041600116   -000-00 |" Precios="100,00|" Descripciones="Unidad|" IdProducto="5423">kit Deditos Sticker y Ambientador</item>
-  <item padre="5394" padreDesc="Ambientador" Codigos="1051600116   -000-00 |" Precios="286,00|" Descripciones="Unidad|" IdProducto="5424">kit Inquietos Sticker y Ambientador</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -025-30 |1010300001   -025-50 |2010300007   -025-01 |" Precios="33,50|65,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1518">Kenzo</item>
   <item padre="2860" padreDesc="Incorporaciones" Codigos="" Precios="" Descripciones="" IdProducto="4922">Kit Nº1 Volvé a Conocernos</item>
-  <item padre="4923" padreDesc="Programas" Codigos="2516700019002   |" Precios="133,00|" Descripciones="Unidad|" IdProducto="4924">Kit Nº1 Volvé a Conocernos</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -166-01 |1086100002   -166-10 |" Precios="9,50|175,00|" Descripciones="5 ml|50 ml|" IdProducto="6337">Lady Up</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -166-01 |1086100002   -166-10 |" Precios="9,50|114,00|" Descripciones="5 ml|50 ml|" IdProducto="6337">Lady Up</item>
+  <item padre="4620" padreDesc="Verano" Codigos="1112000046001-000-00 |" Precios="95,00|" Descripciones="Unidad|" IdProducto="4621">Lanzamiento Kit Verano</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000031063   |" Precios="7,00|" Descripciones="Unidad|" IdProducto="2823">Lapicera Institucional</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150047-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6051">Lápiz Labial Cremoso Champagne Rosé</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150046-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5776">Lápiz Labial Cremoso Chocolate Intenso</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150048-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6052">Lápiz Labial Cremoso Cobre Rojizo</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150040-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5594">Lápiz Labial Cremoso Fucsia</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150049-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6363">Lápiz Labial Cremoso Nude</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150041-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5595">Lápiz Labial Cremoso Púrpura</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150042-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5596">Lápiz Labial Cremoso Rojo Pasión</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150043-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5597">Lápiz Labial Cremoso Rojo Rubí</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150050-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6364">Lápiz Labial Cremoso Rosa Pálido</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150045-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5773">Lápiz Labial Cremoso Violeta</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150003-000-00 |" Precios="60,00|" Descripciones="Unidad|" IdProducto="5775">Lápiz Labial Glitter Dorado</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150001-000-00 |" Precios="60,00|" Descripciones="Unidad|" IdProducto="5588">Lápiz Labial Glitter Rojo Glam</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150002-000-00 |" Precios="60,00|" Descripciones="Unidad|" IdProducto="5589">Lápiz Labial Glitter Rosa Star</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150024-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5771">Lápiz Labial Perlado Burdeos</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150020-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5590">Lápiz Labial Perlado Cereza</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150027-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6054">Lápiz Labial Perlado Coral Intenso</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150021-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5591">Lápiz Labial Perlado Durazno</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150029-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6056">Lápiz Labial Perlado Naranja Luminoso</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150028-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6055">Lápiz Labial Perlado Orquídea Luminoso</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150026-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="6053">Lápiz Labial Perlado Rojo Love</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150022-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5592">Lápiz Labial Perlado Rosa Chic</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150023-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5593">Lápiz Labial Perlado Rosa Classic</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128301150025-000-00 |" Precios="58,00|" Descripciones="Unidad|" IdProducto="5774">Lápiz Labial Perlado Rosa Mosqueta</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -304-04 |" Precios="49,00|" Descripciones="8 ml|" IdProducto="5806">Lavanda</item>
-  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -307-00 |" Precios="52,00|" Descripciones="Unidad|" IdProducto="5855">Lavanda</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -016-30 |1010200001   -016-50 |2010200007   -016-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1510">Lavanda</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2080000007   -123-01 |1080000002   -123-15 |" Precios="9,50|160,00|" Descripciones="5 ml|60 ml|" IdProducto="1709">Lazos de Seda</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150047-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6051">Lápiz Labial Cremoso Champagne Rosé</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150046-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5776">Lápiz Labial Cremoso Chocolate Intenso</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150048-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6052">Lápiz Labial Cremoso Cobre Rojizo</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150040-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5594">Lápiz Labial Cremoso Fucsia</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150049-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6363">Lápiz Labial Cremoso Nude</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150042-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5596">Lápiz Labial Cremoso Rojo Pasión</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150043-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5597">Lápiz Labial Cremoso Rojo Rubí</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150050-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6364">Lápiz Labial Cremoso Rosa Pálido</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150045-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5773">Lápiz Labial Cremoso Violeta</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150044-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5772">Lápiz Labial Cremoso Wine</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150003-000-00 |" Precios="42,00|" Descripciones="Unidad|" IdProducto="5775">Lápiz Labial Glitter Dorado</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150002-000-00 |" Precios="42,00|" Descripciones="Unidad|" IdProducto="5589">Lápiz Labial Glitter Rosa Star</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150024-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5771">Lápiz Labial Perlado Burdeos</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150020-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5590">Lápiz Labial Perlado Cereza</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150027-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6054">Lápiz Labial Perlado Coral Intenso</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150021-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5591">Lápiz Labial Perlado Durazno</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150029-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6056">Lápiz Labial Perlado Naranja Luminoso</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150028-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6055">Lápiz Labial Perlado Orquídea Luminoso</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150026-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="6053">Lápiz Labial Perlado Rojo Love</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150022-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5592">Lápiz Labial Perlado Rosa Chic</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150023-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5593">Lápiz Labial Perlado Rosa Classic</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128301150025-000-00 |" Precios="40,50|" Descripciones="Unidad|" IdProducto="5774">Lápiz Labial Perlado Rosa Mosqueta</item>
+  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -307-00 |" Precios="36,50|" Descripciones="Unidad|" IdProducto="5855">Lavanda</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -304-04 |" Precios="34,30|" Descripciones="8 ml|" IdProducto="5806">Lavanda</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -016-30 |1010200001   -016-50 |2010200007   -016-01 |" Precios="34,93|68,60|13,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1510">Lavanda</item>
   <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="4024">Lazos de Seda</item>
   <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5325">Lazos de Seda</item>
   <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="2777">Lefrance</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -026-30 |1010300001   -026-50 |" Precios="48,00|93,00|" Descripciones="120 ml|500 ml|" IdProducto="1519">Lefrance</item>
+  <item padre="4459" padreDesc="Lefrance" Codigos="" Precios="" Descripciones="" IdProducto="4460">Lefrance</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -026-30 |1010300001   -026-50 |" Precios="33,50|65,00|" Descripciones="120 ml|500 ml|" IdProducto="1519">Lefrance</item>
   <item padre="1536" padreDesc="Solcito" Codigos="1010600001   -026-30 |" Precios="48,00|" Descripciones="120 ml|" IdProducto="1539">Lefrance</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -180-30 |1010300001   -180-50 |2010300007   -180-01 |" Precios="48,00|93,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="4503">Light Blue</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -303-04 |" Precios="49,00|" Descripciones="8 ml|" IdProducto="5805">Limón</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -017-30 |1010200001   -017-50 |2010200007   -017-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1511">Limon Manzanill</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -200-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5022">Lluvia de Flor</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -200-20 |" Precios="115,00|" Descripciones="90 ml|" IdProducto="5351">Lluvia de Flor</item>
-  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900010006-000-30 |" Precios="155,00|" Descripciones="120 ml|" IdProducto="1636">Loción Corporal Efecto Seda</item>
-  <item padre="1621" padreDesc="Básica" Codigos="1031800010005-000-35 |" Precios="95,00|" Descripciones="140 ml|" IdProducto="1628">Loción Herbácea Tónica</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -191-20 |2010700007001-191-01 |" Precios="115,00|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4870">Maderas de Orie</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -191-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5315">Maderas de Orie</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -180-30 |1010300001   -180-50 |2010300007   -180-01 |" Precios="33,50|65,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="4503">Light Blue</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -303-04 |" Precios="34,30|" Descripciones="8 ml|" IdProducto="5805">Limón</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -017-30 |1010200001   -017-50 |2010200007   -017-01 |" Precios="34,93|68,60|13,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1511">Limon Manzanill</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -200-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5022">Lluvia de Flor</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -200-20 |2010700007001-200-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="5351">Lluvia de Flor</item>
+  <item padre="1630" padreDesc="Alta Cosmética" Codigos="1031900010006-000-30 |" Precios="100,75|" Descripciones="120 ml|" IdProducto="1636">Loción Corporal Efecto Seda</item>
+  <item padre="1621" padreDesc="Básica" Codigos="1031800010005-000-35 |" Precios="61,75|" Descripciones="140 ml|" IdProducto="1628">Loción Herbácea Tónica</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -191-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5315">Maderas de Orie</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -191-20 |2010700007001-191-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="4870">Maderas de Orie</item>
   <item padre="5399" padreDesc="SPA" Codigos="" Precios="" Descripciones="" IdProducto="5400">Manopla Redonda</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1501500017000   |" Precios="30,50|" Descripciones="Unidad|" IdProducto="5406">Manopla Redonda</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -006-30 |1010100001   -006-50 |2010100007   -006-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1499">Manzana</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -007-30 |1010100001   -007-50 |2010100007   -007-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1500">Marina</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1080000002   -132-23 |2080000007   -132-01 |" Precios="193,00|9,50|" Descripciones="100 ml|5 ml|" IdProducto="5487">Martinica</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300243001-000-00 |" Precios="78,00|" Descripciones="Unidad|" IdProducto="6118">Máscara para Pestañas Negra</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -007-30 |1010100001   -007-50 |2010100007   -007-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1500">Marina</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="1080000002   -132-23 |2080000007   -132-01 |" Precios="125,45|9,50|" Descripciones="100 ml|5 ml|" IdProducto="5487">Martinica</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="6651">Martinica</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300243001-000-00 |" Precios="54,60|" Descripciones="Unidad|" IdProducto="6118">Máscara para Pestañas Negra</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000182001   |" Precios="0,01|" Descripciones="Unidad|" IdProducto="5990">Mochila Aromatizador Circus</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="2080000007   -122-01 |1080000002   -122-10 |" Precios="9,50|98,15|" Descripciones="5 ml|50 ml|" IdProducto="1713">Momentos</item>
   <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5322">Momentos</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="2080000007   -122-01 |1080000002   -122-10 |" Precios="9,50|151,00|" Descripciones="5 ml|50 ml|" IdProducto="1713">Momentos</item>
-  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -313-01 |1018800001   -313-30 |" Precios="9,50|45,00|" Descripciones="5 ml|120 ml|" IdProducto="6166">Mystic</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -008-30 |1010100001   -008-50 |2010100007   -008-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1501">Native</item>
-  <item padre="5600" padreDesc="Manos" Codigos="1128200142000-000-03 |" Precios="50,00|" Descripciones="10 ml|" IdProducto="5666">Nivelador de Uñas</item>
+  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -313-01 |1018800001   -313-30 |" Precios="9,50|31,50|" Descripciones="5 ml|120 ml|" IdProducto="6166">Mystic</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -008-50 |2010100007   -008-01 |" Precios="55,50|9,50|" Descripciones="500 ml|5 ml|" IdProducto="1501">Native</item>
+  <item padre="5600" padreDesc="Manos" Codigos="1128200142000-000-03 |" Precios="35,00|" Descripciones="10 ml|" IdProducto="5666">Nivelador de Uñas</item>
   <item padre="1513" padreDesc="Selectivo" Codigos="" Precios="" Descripciones="" IdProducto="5699">Noa</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -027-30 |1010300001   -027-50 |2010300007   -027-01 |" Precios="48,00|93,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1520">Noa</item>
-  <item padre="5268" padreDesc="Jabón Líquido" Codigos="1032100015   -155-50 |" Precios="94,00|" Descripciones="500 ml|" IdProducto="5269">Oceánico</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -027-30 |1010300001   -027-50 |2010300007   -027-01 |" Precios="33,50|65,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1520">Noa</item>
+  <item padre="5268" padreDesc="Jabón Líquido" Codigos="1032100015   -155-50 |" Precios="61,00|" Descripciones="500 ml|" IdProducto="5269">Oceánico</item>
   <item padre="6240" padreDesc="Alcohol en Gel" Codigos="" Precios="" Descripciones="" IdProducto="6316">Óleo Corporal Bifásico con A. de Almendras</item>
-  <item padre="4596" padreDesc="Verano" Codigos="1032000107001-000-36 |" Precios="120,00|" Descripciones="150 ml|" IdProducto="6271">Pantalla FPS 30</item>
+  <item padre="6317" padreDesc="Óleo Corporal" Codigos="1097100290001-000-31 |" Precios="94,25|" Descripciones="125 ml|" IdProducto="6318">Óleo Corporal Bifásico con A. de Almendras</item>
+  <item padre="4596" padreDesc="Verano" Codigos="1032000107001-000-36 |" Precios="78,00|" Descripciones="150 ml|" IdProducto="6271">Pantalla FPS 30</item>
   <item padre="4252" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="4253">Pepino</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010501001   -116-30 |1010501001   -116-50 |2010500007   -116-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1532">Piedemonte Soña</item>
+  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010501001   -116-30 |1010501001   -116-50 |2010500007   -116-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1532">Piedemonte Soña</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000031065   |" Precios="14,00|" Descripciones="Unidad|" IdProducto="2830">PIN "SANDRA MARZZAN"</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -305-04 |" Precios="49,00|" Descripciones="8 ml|" IdProducto="5807">Pino y Flores</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500160   -305-04 |" Precios="34,30|" Descripciones="8 ml|" IdProducto="5807">Pino y Flores</item>
   <item padre="1507" padreDesc="Aromaterapia" Codigos="" Precios="" Descripciones="" IdProducto="5479">Placeres de Cho</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -107-30 |1010200001   -107-50 |2010200007   -107-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="5403">Placeres de Cho</item>
   <item padre="1687" padreDesc="Agua" Codigos="2071111007   -101-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="3849">Plumín Algas de Spa</item>
   <item padre="1668" padreDesc="Nenas" Codigos="2054000007   -235-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="5960">Plumín Be Pop</item>
   <item padre="1672" padreDesc="Nenes" Codigos="2054100007   -234-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="5961">Plumín Be Rock</item>
   <item padre="1692" padreDesc="Aire" Codigos="2071212007   -102-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="3851">Plumín Brisa Blanca</item>
-  <item padre="1642" padreDesc="Caricias" Codigos="2020000007   -022-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="2779">Plumin Caricias</item>
+  <item padre="1642" padreDesc="Caricias" Codigos="2020000007   -022-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="2779">Plumín Caricias</item>
   <item padre="5494" padreDesc="Inquietos" Codigos="2054300007   -096-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="5696">Plumín Cositas Inquiet</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="2020000007   -024-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="2780">Plumin Deditos</item>
+  <item padre="1642" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6648">Plumín Deditos</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="" Precios="" Descripciones="" IdProducto="2780">Plumín Deditos</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="2020000007   -024-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4197">Plumín Deditos</item>
   <item padre="1682" padreDesc="Tierra" Codigos="2071015007   -105-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4942">Plumín Eco Bambú</item>
-  <item padre="1652" padreDesc="Garabatos" Codigos="2020000007   -029-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="2781">Plumin Garabatos</item>
+  <item padre="1652" padreDesc="Garabatos" Codigos="2020000007   -029-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4200">Plumín Garabatos</item>
+  <item padre="1652" padreDesc="Garabatos" Codigos="" Precios="" Descripciones="" IdProducto="2781">Plumín Garabatos</item>
+  <item padre="1642" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6649">Plumín Garabatos</item>
   <item padre="1655" padreDesc="Lefrance" Codigos="2043300007   -026-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4198">Plumín Lefrance</item>
-  <item padre="1668" padreDesc="Nenas" Codigos="205400000701 -097-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="1671">Plumin Nenas Inquietas</item>
-  <item padre="1672" padreDesc="Nenes" Codigos="2020000007   -098-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="2782">Plumin Nenes Inquietos</item>
+  <item padre="1668" padreDesc="Nenas" Codigos="205400000701 -097-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="1671">Plumín Nenas Inquietas</item>
+  <item padre="1672" padreDesc="Nenes" Codigos="" Precios="" Descripciones="" IdProducto="2782">Plumín Nenes Inquietos</item>
+  <item padre="6650" padreDesc="Caricias" Codigos="" Precios="" Descripciones="" IdProducto="6652">Plumín Nenes Inquietos</item>
+  <item padre="1672" padreDesc="Nenes" Codigos="2020000007   -098-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="6520">Plumín Nenes Inquietos</item>
   <item padre="1697" padreDesc="Madera" Codigos="2071313007   -103-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="3852">Plumín Origen Místico</item>
   <item padre="1702" padreDesc="Fuego" Codigos="2071414007   -104-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="3853">Plumín Pasión Oriental</item>
   <item padre="5494" padreDesc="Inquietos" Codigos="2054300007   -095-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="5698">Plumín Picardías</item>
   <item padre="1662" padreDesc="Tartinet" Codigos="2043400007   -028-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="4199">Plumín Tartinet</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300231001-000-00 |" Precios="70,00|" Descripciones="Unidad|" IdProducto="6275">Polvo Compacto Natural</item>
-  <item padre="5268" padreDesc="Jabón Líquido" Codigos="1032100015   -156-50 |" Precios="94,00|" Descripciones="500 ml|" IdProducto="5270">Pomelo</item>
-  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -301-00 |" Precios="52,00|" Descripciones="Unidad|" IdProducto="5567">Pomelo_Melón</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300231001-000-00 |" Precios="49,00|" Descripciones="Unidad|" IdProducto="6275">Polvo Compacto Natural</item>
+  <item padre="5268" padreDesc="Jabón Líquido" Codigos="1032100015   -156-50 |" Precios="61,00|" Descripciones="500 ml|" IdProducto="5270">Pomelo</item>
+  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -301-00 |" Precios="36,50|" Descripciones="Unidad|" IdProducto="5567">Pomelo_Melón</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000023104   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5224">Porta Plumín Tal Cual unisex</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -108-30 |1010100001   -108-50 |2010100007   -108-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="5504">Praia</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030014   |" Precios="1,50|" Descripciones="Unidad|" IdProducto="2838">Probadores de Papel x 20 u</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="2010500007   -117-01 |" Precios="9,50|" Descripciones="5 ml|" IdProducto="1533">Puna Norteña</item>
   <item padre="4036" padreDesc="Femenino" Codigos="" Precios="" Descripciones="" IdProducto="4037">Radiante Clemen</item>
-  <item padre="4302" padreDesc="Splash Corporal" Codigos="1090800005   -135-40 |2098000007   -135-01 |" Precios="85,00|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4304">Radiante Clemen</item>
-  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -241-14 |" Precios="32,50|" Descripciones="65 ml|" IdProducto="6242">Relax</item>
+  <item padre="4302" padreDesc="Splash Corporal" Codigos="1090800005   -135-40 |2098000007   -135-01 |" Precios="55,25|9,50|" Descripciones="200 ml|5 ml|" IdProducto="4304">Radiante Clemen</item>
+  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -241-14 |" Precios="22,75|" Descripciones="65 ml|" IdProducto="6242">Relax</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000031099   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="4875">Reloj Escritorio SM</item>
-  <item padre="5396" padreDesc="Ambientador" Codigos="1041600118   -213-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5397">Repuesto Ambientador Nubecitas</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -197-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="4883">Repuesto F Citr</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -196-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="4882">Repuesto F Rojo</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -194-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="4880">Repuesto G Nara</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -310-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="6153">Repuesto JPraga</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -215-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="5501">Repuesto LluFlo</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -195-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="4881">Repuesto M Orie</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -209-20 |" Precios="84,00|" Descripciones="90 ml|" IdProducto="5500">Repuesto Sueñit</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030143   |" Precios="5,50|" Descripciones="Unidad|" IdProducto="6371">Revista Revendedor/a 2014 02</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010507001   -203-30 |1010507001   -203-50 |2010500007   -203-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="5077">Rio en Flor</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -013-30 |1010100001   -013-50 |2010100007   -013-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1506">Rosa Dulce</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300240001-000-00 |" Precios="77,00|" Descripciones="Unidad|" IdProducto="5856">Rubor Dúo Rosa Mosqueta</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111006   -101-45 |" Precios="59,00|" Descripciones="350 ml|" IdProducto="1691">Sales Algas de Spa</item>
-  <item padre="1692" padreDesc="Aire" Codigos="1071212006   -102-45 |" Precios="59,00|" Descripciones="350 ml|" IdProducto="1696">Sales Brisa Blanca</item>
-  <item padre="1682" padreDesc="Tierra" Codigos="1071015006   -105-45 |" Precios="59,00|" Descripciones="350 ml|" IdProducto="4662">Sales Eco Bambú</item>
-  <item padre="1697" padreDesc="Madera" Codigos="1071313006   -103-45 |" Precios="59,00|" Descripciones="350 ml|" IdProducto="1701">Sales Origen Místico</item>
-  <item padre="1702" padreDesc="Fuego" Codigos="1071414006   -104-45 |" Precios="59,00|" Descripciones="350 ml|" IdProducto="1706">Sales Pasión Oriental</item>
-  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -018-30 |1010200001   -018-50 |2010200007   -018-01 |" Precios="46,50|85,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1512">Sensaciones</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2080000007   -124-01 |1080000002   -124-10 |" Precios="9,50|148,00|" Descripciones="5 ml|50 ml|" IdProducto="1710">Sensible</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="4025">Sensible</item>
+  <item padre="5396" padreDesc="Ambientador" Codigos="1041600118   -213-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5397">Repuesto Ambientador Nubecitas</item>
+  <item padre="5394" padreDesc="Ambientador" Codigos="1051600118   -216-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5664">Repuesto Ambientador Remolinos</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -197-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="4883">Repuesto F Citr</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -196-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="4882">Repuesto F Rojo</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -194-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="4880">Repuesto G Nara</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -310-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="6153">Repuesto JPraga</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -215-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="5501">Repuesto LluFlo</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -195-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="4881">Repuesto M Orie</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -209-20 |" Precios="59,00|" Descripciones="90 ml|" IdProducto="5500">Repuesto Sueñit</item>
+  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2506600030046   |" Precios="6,50|" Descripciones="Unidad|" IdProducto="6660">Revista Revendedor/a 2014 05</item>
+  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010507001   -203-30 |1010507001   -203-50 |2010500007   -203-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="5077">Rio en Flor</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -013-30 |1010100001   -013-50 |2010100007   -013-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1506">Rosa Dulce</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300240001-000-00 |" Precios="54,00|" Descripciones="Unidad|" IdProducto="5856">Rubor Dúo Rosa Mosqueta</item>
+  <item padre="1507" padreDesc="Aromaterapia" Codigos="1010200001   -018-30 |1010200001   -018-50 |2010200007   -018-01 |" Precios="34,93|68,60|13,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1512">Sensaciones</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="2080000007   -124-01 |1080000002   -124-10 |" Precios="9,50|96,50|" Descripciones="5 ml|50 ml|" IdProducto="1710">Sensible</item>
   <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5320">Sensible</item>
-  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500130001-000-00 |" Precios="17,00|" Descripciones="Unidad|" IdProducto="5848">Set de Vela x 3 u</item>
-  <item padre="1687" padreDesc="Agua" Codigos="1071111012   -101-42 |" Precios="69,00|" Descripciones="250 ml|" IdProducto="3827">Shampoo Algas de Spa</item>
-  <item padre="1645" padreDesc="Deditos" Codigos="1043100012   -024-40 |" Precios="64,00|" Descripciones="200 ml|" IdProducto="1651">Shampoo Deditos</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300012   -026-40 |" Precios="64,00|" Descripciones="200 ml|" IdProducto="1661">Shampoo Lefrance</item>
-  <item padre="4302" padreDesc="Splash Corporal" Codigos="2098000007   -239-01 |1098000270   -239-17 |" Precios="9,50|92,00|" Descripciones="5 ml|75 ml|" IdProducto="6050">Shine</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="4025">Sensible</item>
+  <item padre="5804" padreDesc="Aceites Aromáticos" Codigos="1018500130001-000-00 |" Precios="14,45|" Descripciones="Unidad|" IdProducto="5848">Set de Vela x 3 u</item>
+  <item padre="1687" padreDesc="Agua" Codigos="1071111012   -101-42 |" Precios="45,00|" Descripciones="250 ml|" IdProducto="3827">Shampoo Algas de Spa</item>
+  <item padre="1645" padreDesc="Deditos" Codigos="1043100012   -024-40 |" Precios="41,60|" Descripciones="200 ml|" IdProducto="1651">Shampoo Deditos</item>
+  <item padre="1655" padreDesc="Lefrance" Codigos="1043300012   -026-40 |" Precios="41,60|" Descripciones="200 ml|" IdProducto="1661">Shampoo Lefrance</item>
+  <item padre="4302" padreDesc="Splash Corporal" Codigos="2098000007   -239-01 |1098000270   -239-17 |" Precios="9,50|59,80|" Descripciones="5 ml|75 ml|" IdProducto="6050">Shine</item>
   <item padre="5396" padreDesc="Ambientador" Codigos="" Precios="" Descripciones="" IdProducto="5433">SM Ambientador automatico digital</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -317-01 |1086100002   -317-15 |" Precios="9,50|234,00|" Descripciones="5 ml|60 ml|" IdProducto="6247">SM Femme</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -316-01 |1086200002   -316-10 |" Precios="9,50|234,00|" Descripciones="5 ml|50 ml|" IdProducto="6246">SM Homme</item>
-  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -314-01 |1018800001   -314-30 |" Precios="9,50|45,00|" Descripciones="5 ml|120 ml|" IdProducto="6167">Soft</item>
-  <item padre="2856" padreDesc="Folletería y Papelería" Codigos="2510000030012   |" Precios="24,50|" Descripciones="Unidad|" IdProducto="2869">Solicitud Incorporación x 10 u</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -009-30 |1010100001   -009-50 |2010100007   -009-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1502">Soliflor</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -317-01 |1086100002   -317-15 |" Precios="9,50|152,10|" Descripciones="5 ml|60 ml|" IdProducto="6247">SM Femme</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -316-01 |1086200002   -316-10 |" Precios="9,50|152,10|" Descripciones="5 ml|50 ml|" IdProducto="6246">SM Homme</item>
+  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -314-01 |1018800001   -314-30 |" Precios="9,50|31,50|" Descripciones="5 ml|120 ml|" IdProducto="6167">Soft</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -009-30 |1010100001   -009-50 |2010100007   -009-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1502">Soliflor</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000039103   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5222">Sticker Institucional SM</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000039050   |" Precios="5,50|" Descripciones="Unidad|" IdProducto="4208">Sticker Institucional SM Spa x 10 u.</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="" Precios="" Descripciones="" IdProducto="2841">Sticker Institucional SM Spa x 10 u.</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000039050   |" Precios="5,50|" Descripciones="Unidad|" IdProducto="4208">Sticker Institucional SM Spa x 10 u.</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="" Precios="" Descripciones="" IdProducto="2842">Sticker Institucional SM x 10 u.</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2500000039048   |" Precios="6,00|" Descripciones="Unidad|" IdProducto="4209">Sticker Institucional SM x 20 u.</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="" Precios="" Descripciones="" IdProducto="2843">Sticker Precios x 50 Unidades</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="2500000039105   |" Precios="0,00|" Descripciones="Unidad|" IdProducto="5225">Sticker SM</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="" Precios="" Descripciones="" IdProducto="2844">Sticker Verdad o Consecuencia</item>
   <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="2506900039105   |" Precios="3,50|" Descripciones="Unidad|" IdProducto="3917">Stickers SM x 10 u</item>
-  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -315-01 |1018800001   -315-30 |" Precios="9,50|45,00|" Descripciones="5 ml|120 ml|" IdProducto="6168">Style</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -012-30 |1010100001   -012-50 |2010100007   -012-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1505">Suavechito</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -198-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5020">Sueñitos</item>
-  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -198-20 |" Precios="115,00|" Descripciones="90 ml|" IdProducto="5350">Sueñitos</item>
-  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -312-01 |1086200002   -312-15 |" Precios="9,50|148,00|" Descripciones="5 ml|60 ml|" IdProducto="6159">Summer Hombre</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1086100002   -311-15 |" Precios="146,00|" Descripciones="60 ml|" IdProducto="6158">Summer Mujer</item>
-  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010506001   -150-30 |1010506001   -150-50 |2010500007   -150-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="4466">Susurros del Vi</item>
+  <item padre="5948" padreDesc="Autos" Codigos="2018800007   -315-01 |1018800001   -315-30 |" Precios="9,50|31,50|" Descripciones="5 ml|120 ml|" IdProducto="6168">Style</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -012-30 |1010100001   -012-50 |2010100007   -012-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1505">Suavechito</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -198-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5020">Sueñitos</item>
+  <item padre="4868" padreDesc="Difusor" Codigos="1010700110   -198-20 |2010700007001-198-01 |" Precios="80,50|9,50|" Descripciones="90 ml|5 ml|" IdProducto="5350">Sueñitos</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="2086200007   -312-01 |1086200002   -312-15 |" Precios="9,50|96,50|" Descripciones="5 ml|60 ml|" IdProducto="6159">Summer Hombre</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="2086100007   -311-01 |1086100002   -311-15 |" Precios="9,50|94,90|" Descripciones="5 ml|60 ml|" IdProducto="6158">Summer Mujer</item>
   <item padre="4107" padreDesc="Ar Reg" Codigos="" Precios="" Descripciones="" IdProducto="4108">Susurros del Vi</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030016   |" Precios="5,50|" Descripciones="Unidad|" IdProducto="2846">Talonario Orden De Compra x 25 u</item>
-  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030090   |" Precios="1,25|" Descripciones="Unidad|" IdProducto="2850">Tarjeta Pago Fácil</item>
+  <item padre="1525" padreDesc="Aromas Regionales" Codigos="1010506001   -150-50 |2010500007   -150-01 |" Precios="55,50|9,50|" Descripciones="500 ml|5 ml|" IdProducto="4466">Susurros del Vi</item>
+  <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030031   |" Precios="7,00|" Descripciones="Unidad|" IdProducto="2845">Talonario Orden de Compra por unidad</item>
   <item padre="2623" padreDesc="Folletería y Papelería" Codigos="2500000030017   |" Precios="12,00|" Descripciones="Unidad|" IdProducto="2853">Tarjetas Personales x 25 u</item>
-  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -028-30 |1010300001   -028-50 |" Precios="48,00|93,00|" Descripciones="120 ml|500 ml|" IdProducto="1521">Tartinet</item>
-  <item padre="1655" padreDesc="Lefrance" Codigos="1043300260   -026-00 |" Precios="45,00|" Descripciones="Unidad|" IdProducto="5982">Toallitas Húmedas Lefrance</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300242003-000-00 |" Precios="55,00|" Descripciones="Unidad|" IdProducto="6084">Trío de Sombras Chic</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300242002-000-00 |" Precios="55,00|" Descripciones="Unidad|" IdProducto="6083">Trío de Sombras Luminoso</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300242004-000-00 |" Precios="55,00|" Descripciones="Unidad|" IdProducto="6085">Trío de Sombras Pastel</item>
-  <item padre="5587" padreDesc="Rostro" Codigos="1128300242001-000-00 |" Precios="55,00|" Descripciones="Unidad|" IdProducto="6082">Trío de Sombras Terra</item>
-  <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5324">Unica</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1080000002   -127-15 |2080000007   -127-01 |" Precios="185,00|9,50|" Descripciones="60 ml|5 ml|" IdProducto="4467">Unica</item>
+  <item padre="1616" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="2778">Tartinet</item>
+  <item padre="1513" padreDesc="Selectivo" Codigos="1010300001   -028-30 |1010300001   -028-50 |" Precios="33,50|65,00|" Descripciones="120 ml|500 ml|" IdProducto="1521">Tartinet</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300242003-000-00 |" Precios="38,50|" Descripciones="Unidad|" IdProducto="6084">Trío de Sombras Chic</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300242002-000-00 |" Precios="38,50|" Descripciones="Unidad|" IdProducto="6083">Trío de Sombras Luminoso</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300242004-000-00 |" Precios="38,50|" Descripciones="Unidad|" IdProducto="6085">Trío de Sombras Pastel</item>
+  <item padre="5587" padreDesc="Rostro" Codigos="1128300242001-000-00 |" Precios="38,50|" Descripciones="Unidad|" IdProducto="6082">Trío de Sombras Terra</item>
+  <item padre="1708" padreDesc="Femenino" Codigos="1080000002   -127-15 |2080000007   -127-01 |" Precios="120,25|9,50|" Descripciones="60 ml|5 ml|" IdProducto="4467">Unica</item>
   <item padre="1712" padreDesc="Masculino" Codigos="" Precios="" Descripciones="" IdProducto="4353">Unica</item>
-  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -011-30 |1010100001   -011-50 |2010100007   -011-01 |" Precios="45,00|79,00|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1504">Uva</item>
-  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -300-00 |" Precios="52,00|" Descripciones="Unidad|" IdProducto="5566">Vainilla</item>
-  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -199-43 |" Precios="70,00|" Descripciones="270 ml|" IdProducto="5021">Vainillas Espec</item>
-  <item padre="2773" padreDesc="Femenino" Codigos="2060000007   -120-01 |1060000002   -120-11 |" Precios="9,50|130,00|" Descripciones="5 ml|55 ml|" IdProducto="2775">Verdad</item>
+  <item padre="5319" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5324">Unica</item>
+  <item padre="1712" padreDesc="Masculino" Codigos="1086200002   -318-11 |2086200007   -318-01 |" Precios="130,00|9,50|" Descripciones="55 ml|5 ml|" IdProducto="6414">Urban</item>
+  <item padre="1493" padreDesc="Fresh" Codigos="1010100001   -011-30 |1010100001   -011-50 |2010100007   -011-01 |" Precios="31,50|55,50|9,50|" Descripciones="120 ml|500 ml|5 ml|" IdProducto="1504">Uva</item>
+  <item padre="5565" padreDesc="Velas" Codigos="1018400130   -300-00 |" Precios="36,50|" Descripciones="Unidad|" IdProducto="5566">Vainilla</item>
+  <item padre="5002" padreDesc="Ambientador" Codigos="1011600118   -199-43 |" Precios="49,00|" Descripciones="270 ml|" IdProducto="5021">Vainillas Espec</item>
+  <item padre="4770" padreDesc="Ninguna" Codigos="2500000110001   |" Precios="0,01|" Descripciones="Unidad|" IdProducto="6714">Vela de Regalo Hornillo</item>
+  <item padre="2773" padreDesc="Femenino" Codigos="2060000007   -120-01 |1060000002   -120-11 |" Precios="9,50|84,50|" Descripciones="5 ml|55 ml|" IdProducto="2775">Verdad</item>
   <item padre="4033" padreDesc="Unisex" Codigos="" Precios="" Descripciones="" IdProducto="4034">Verdad o Consec</item>
-  <item padre="5495" padreDesc="Nuevo Latido" Codigos="1060000001   -140-30 |1060000001   -140-45 |2062500007   -140-01 |" Precios="46,50|75,50|9,50|" Descripciones="120 ml|350 ml|5 ml|" IdProducto="5499">Verdad o Consec</item>
-  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -242-14 |" Precios="32,50|" Descripciones="65 ml|" IdProducto="6243">Vida</item>
+  <item padre="5495" padreDesc="Nuevo Latido" Codigos="1060000001   -140-30 |1060000001   -140-45 |2062500007   -140-01 |" Precios="32,50|53,76|9,50|" Descripciones="120 ml|350 ml|5 ml|" IdProducto="5499">Verdad o Consec</item>
+  <item padre="6240" padreDesc="Alcohol en Gel" Codigos="1097000102   -242-14 |" Precios="22,75|" Descripciones="65 ml|" IdProducto="6243">Vida</item>
+  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000031071   |" Precios="41,00|" Descripciones="Unidad|" IdProducto="2855">Vincha para Cosmetica con Bordado SM</item>
   <item padre="4770" padreDesc="Ninguna" Codigos="" Precios="" Descripciones="" IdProducto="5155">Vincha para Cosmetica con Bordado SM</item>
-  <item padre="2628" padreDesc="Accesorios y Merchandisin" Codigos="1500000031071   |" Precios="48,00|" Descripciones="Unidad|" IdProducto="2855">Vincha para Cosmetica con Bordado SM</item>
-  <item padre="1708" padreDesc="Femenino" Codigos="1086100002   -129-10 |" Precios="76,00|" Descripciones="50 ml|" IdProducto="5563">Zenit</item>
 </searchable_index>

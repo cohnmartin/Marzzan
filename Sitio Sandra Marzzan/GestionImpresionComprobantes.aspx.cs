@@ -1651,10 +1651,10 @@ public partial class GestionImpresionComprobantes : BasePage
         ptable.WidthPercentage = 95;
 
 
-        ptable.AddCell(new iTextSharp.text.Phrase("NETO", font10BBlack));
+        ptable.AddCell(new iTextSharp.text.Phrase("SUBTOTAL", font10BBlack));
         ptable.AddCell(new iTextSharp.text.Phrase("IVA", font10BBlack));
-        ptable.AddCell(new iTextSharp.text.Phrase("RG30", font10BBlack));
-        ptable.AddCell(new iTextSharp.text.Phrase("RG212", font10BBlack));
+        ptable.AddCell(new iTextSharp.text.Phrase("RG30/99", font10BBlack));
+        ptable.AddCell(new iTextSharp.text.Phrase("RG2126/06", font10BBlack));
         ptable.AddCell(new iTextSharp.text.Phrase("TOTAL", font10BBlack));
 
         ptable.Rows[0].GetCells()[0].BackgroundColor = new BaseColor(System.Drawing.Color.SkyBlue);
@@ -2014,26 +2014,27 @@ public partial class GestionImpresionComprobantes : BasePage
         {
             if (codigo == null) { codigo = ""; }
 
-            iTextSharp.text.pdf.PdfPTable ptable = new iTextSharp.text.pdf.PdfPTable(2);
+            iTextSharp.text.pdf.PdfPTable ptable = new iTextSharp.text.pdf.PdfPTable(1);
             ptable.DefaultCell.BorderColor = BaseColor.WHITE;
             ptable.DefaultCell.BorderWidth = 1;
             ptable.DefaultCell.PaddingLeft = 0;
             ptable.DefaultCell.PaddingTop = 0;
             ptable.DefaultCell.PaddingBottom = 0;
-            ptable.SetWidths(new float[] { 82, 18 });
+            ptable.SetWidths(new float[] { 95});
             ptable.HorizontalAlignment = Rectangle.ALIGN_LEFT;
 
             ptable.AddCell(new iTextSharp.text.Phrase(descripcion, font10B));
 
-
-            Barcode128 code128 = new Barcode128();
-            code128.Code = codigo;
-            code128.StartStopText = false;
-            code128.BarHeight = 10;
-            code128.X = 0.5f;
-            ptable.AddCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(code128.CreateImageWithBarcode(cb, null, null), 0, 0)));
-            ptable.Rows[0].GetCells()[1].HorizontalAlignment = Element.ALIGN_CENTER;
-            ptable.Rows[0].GetCells()[1].VerticalAlignment = Element.ALIGN_MIDDLE;
+            ///Solicitado por Miguel (13/08/2014)
+            
+            //Barcode128 code128 = new Barcode128();
+            //code128.Code = codigo;
+            //code128.StartStopText = false;
+            //code128.BarHeight = 10;
+            //code128.X = 0.5f;
+            //ptable.AddCell(new iTextSharp.text.Phrase(new iTextSharp.text.Chunk(code128.CreateImageWithBarcode(cb, null, null), 0, 0)));
+            //ptable.Rows[0].GetCells()[1].HorizontalAlignment = Element.ALIGN_CENTER;
+            //ptable.Rows[0].GetCells()[1].VerticalAlignment = Element.ALIGN_MIDDLE;
 
             return ptable;
 
@@ -2057,12 +2058,13 @@ public partial class GestionImpresionComprobantes : BasePage
         code128.Size = 4;
         ptable.AddCell(code128.CreateImageWithBarcode(cb, null, BaseColor.BLACK));
 
-        code128 = new Barcode128();
-        code128.Code = Convert.ToString(long.Parse(cab.objCliente.CodigoExterno) + 600000);
-        code128.BarHeight = 10;
-        code128.Size = 4;
-        ptable.AddCell(code128.CreateImageWithBarcode(cb, null, BaseColor.BLACK));
-        ptable.WidthPercentage = 90;
+        /// 31/07/2014: Se solicito que no se imprima mas el codigo correspondiente al cliente en el fical.
+        //code128 = new Barcode128();
+        //code128.Code = Convert.ToString(long.Parse(cab.objCliente.CodigoExterno) + 600000);
+        //code128.BarHeight = 10;
+        //code128.Size = 4;
+        //ptable.AddCell(code128.CreateImageWithBarcode(cb, null, BaseColor.BLACK));
+        //ptable.WidthPercentage = 90;
         return ptable;
 
     }
@@ -2313,22 +2315,22 @@ public partial class GestionImpresionComprobantes : BasePage
             if (detalle.objProducto.Tipo == 'P' || detalle.objProducto.Tipo == 'R' || detalle.objProducto.Tipo == 'G'
                          || detalle.objProducto.Tipo == 'D' || detalle.objProducto.Tipo == 'I' || detalle.objProducto.Tipo == 'N')
             {
-                return detalle.objProducto.Descripcion;
+                return detalle.objPresentacion.objProducto.Descripcion;
             }
             else
             {
-                if (detalle.objProducto.DescripcionCompleta.ToLower().Contains("incorporac"))
+                if (detalle.objPresentacion.objProducto.DescripcionCompleta.ToLower().Contains("incorporac"))
                 {
-                    return detalle.objProducto.Descripcion + " x " + detalle.objPresentacion.Descripcion;
+                    return detalle.objPresentacion.objProducto.Descripcion + " x " + detalle.objPresentacion.Descripcion;
                 }
                 else
                 {
-                    if (detalle.objProducto.objPadre.objPadre.Codigo == "02")
+                    if (detalle.objPresentacion.objProducto.objPadre.objPadre.Codigo == "02")
                     {
-                        return detalle.objProducto.objPadre.Descripcion + " " + detalle.objProducto.DescripcionCompleta + detalle.objPresentacion.Descripcion;
+                        return detalle.objPresentacion.objProducto.objPadre.Descripcion + " " + detalle.objPresentacion.objProducto.DescripcionCompleta + detalle.objPresentacion.Descripcion;
                     }
                     else
-                        return detalle.objProducto.DescripcionCompleta + detalle.objPresentacion.Descripcion;
+                        return detalle.objPresentacion.objProducto.DescripcionCompleta + detalle.objPresentacion.Descripcion;
                 }
             }
 

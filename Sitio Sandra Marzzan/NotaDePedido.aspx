@@ -278,10 +278,29 @@
     }
     function AlertaEdicionInvalida() {
 
-        alert('La operacion que intenta realizar no esta permitida, la solicitud del pedido ya fue enviada.');
+        alert('La operacion que intenta realizar no esta permitida, el pedido ya fue procesado o eliminado.');
         window.close();
 
     }
+
+    function AlertaEdicionActualizada() {
+        window.setTimeout(function () {
+            radalert('El pedido ha sufrido cambios de precio y la misma se ha actualizado. Por favor revise el nuevo valor y estructura del pedido.', 300, 100, "Pedido Actualizado");
+        }, 200);
+    }
+
+    function AlertaEdicionAnulada() {
+        window.setTimeout(function () {
+            radalert('El pedido ha sufrido cambios de precio y el mismo no se podrá utilizar. Por favor vuelva a generar el pedido.', 300, 100, "Pedido Eliminado");
+            window.setTimeout(function () {
+                window.close();
+            }, 7800);
+        }, 400);
+    }
+
+
+
+
 
     function AlertaDireccion() {
         radalert('Por favor ratifique la dirección de entrega para el pedido.', 300, 100, "Dirección de Entrega");
@@ -343,26 +362,18 @@
 
     function LlmarValidarPaginaPSP(IdOperacion, monto, tipoTarjeta, cuotas) {
 
+        document.getElementById("NROOPERACION").value = IdOperacion;
+        document.getElementById("MONTO").value = monto;
+        document.getElementById("MEDIODEPAGO").value = tipoTarjeta;
+        document.getElementById("CUOTAS").value = cuotas;
 
-        window.formPSP.NROOPERACION.value = IdOperacion;
-        window.formPSP.MONTO.value = monto;
-        window.formPSP.MEDIODEPAGO.value = tipoTarjeta;
-        window.formPSP.CUOTAS.value = cuotas;
-        window.formPSP.submit();
-
-
-//        document.getElementById("NROOPERACION").value = IdOperacion;
-//        document.getElementById("MONTO").value = monto;
-//        document.getElementById("MEDIODEPAGO").value = tipoTarjeta;
-//        document.getElementById("CUOTAS").value = cuotas;
-//        document.getElementById("FormPSP").submit();
-
+        document.getElementById("FormPSP").submit();
 
     }
 
     function ControlarDatos(accion) {
 
-        //debugger;
+ 
         var promosCompletas = $get("TotalizadorPromos1_PromosCompletasHiden").value;
         var combo = $find("<%= cboConsultores.ClientID%>");
         var comboFP = $find("<%= cboFormaPago.ClientID%>");
@@ -396,6 +407,46 @@
             ShowLogicaTarjeta();
             return false;
 
+        }
+        else if (accion == "Solicitar") {
+
+            var formaPago = $find("<%= cboFormaPago.ClientID%>").get_text();
+            var subTotal = parseFloat(document.getElementById("<%= lblSubTotal.ClientID%>").innerText.replace("$", "").replace(",", "."));
+            var saldoPagoAnticipado = parseFloat(document.getElementById("<%= lblSaldoCta.ClientID%>").innerText.replace("$", "").replace(",", "."));
+            var valorTransporte = parseFloat(document.getElementById("<%= lblCostoFlete.ClientID%>").innerText.replace("$", "").replace(",", "."));
+            var provincia = document.getElementById("<%= lblDireccionEntrega.ClientID%>").innerText.split('-')[0];
+            var localidad = document.getElementById("<%= lblDireccionEntrega.ClientID%>").innerText.split('-')[1];
+            var totalPedido = parseFloat($find("<%= txtMontoGeneral.ClientID%>").get_value().replace("$", "").replace(",", "."));
+
+            
+
+            MostarLoading();
+
+
+            $.ajax({ type: "POST",
+                data: "{ subTotal:" + subTotal + " , saldoPagoAnticipado: " + saldoPagoAnticipado + ",valorTransporte: " + valorTransporte + ",formaDePago:'" + formaPago + "',provincia: '" + provincia + "',localidad:'" + localidad + "',totalPedido:'" + totalPedido + "',transporte:'" + TransporteSeleccionado + "'}",
+                url: "NotaDePedido.aspx/ControlesDeGrabacion",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                cache: false,
+                success: function (msg) {
+                    OcultarLoading();
+
+                    if (msg.d != "") {
+                        eval(msg.d);
+                    }
+                    else {
+                        $("#<%= btnHacerPedido.ClientID %>").click();
+                    }
+
+                },
+                error: function (msg) {
+                    OcultarLoading();
+                    alert("Existe un error con la aplicación: " + msg);
+                }
+            });
+
+            return false;
         }
         else {
             return true;
@@ -842,14 +893,12 @@
                                                 Visible="false" />
                                         </div>
                                     </div>
-                                    <div runat="server" id="DivHelp"></div>
-                                   
-
+                                    <div runat="server" id="DivHelp">
+                                    </div>
                                 </ContentTemplate>
                             </asp:UpdatePanel>
                         </td>
                     </tr>
-                    
                 </table>
             </td>
         </tr>
@@ -1236,8 +1285,9 @@
                                                                     </telerik:RadToolTip>
                                                                     <td align="right" style="width: 50%; padding-right: 15px">
                                                                         <asp:Button SkinID="btnBasic" ID="btnPedido" Text="Realizar Pedido" runat="server"
-                                                                            OnClientClick="return ControlarDatos('Solicitar');" OnClick="btnPedido_RealizarPedido"
-                                                                            ToolTip="Esta acción enviará la solitud del pedido para que sea preparada y enviada." />
+                                                                            OnClientClick="return ControlarDatos('Solicitar');" ToolTip="Esta acción enviará la solitud del pedido para que sea preparada y enviada." />
+                                                                        <asp:Button ID="btnHacerPedido" runat="server" OnClick="btnPedido_RealizarPedido"
+                                                                            Style="display: none" />
                                                                     </td>
                                                                     <td align="left" style="width: 50%; padding-left: 15px">
                                                                         <asp:Button SkinID="btnBasic" ID="btnPedidoTemporal" Text="Guardar Pedido" runat="server"
@@ -1581,7 +1631,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="Label19" runat="server" Text="Descuentos por Remitos:"></asp:Label>
+                            <asp:Label ID="Label19" runat="server" Text="Remitos Pendientes:"></asp:Label>
                         </td>
                         <td>
                             <asp:Label ID="lblDescuentoRemitos" runat="server" Text="$ 0"></asp:Label>
@@ -1728,14 +1778,13 @@
         </table>
     </div>
     </form>
-    <form id="formPSP" action="https://sps.decidir.com/sps-ar/Validar"
-    method="post">
+    <form id="formPSP" action="https://sps.decidir.com/sps-ar/Validar" method="post">
     <input type="HIDDEN" name="NROCOMERCIO" value="20926895" size="8" maxlength="8" />
     <input type="HIDDEN" name="NROOPERACION" value="" size="10" maxlength="10" />
     <input type="HIDDEN" name="MEDIODEPAGO" value="" size="12" />
     <input type="HIDDEN" name="MONTO" value="" size="12" maxlength="12" />
     <input type="HIDDEN" name="CUOTAS" value="" size="12" />
-    <input type="HIDDEN" name="URLDINAMICA" value="“http://www.domino.com" size="17" />
+    <input type="HIDDEN" name="URLDINAMICA" value="ValidarPSP.aspx" size="17" />
     </form>
 </body>
 </html>

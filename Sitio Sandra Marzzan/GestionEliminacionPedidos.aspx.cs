@@ -112,6 +112,11 @@ public partial class GestionEliminacionPedidos : BasePage
                                       where C.IdCabeceraPedido == id
                                       select C).SingleOrDefault();
 
+        foreach (DetallePedido item in CabEliminar.DetallePedidos)
+        {
+            dc.SolicitudProductosEspeciales.DeleteAllOnSubmit(item.SolicitudProductosEspeciales);
+        }
+
         dc.PedidosConCreditos.DeleteAllOnSubmit(CabEliminar.PedidosConCreditos);
         dc.RemitosAfectados.DeleteAllOnSubmit(CabEliminar.colRemitosAfectados);
         dc.DetallePedidos.DeleteAllOnSubmit(CabEliminar.DetallePedidos);

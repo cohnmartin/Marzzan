@@ -179,7 +179,7 @@ public partial class GestionSolicitudAltaConsultor : BasePage
 
                     using (Marzzan_BejermanDataContext dcB = new Marzzan_BejermanDataContext())
                     {
-                        /// genero el nuevo cliente en bejerman y verifico si el mismo existe o no 
+                        /// Genero el nuevo cliente en bejerman y verifico si el mismo existe o no 
                         /// en la base de datos.
                         Clientes cliBejerman = GenerarClienteBejerman(dcB);
 
@@ -218,10 +218,10 @@ public partial class GestionSolicitudAltaConsultor : BasePage
                             /// 1. Evio el mail a la consola del usuario LOGEADO para informar la confirmación del alta.
                             EnviarMailSolicitud(dc, long.Parse(Session["IdUsuario"].ToString()), cboGrupos.SelectedValue, "Solicitud Alta - Solicitud Exitosa: " + txtApellido.Text.ToUpper() + " " + txtNombres.Text.ToUpper(), "La solicitud se completo en forma exitosa, a la brevedad el revendedor estará disponible para ser utilizado.");
 
-                            /// 2. Evio de mail a la consola del usuario de LOGISTICA para informar el alta SIN TRASNPORTE.
+                            //2. Evio de mail a la consola del usuario de LOGISTICA para informar el alta SIN TRASNPORTE.
                             if (cliBejerman.clitrn_Cod == null && _idLogistica != null)
                             {
-                                EnviarMailSolicitud(dc, _idLogistica, "", "Alta Sin Transporte", "El Líder " + lblCoordinadora.Text + " ha realizado un alta satisfactoria para: <b>" + cliBejerman.cli_Cod + " - " + txtApellido.Text.ToUpper() + " " + txtNombres.Text.ToUpper() + "</b>, pero la misma no posee un TRANSPORTE, se solicita que verifique los datos LOCALIDAD de la misma.");
+                                EnviarMailSolicitud(dc, _idLogistica, "", "Alta Sin Transporte", "El Líder " + lblCoordinadora.Text + " ha realizado un alta satisfactoria para: <b>" + cliBejerman.cli_Cod + " - " + txtApellido.Text.ToUpper() + " " + txtNombres.Text.ToUpper() + "</b>, pero la misma no posee un TRANSPORTE para la localidad seleccionada: '<b>" + txtNuevo_Depart_loc.Text + "'</b>, se solicita que verifique los datos de LOCALIDAD de la misma.");
                             }
 
                             /// 3. Evio de mail a la consola del ASISTENTE para informar el alta correcta.
@@ -339,52 +339,66 @@ public partial class GestionSolicitudAltaConsultor : BasePage
             newClienteBCRM.clr_CodPos = txtCodigoPostal.Text;
 
 
+            /// Utilizo la localidad que se cargo.
+            string localidadDepartamento = txtNuevo_Depart_loc.Text.Trim().ToUpper() == "" ? txtdepartamento.Text.Trim().ToUpper() : txtNuevo_Depart_loc.Text.Trim().ToUpper();
             newClienteB.cli_Direc = txtDireccion.Text.ToUpper();
-            if (txtdepartamento.Text.Length > 25)
-                newClienteB.cli_Loc = txtdepartamento.Text.Substring(0, 25);
+            if (localidadDepartamento.Length > 25)
+                newClienteB.cli_Loc = localidadDepartamento.Substring(0, 25);
             else
-                newClienteB.cli_Loc = txtdepartamento.Text;
+                newClienteB.cli_Loc = localidadDepartamento;
 
             newClienteB.cliprv_Codigo = dcB.prvs.Where(w => w.prv_descrip.ToLower() == cboProvincias.SelectedItem.Text.ToLower()).FirstOrDefault().prv_codigo;
 
 
             newClienteBCRM.clr_Direc = txtDireccion.Text.ToUpper();
-            if (txtdepartamento.Text.Length > 25)
-                newClienteBCRM.clr_Loc = txtdepartamento.Text.Substring(0, 25);
+            if (localidadDepartamento.Length > 25)
+                newClienteBCRM.clr_Loc = localidadDepartamento.Substring(0, 25);
             else
-                newClienteBCRM.clr_Loc = txtdepartamento.Text;
+                newClienteBCRM.clr_Loc = localidadDepartamento;
 
             newClienteBCRM.clrprv_Codigo = dcB.prvs.Where(w => w.prv_descrip.ToLower() == cboProvincias.SelectedItem.Text.ToLower()).FirstOrDefault().prv_codigo;
 
 
 
-
-            TipoIVA tipoIva = (TipoIVA)Enum.Parse(typeof(TipoIVA), cboCondicionIVA.SelectedValue);
-            newClienteB.clisiv_Cod = Convert.ToChar(((int)tipoIva).ToString());
-            newClienteBCRM.clrsiv_Cod = Convert.ToChar(((int)tipoIva).ToString());
-
-            switch (tipoIva)
+            if (cboCondicionIVA.SelectedValue == "ConsumidorFinal")
             {
-                case TipoIVA.Inscripto:
-                    newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.Inscripto).ToString());
-                    newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.Inscripto).ToString());
-                    break;
-                case TipoIVA.Monotributista:
-                    newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
-                    newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
-                    break;
-                case TipoIVA.NoCategorizado:
-                    newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.NoInscripto).ToString());
-                    newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.NoInscripto).ToString());
-                    break;
-                default:
-                    break;
+                newClienteB.clisiv_Cod = Convert.ToChar("3");
+                newClienteBCRM.clrsiv_Cod = Convert.ToChar("3");
+
+                newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
+                newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
             }
+            else
+            {
+                TipoIVA tipoIva = (TipoIVA)Enum.Parse(typeof(TipoIVA), cboCondicionIVA.SelectedValue);
+                newClienteB.clisiv_Cod = Convert.ToChar(((int)tipoIva).ToString());
+                newClienteBCRM.clrsiv_Cod = Convert.ToChar(((int)tipoIva).ToString());
+
+                switch (tipoIva)
+                {
+                    case TipoIVA.Inscripto:
+                        newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.Inscripto).ToString());
+                        newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.Inscripto).ToString());
+                        break;
+                    case TipoIVA.Monotributista:
+                        newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
+                        newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.NoAlcanzado).ToString());
+                        break;
+                    case TipoIVA.NoCategorizado:
+                        newClienteB.clisig_Cod = Convert.ToChar(((int)TipoGanacia.NoInscripto).ToString());
+                        newClienteBCRM.clrsig_Cod = Convert.ToChar(((int)TipoGanacia.NoInscripto).ToString());
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+
 
             newClienteB.cli_CUIT = txtCuit.Text.Replace("-", "");
             newClienteB.clisib_Cod = char.Parse(cboIB.SelectedValue);
             newClienteB.cli_NroIB = txtNroIb.Text.Trim();
-            newClienteB.cli_Habilitado = true;
+            newClienteB.cli_Habilitado = false;
             newClienteB.clidlp_Cod = null;
             newClienteB.clidco_Cod = cboProvincias.Text.ToLower().Contains("tierra del fuego") ? "03" : null;
             newClienteB.clizon_Cod = null;
@@ -395,7 +409,7 @@ public partial class GestionSolicitudAltaConsultor : BasePage
             newClienteBCRM.clr_CUIT = txtCuit.Text.Replace("-", "");
             newClienteBCRM.clrsib_Cod = char.Parse(cboIB.SelectedValue);
             newClienteBCRM.clr_NroIB = txtNroIb.Text.Trim();
-            newClienteBCRM.clr_Habilitado = true;
+            newClienteBCRM.clr_Habilitado = false;
             newClienteBCRM.clrdlp_Cod = null;
             newClienteBCRM.clrdco_Cod = cboProvincias.Text.ToLower().Contains("tierra del fuego") ? "03" : null;
             newClienteBCRM.clrzon_Cod = null;
@@ -407,10 +421,15 @@ public partial class GestionSolicitudAltaConsultor : BasePage
             newClienteB.clidc1_Cod = dcB.Defi1Clis.Where(w => w.dc1_Desc.ToLower() == cboGrupos.Text.ToLower()).First().dc1_Cod;
             newClienteB.clidc2_Cod = null;
 
-            if ((cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Length > 40)
-                newClienteB.cli_Contacto = (cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Substring(0, 40);
+            //if ((cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Length > 40)
+            //    newClienteB.cli_Contacto = (cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Substring(0, 40);
+            //else
+            //    newClienteB.cli_Contacto = cboConsultores.Text + " - " + txtPremioPorPresentacion.Text;
+
+            if ((cboConsultores.Text).Length > 40)
+                newClienteB.cli_Contacto = (cboConsultores.Text).Substring(0, 40);
             else
-                newClienteB.cli_Contacto = cboConsultores.Text + " - " + txtPremioPorPresentacion.Text;
+                newClienteB.cli_Contacto = cboConsultores.Text;
 
             newClienteB.cli_RespPago = "";
             newClienteB.cli_LugarPago = "";
@@ -426,10 +445,15 @@ public partial class GestionSolicitudAltaConsultor : BasePage
 
             newClienteBCRM.clrdr2_Cod = null;
 
-            if ((cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Length > 40)
-                newClienteBCRM.clr_Contacto = (cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Substring(0, 40);
+            //if ((cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Length > 40)
+            //    newClienteBCRM.clr_Contacto = (cboConsultores.Text + " - " + txtPremioPorPresentacion.Text).Substring(0, 40);
+            //else
+            //    newClienteBCRM.clr_Contacto = cboConsultores.Text + " - " + txtPremioPorPresentacion.Text;
+
+            if ((cboConsultores.Text).Length > 40)
+                newClienteBCRM.clr_Contacto = (cboConsultores.Text).Substring(0, 40);
             else
-                newClienteBCRM.clr_Contacto = cboConsultores.Text + " - " + txtPremioPorPresentacion.Text;
+                newClienteBCRM.clr_Contacto = cboConsultores.Text;
 
             newClienteBCRM.clr_RespPago = "";
             newClienteBCRM.clr_LugarPago = "";
@@ -523,8 +547,8 @@ public partial class GestionSolicitudAltaConsultor : BasePage
             #region Actualizao los datos adicionales del presentador
             /// Busco los datos adicionales del cliente presentador
             DtsCliente dtsCliPresentador = (from dts in dcB.DtsClientes
-                                where dts.cli_Cod == cboConsultores.SelectedValue
-                                select dts).FirstOrDefault();
+                                            where dts.cli_Cod == cboConsultores.SelectedValue
+                                            select dts).FirstOrDefault();
 
             /// Si el cliente que estoy dando de alta dice que lo presento un patrocinador
             /// entonces al cliente patrocinador lo marco como tal.
@@ -539,7 +563,7 @@ public partial class GestionSolicitudAltaConsultor : BasePage
                 dtsCliPresentador.Dcli_EsPatrocinador = dtsCliPresentador.Dcli_EsPatrocinador == "" ? "N" : dtsCliPresentador.Dcli_EsPatrocinador;
             }
 
-            
+
             #endregion
 
             #region Genero las direcciones de entrega, la primer direccion de entrega es la dirección principal.
@@ -907,12 +931,13 @@ public partial class GestionSolicitudAltaConsultor : BasePage
         tbl += "</tr>";
         newSolicitud.IdCoordinadorBejerman = Session["CodigoBejerman"].ToString();
 
-        tbl += "<tr>";
-        tbl += "    <td style='padding-left: 65px'>";
-        tbl += "           Premio por Presentació:<span style='font-weight:bold' id='Span2' runat='server'>" + txtPremioPorPresentacion.Text + "</span>";
-        tbl += "    </td>";
-        tbl += "</tr>";
-        newSolicitud.Premio = txtPremioPorPresentacion.Text;
+        //tbl += "<tr>";
+        //tbl += "    <td style='padding-left: 65px'>";
+        //tbl += "           Premio por Presentació:<span style='font-weight:bold' id='Span2' runat='server'>" + txtPremioPorPresentacion.Text + "</span>";
+        //tbl += "    </td>";
+        //tbl += "</tr>";
+        //newSolicitud.Premio = txtPremioPorPresentacion.Text;
+        newSolicitud.Premio = "";
 
         newSolicitud.TipoAlta = TipoAltaCliente.Revendedor.ToString();
 
@@ -925,7 +950,7 @@ public partial class GestionSolicitudAltaConsultor : BasePage
         //    tbl += "</tr>";
         //}
         //newSolicitud.TipoAlta = cboTipoPresentador.SelectedValue;
-        
+
 
         tbl += "<tr>";
         tbl += "    <td style='padding-left: 65px'>";
@@ -1097,4 +1122,33 @@ public partial class GestionSolicitudAltaConsultor : BasePage
             }
         }
     }
+
+    //<td class="style2">
+    //    <asp:Label ID="label29" runat="server" Style="width: 100px; color: #0066CC; font-family: Sans-Serif;
+    //        font-size: 11px">Premio por Presentaci&oacute;n:</asp:Label>
+    //</td>
+    //<td align="left">
+    //    <telerik:RadTextBox ID="txtPremioPorPresentacion" runat="server" EmptyMessage="Ingrese tipo de premio "
+    //        InvalidStyleDuration="100" MaxLength="100" Skin="WebBlue" Width="256px">
+    //    </telerik:RadTextBox>
+    //    <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ControlToValidate="txtPremioPorPresentacion"
+    //        Text="*" ErrorMessage="Debe Ingresar el premio por presentaci&oacute;n"></asp:RequiredFieldValidator>
+    //</td>
+
+
+    //<tr>
+    //    <td class="style2">
+    //        <asp:Label ID="label35" runat="server" Style="width: 100px; color: #0066CC; font-family: Sans-Serif;
+    //            font-size: 11px">Grupo Alta:</asp:Label>
+    //    </td>
+    //    <td align="left" colspan="3">
+    //        <telerik:RadComboBox ID="cboGruposOriginal" runat="server" EmptyMessage="Seleccione el grupo para el alta de la solicitud"
+    //            Skin="WebBlue" Width="356px">
+    //            <CollapseAnimation Duration="200" Type="OutQuint" />
+    //        </telerik:RadComboBox>
+    //        <asp:RequiredFieldValidator ID="RequiredFieldValidator19Original" runat="server" ControlToValidate="cboGruposOriginal"
+    //            Text="*" ErrorMessage="Debe Ingresar el grupo para el alta"></asp:RequiredFieldValidator>
+    //    </td>
+    //</tr>
 }
+
